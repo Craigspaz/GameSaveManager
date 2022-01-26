@@ -1,0 +1,6 @@
+*.txt
+*.spec
+build/*
+dist/*
+*.exe
+config.json

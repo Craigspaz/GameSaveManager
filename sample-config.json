@@ -1,0 +1,17 @@
+{
+    "steam_install_path": "C:\\Program Files (x86)\\Steam",
+    "last_scan_time": "01/15/2022 20:41:53",
+    "backup_methods": [
+        {
+            "backup_type": "FILE_SYSTEM",
+            "backup_folder_path": "G:\\GameSaveBackups",
+            "storage_format": "POINT_IN_TIME"
+        },
+        {
+            "backup_type": "S3",
+            "backup_bucket_name": "your bucket name here",
+            "folder_prefix": "GameSaveManager",
+            "storage_format": "OVERWRITE"
+        }
+    ]
+}

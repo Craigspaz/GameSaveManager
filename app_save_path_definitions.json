@@ -1,0 +1,5531 @@
+{
+    "version": "1.0.0.0",
+    "USERDATA": {
+        "folder": "|STEAMINSTALLDIR|/userdata"
+    },
+    "10": {
+        "folder": "|NA|"
+    },
+    "20": {
+        "folder": "|NA|"
+    },
+    "30": {
+        "folder": "|NA|"
+    },
+    "40": {
+        "folder": "|NA|"
+    },
+    "50": {
+        "folder": "|PATHTOGAME|/Half-Life/gearbox/SAVE"
+    },
+    "60": {
+        "folder": "|NA|"
+    },
+    "70": {
+        "folder": "|PATHTOGAME|/valve/SAVE"
+    },
+    "80": {
+        "folder": "|PATHTOGAME|/Half-Life/czero/Save"
+    },
+    "90": {
+        "folder": "|NA|"
+    },
+    "100": {
+        "folder": "|PATHTOGAME|/Half-Life/czero/Save"
+    },
+    "120": {
+        "folder": "|NA|"
+    },
+    "130": {
+        "folder": "|PATHTOGAME|/Half-Life/bshift/SAVE"
+    },
+    "150": {
+        "folder": "|NA|"
+    },
+    "210": {
+        "folder": "|NA|"
+    },
+    "220": {
+        "folder": "|PATHTOGAME|/hl2/save"
+    },
+    "240": {
+        "folder": "|NA|"
+    },
+    "260": {
+        "folder": "|NA|"
+    },
+    "280": {
+        "folder": "|PATHTOGAME|hl1/save"
+    },
+    "300": {
+        "folder": "|NA|"
+    },
+    "310": {
+        "folder": "|NA|"
+    },
+    "320": {
+        "folder": "|NA|"
+    },
+    "340": {
+        "folder": "|PATHTOGAME|/lostcoast/save"
+    },
+    "360": {
+        "folder": "|NA|"
+    },
+    "380": {
+        "folder": "|PATHTOGAME|/episodic/save"
+    },
+    "400": {
+        "folder": "|PATHTOGAME|/portal/save"
+    },
+    "410": {
+        "folder": "|TBD|"
+    },
+    "420": {
+        "folder": "|PATHTOGAME|/ep2/save"
+    },
+    "440": {
+        "folder": "|NA|"
+    },
+    "480": {
+        "folder": "|TBD|"
+    },
+    "490": {
+        "folder": "|NA|"
+    },
+    "500": {
+        "folder": "|TBD|"
+    },
+    "510": {
+        "folder": "|NA|"
+    },
+    "520": {
+        "folder": "|TBD|"
+    },
+    "530": {
+        "folder": "|TBD|"
+    },
+    "540": {
+        "folder": "|NA|"
+    },
+    "550": {
+        "folder": "|IN_USER_DATA|"
+    },
+    "560": {
+        "folder": "|NA|"
+    },
+    "570": {
+        "folder": "|NA|"
+    },
+    "580": {
+        "folder": "|NA|"
+    },
+    "590": {
+        "folder": "|IN_USER_DATA|"
+    },
+    "620": {
+        "folder": "|PATHTOGAME|/portal2/SAVE"
+    },
+    "630": {
+        "folder": "|TBD|"
+    },
+    "640": {
+        "folder": "|NA|"
+    },
+    "650": {
+        "folder": "|NA|"
+    },
+    "660": {
+        "folder": "|NA|"
+    },
+    "700": {
+        "folder": "|NA|"
+    },
+    "710": {
+        "folder": "|NA|"
+    },
+    "720": {
+        "folder": "|NA|"
+    },
+    "730": {
+        "folder": "|NA|"
+    },
+    "740": {
+        "folder": "|NA|"
+    },
+    "760": {
+        "folder": "|NA|"
+    },
+    "770": {
+        "folder": "|NA|"
+    },
+    "790": {
+        "folder": "|NA|"
+    },
+    "830": {
+        "folder": "|TBD|"
+    },
+    "870": {
+        "folder": "|NA|"
+    },
+    "900": {
+        "folder": "|NA|"
+    },
+    "920": {
+        "folder": "|NA|"
+    },
+    "930": {
+        "folder": "|NA|"
+    },
+    "940": {
+        "folder": "|NA|"
+    },
+    "950": {
+        "folder": "|NA|"
+    },
+    "960": {
+        "folder": "|NA|"
+    },
+    "970": {
+        "folder": "|NA|"
+    },
+    "980": {
+        "folder": "|NA|"
+    },
+    "990": {
+        "folder": "|NA|"
+    },
+    "1001": {
+        "folder": "|TBD|"
+    },
+    "1002": {
+        "folder": "|TBD|"
+    },
+    "1003": {
+        "folder": "|TBD|"
+    },
+    "1007": {
+        "folder": "|NA|"
+    },
+    "1200": {
+        "folder": "|NA|"
+    },
+    "1210": {
+        "folder": "|NA|"
+    },
+    "1213": {
+        "folder": "|NA|"
+    },
+    "1220": {
+        "folder": "|NA|"
+    },
+    "1230": {
+        "folder": "|NA|"
+    },
+    "1240": {
+        "folder": "|NA|"
+    },
+    "1250": {
+        "folder": "|TBD|"
+    },
+    "1260": {
+        "folder": "|NA|"
+    },
+    "1270": {
+        "folder": "|NA|"
+    },
+    "1280": {
+        "folder": "|TBD|"
+    },
+    "1290": {
+        "folder": "|NA|"
+    },
+    "1300": {
+        "folder": "|PATHTOGAME|/SE1/SAVE"
+    },
+    "1320": {
+        "folder": "|PATHTOGAME|/SE1/SAVE"
+    },
+    "1500": {
+        "folder": "%USERPROFILE%/Saved Games/Darwinia"
+    },
+    "1510": {
+        "folder": "|PATHTOGAME|/users"
+    },
+    "1520": {
+        "folder": "|NA|"
+    },
+    "1530": {
+        "folder": "|TBD|"
+    },
+    "1540": {
+        "folder": "|TBD|"
+    },
+    "1600": {
+        "folder": "|TBD|"
+    },
+    "1610": {
+        "folder": "|PATHTOGAME|/savegame"
+    },
+    "1620": {
+        "folder": "|PATHTOGAME|/SavedGames"
+    },
+    "1630": {
+        "folder": "|TBD|"
+    },
+    "1670": {
+        "folder": "|TBD|"
+    },
+    "1690": {
+        "folder": "|PATHTOGAME|/savegame"
+    },
+    "1700": {
+        "folder": "|PATHTOGAME|/Save"
+    },
+    "1710": {
+        "folder": "|TBD|"
+    },
+    "1800": {
+        "folder": "|NA|"
+    },
+    "1820": {
+        "folder": "|NA|"
+    },
+    "1840": {
+        "folder": "|NA|"
+    },
+    "1860": {
+        "folder": "|TBD|"
+    },
+    "1880": {
+        "folder": "|NA|"
+    },
+    "1900": {
+        "folder": "%USERPROFILE%/Documents/Earth 2160/Players"
+    },
+    "1920": {
+        "folder": "%USERPROFILE%/Saved Games/Two Worlds Saves"
+    },
+    "1930": {
+        "folder": "%USERPROFILE%/Saved Games/Two Worlds Saves"
+    },
+    "2100": {
+        "folder": "|PATHTOGAME|/mm/SAVE"
+    },
+    "2110": {
+        "folder": "|NA|"
+    },
+    "2120": {
+        "folder": "|TBD|"
+    },
+    "2130": {
+        "folder": "|TBD|"
+    },
+    "2150": {
+        "folder": "|NA|"
+    },
+    "2200": {
+        "file": "|PATHTOGAME|/baseq3/q3config.cfg"
+    },
+    "2210": {
+        "folder": "|PATHTOGAME|/q4base/savegames"
+    },
+    "2220": {
+        "folder": "|TBD|"
+    },
+    "2230": {
+        "folder": "|TBD|"
+    },
+    "2240": {
+        "folder": "|TBD|"
+    },
+    "2250": {
+        "folder": "|TBD|"
+    },
+    "2260": {
+        "folder": "|TBD|"
+    },
+    "2270": {
+        "filter": "|PATHTOGAME|/*.WL6"
+    },
+    "2280": {
+        "folder": "|TBD|"
+    },
+    "2290": {
+        "folder": "|TBD|"
+    },
+    "2300": {
+        "folder": "|TBD|"
+    },
+    "2310": {
+        "folder": "|TBD|"
+    },
+    "2320": {
+        "folder": "|PATHTOGAME|/baseq2/save"
+    },
+    "2330": {
+        "folder": "|TBD|"
+    },
+    "2340": {
+        "folder": "|TBD|"
+    },
+    "2350": {
+        "file": "|PATHTOGAME|/baseq3/q3config.cfg"
+    },
+    "2360": {
+        "folder": "|TBD|"
+    },
+    "2370": {
+        "folder": "|TBD|"
+    },
+    "2390": {
+        "folder": "|TBD|"
+    },
+    "2400": {
+        "folder": "|PATHTOGAME|/ship/SAVE"
+    },
+    "2403": {
+        "folder": "|NA|"
+    },
+    "2410": {
+        "folder": "|TBD|"
+    },
+    "2420": {
+        "folder": "|PATHTOGAME|/ship/SAVE"
+    },
+    "2430": {
+        "folder": "|NA|"
+    },
+    "2450": {
+        "folder": "|TBD|"
+    },
+    "2460": {
+        "folder": "|NA|"
+    },
+    "2500": {
+        "folder": "|PATHTOGAME|/Profiles/"
+    },
+    "2510": {
+        "folder": "|TBD|"
+    },
+    "2520": {
+        "folder": "|TBD|"
+    },
+    "2525": {
+        "folder": "|TBD|"
+    },
+    "2530": {
+        "folder": "|TBD|"
+    },
+    "2540": {
+        "folder": "|TBD|"
+    },
+    "2550": {
+        "folder": "|TBD|"
+    },
+    "2560": {
+        "folder": "|TBD|"
+    },
+    "2570": {
+        "folder": "|TBD|"
+    },
+    "2580": {
+        "folder": "|TBD|"
+    },
+    "2590": {
+        "folder": "|PATHTOGAME|/save"
+    },
+    "2600": {
+        "folder": "|PATHTOGAME|/Vampire/save"
+    },
+    "2610": {
+        "folder": "%USERPROFILE%/Documents/Activision/Gun/saves"
+    },
+    "2620": {
+        "folder": "|PATHTOGAME|/Main/save"
+    },
+    "2630": {
+        "folder": "|PATHTOGAME|/main/players"
+    },
+    "2640": {
+        "folder": "|PATHTOGAME|/Main/save"
+    },
+    "2670": {
+        "folder": "|TBD|"
+    },
+    "2680": {
+        "folder": "|TBD|"
+    },
+    "2690": {
+        "folder": "|PATHTOGAME|/Data/Saved Games"
+    },
+    "2700": {
+        "folder": "%USERPROFILE%/Documents/RCT3"
+    },
+    "2710": {
+        "folder": "|PATHTOGAME|/AOW/Save"
+    },
+    "2720": {
+        "folder": "|TBD|"
+    },
+    "2730": {
+        "folder": "|TBD|"
+    },
+    "2740": {
+        "folder": "|NA|"
+    },
+    "2750": {
+        "folder": "|NA|"
+    },
+    "2760": {
+        "folder": "%USERPROFILE5/Documents/Neverwinter Nights 2/saves"
+    },
+    "2770": {
+        "folder": "|TBD|"
+    },
+    "2780": {
+        "folder": "|TBD|"
+    },
+    "2790": {
+        "folder": "|TBD|"
+    },
+    "2800": {
+        "filter": "|PATHTOGAME|*.sav"
+    },
+    "2810": {
+        "folder": "%USERPROFILE%/Documents/Egosoft/X3/save"
+    },
+    "2820": {
+        "folder": "%USERPROFILE%/Documents/Egosoft/X3TC/save"
+    },
+    "2830": {
+        "folder": "|TBD|"
+    },
+    "2840": {
+        "filter": "|PATHTOGAME|/*.sav"
+    },
+    "2850": {
+        "filter": "|PATHTOGAME|/*.sav"
+    },
+    "2860": {
+        "folder": "|NA|"
+    },
+    "2870": {
+        "folder": "%USERPROFILE%/Documents/Egosoft/X Rebirth"
+    },
+    "2900": {
+        "folder": "|TBD|"
+    },
+    "2910": {
+        "folder": "|TBD|"
+    },
+    "2920": {
+        "folder": "|TBD|"
+    },
+    "2930": {
+        "folder": "|TBD|"
+    },
+    "2950": {
+        "folder": "|TBD|"
+    },
+    "2990": {
+        "folder": "|PATHTOGAME|/Savegame"
+    },
+    "3000": {
+        "folder": "|PATHTOGAME|/Data/profiles"
+    },
+    "3010": {
+        "folder": "|PATHTOGAME|/Data/profiles"
+    },
+    "3020": {
+        "folder": "%USERPROFILE%/Documents/call of juarez/out/save"
+    },
+    "3030": {
+        "folder": "%USERPROFILE%/Documents/call of juarez/out/save"
+    },
+    "3040": {
+        "folder": "|TBD|"
+    },
+    "3050": {
+        "folder": "|PATHTOGAME|/Data/profiles"
+    },
+    "3130": {
+        "folder": "%USERPROFILE%/Documents/My Games/mow red tide/profiles"
+    },
+    "3150": {
+        "folder": "|PATHTOGAME|/Data/profiles"
+    },
+    "3160": {
+        "folder": "|PATHTOGAME|/profiles"
+    },
+    "3170": {
+        "folder": "|TBD|"
+    },
+    "3190": {
+        "folder": "|TBD|"
+    },
+    "3200": {
+        "folder": "|PATHTOGAME|/SaveGames"
+    },
+    "3210": {
+        "folder": "|TBD|"
+    },
+    "3220": {
+        "folder": "|PATHTOGAME|/Profiles"
+    },
+    "3230": {
+        "folder": "|TBD|"
+    },
+    "3240": {
+        "folder": "|PATHTOGAME|/Users"
+    },
+    "3270": {
+        "folder": "%LOCALAPPDATA%/Painkiller Overdose/Saves"
+    },
+    "3280": {
+        "folder": "|TBD|"
+    },
+    "3300": {
+        "folder": "%PROGRAMDATA%/Steam/Bejeweled2/users"
+    },
+    "3310": {
+        "folder": "|TBD|"
+    },
+    "3320": {
+        "folder": "|TBD|"
+    },
+    "3330": {
+        "folder": "|TBD|"
+    },
+    "3340": {
+        "folder": "|PATHTOGAME|/users"
+    },
+    "3350": {
+        "folder": "%PROGRAMDATA%/Steam/Bejeweled/userdata"
+    },
+    "3360": {
+        "file": "|PATHTOGAME|/savegame.dat"
+    },
+    "3370": {
+        "folder": "%PROGRAMDATA%/Steam/Bookworm/players"
+    },
+    "3380": {
+        "filter": "|PATHTOGAME|/*.SAV"
+    },
+    "3390": {
+        "registry": "HKEY_CURRENT_USER\\Software\\GameHouse\\Feeding Frenzy 2"
+    },
+    "3400": {
+        "folder": "|PATHTOGAME|/users"
+    },
+    "3410": {
+        "folder": "|PATHTOGAME|/userdata"
+    },
+    "3420": {
+        "folder": "|TBD|"
+    },
+    "3430": {
+        "registry": "HKEY_CURRENT_USER\\Software\\GameHouse\\Pizza Frenzy"
+    },
+    "3440": {
+        "folder": "|PATHTOGAME|/Players"
+    },
+    "3450": {
+        "folder": "|PATHTOGAME|/users"
+    },
+    "3460": {
+        "folder": "|TBD|"
+    },
+    "3470": {
+        "folder": "|TBD|"
+    },
+    "3480": {
+        "folder": "%PROGRAMDATA%/Steam/Peggle/userdata"
+    },
+    "3490": {
+        "folder": "%PROGRAMDATA%/Steam/Venice/userdata"
+    },
+    "3500": {
+        "folder": "|TBD|"
+    },
+    "3510": {
+        "folder": "|TBD|"
+    },
+    "3520": {
+        "folder": "|TBD|"
+    },
+    "3530": {
+        "folder": "|TBD|"
+    },
+    "3540": {
+        "folder": "%PROGRAMDATA%/Steam/PeggleNights/userdata"
+    },
+    "3550": {
+        "folder": "|TBD|"
+    },
+    "3560": {
+        "folder": "%PROGRAMDATA%/Steam/BejeweledTwist/users"
+    },
+    "3570": {
+        "folder": "|TBD|"
+    },
+    "3580": {
+        "folder": "|TBD|"
+    },
+    "3590": {
+        "folder": "|TBD|"
+    },
+    "3600": {
+        "filter": "%APPDATA%/SpinTop Games/Escape Rosecliff Island/*.mse"
+    },
+    "3610": {
+        "folder": "|TBD|"
+    },
+    "3620": {
+        "folder": "|TBD|"
+    },
+    "3630": {
+        "folder": "|TBD|"
+    },
+    "3640": {
+        "folder": "|TBD|"
+    },
+    "3650": {
+        "folder": "|TBD|"
+    },
+    "3680": {
+        "folder": "|TBD|"
+    },
+    "3700": {
+        "folder": "|PATHTOGAME|/Prof"
+    },
+    "3710": {
+        "file": "|PATHTOGAME|/save/save.dsg"
+    },
+    "3720": {
+        "folder": "|PATHTOGAME|/DynamicResources/Layouts"
+    },
+    "3730": {
+        "folder": "%LOCALAPPDATA%/Rebellion/AvP Classic/User_Profiles"
+    },
+    "3740": {
+        "folder": "|NA|"
+    },
+    "3750": {
+        "folder": "|NA|"
+    },
+    "3760": {
+        "folder": "|TBD|"
+    },
+    "3770": {
+        "folder": "|PATHTOGAME|/Data/Saved Games"
+    },
+    "3780": {
+        "folder": "|NA|"
+    },
+    "3790": {
+        "folder": "|TBD|"
+    },
+    "3800": {
+        "folder": "|PATHTOGAME|/System/Saves"
+    },
+    "3810": {
+        "folder": "|PATHTOGAME|/savegame"
+    },
+    "3820": {
+        "folder": "|PATHTOGAME|/savegame"
+    },
+    "3830": {
+        "folder": "|PATHTOGAME|/Profiles"
+    },
+    "3840": {
+        "folder": "|TBD|"
+    },
+    "3850": {
+        "folder": "|TBD|"
+    },
+    "3860": {
+        "folder": "|NA|"
+    },
+    "3900": {
+        "folders": [
+            {
+                "Path": "%USERPROFILE%/Documents/My Games/Sid Meier's Civilization IV/Saves",
+                "FriendlyName": "BaseGame"
+            },
+            {
+                "Path": "%USERPROFILE%/Documents/My Games/Warlords/Saves",
+                "FriendlyName": "Warlords"
+            },
+            {
+                "Path": "%USERPROFILE%/Documents/My Games/Beyond the Sword/Saves",
+                "FriendlyName": "BeyondTheSwords"
+            }
+        ]
+    },
+    "3910": {
+        "folders": [
+            {
+                "Path": "|PATHTOGAME|/Saves",
+                "FriendlyName": "BaseGame"
+            },
+            {
+                "Path": "|PATHTOGAME|/Civ3PTW/Saves",
+                "FriendlyName": "PlayTheWorld"
+            },
+            {
+                "Path": "|PATHTOGAME|/Conquests/Saves",
+                "FriendlyName": "Conquests"
+            }
+        ]
+    },
+    "3920": {
+        "folder": "|TBD|"
+    },
+    "3930": {
+        "folder": "|PATHTOGAME|/Content/SeriousSam2/PlayerProfiles"
+    },
+    "3960": {
+        "folder": "|TBD|"
+    },
+    "3970": {
+        "folders": [
+            {
+                "Path": "%USERPROFILE%/Documents/My Games/PREY/base",
+                "FriendlyName": "BaseGame"
+            },
+            {
+                "Path": "%USERPROFILE%/Saved Games/HumanHeadStudios/Prey",
+                "FriendlyName": "HumanHeadStudios"
+            }
+        ]
+    },
+    "3980": {
+        "folder": "%USERPROFILE%/Documents/CivCity Rome/Saves"
+    },
+    "3990": {
+        "folder": "|NA|"
+    },
+    "4000": {
+        "folder": "|PATHTOGAME|/garrysmod/saves"
+    },
+    "4010": {
+        "folder": "|NA|"
+    },
+    "4020": {
+        "folder": "|NA|"
+    },
+    "4100": {
+        "folder": "|TBD|"
+    },
+    "4200": {
+        "folder": "|NA|"
+    },
+    "4210": {
+        "folder": "|TBD|"
+    },
+    "4230": {
+        "folder": "|TBD|"
+    },
+    "4240": {
+        "folder": "|NA|"
+    },
+    "4260": {
+        "folder": "|TBD|"
+    },
+    "4270": {
+        "folder": "|TBD|"
+    },
+    "4280": {
+        "folder": "|TBD|"
+    },
+    "4290": {
+        "folder": "|TBD|"
+    },
+    "4300": {
+        "folder": "|PATHTOGAME|/SavedGames"
+    },
+    "4310": {
+        "folder": "|TBD|"
+    },
+    "4320": {
+        "folder": "|TBD|"
+    },
+    "4330": {
+        "folder": "|TBD|"
+    },
+    "4400": {
+        "folder": "|TBD|"
+    },
+    "4410": {
+        "folder": "|TBD|"
+    },
+    "4420": {
+        "folder": "|TBD|"
+    },
+    "4440": {
+        "folder": "|TBD|"
+    },
+    "4450": {
+        "folder": "|TBD|"
+    },
+    "4460": {
+        "folder": "|TBD|"
+    },
+    "4470": {
+        "folder": "|TBD|"
+    },
+    "4480": {
+        "folder": "|TBD|"
+    },
+    "4500": {
+        "folder": "|TBD|"
+    },
+    "4520": {
+        "folder": "|TBD|"
+    },
+    "4530": {
+        "folder": "%APPDATA%/FSW2"
+    },
+    "4540": {
+        "folders": [
+            {
+                "Path": "%USERPROFILE%/Documents/My Games/Titan Quest",
+                "FriendlyName": "BaseGame"
+            },
+            {
+                "Path": "%USERPROFILE%/Documents/My Games/Titan Quest - Immortal Throne",
+                "FriendlyName": "ImmortalThrone"
+            }
+        ]
+    },
+    "4550": {
+        "folder": "|NA|"
+    },
+    "4560": {
+        "folders": [
+            {
+                "Path": "%USERPROFILE%/Documents/My Games/Company of Heroes/Savegames",
+                "FriendlyName": "BaseGameWindows"
+            },
+            {
+                "Path": "%USERPROFILE%/Documents/My Games/Company of Heroes Relaunch/Savegames",
+                "FriendlyName": "BaseGameSteam"
+            }
+        ]
+    },
+    "4570": {
+        "folder": "|PATHTOGAME|/Profiles"
+    },
+    "4580": {
+        "folder": "|PATHTOGAME|/Profiles"
+    },
+    "4590": {
+        "folder": "|NA|"
+    },
+    "4600": {
+        "filter": "|PATHTOGAME|/*.sav"
+    },
+    "4610": {
+        "folder": "|NA|"
+    },
+    "4700": {
+        "folder": "|PATHTOGAME|/saves"
+    },
+    "4710": {
+        "folder": "|NA|"
+    },
+    "4720": {
+        "folder": "%PUBLIC%/Documents/Monolith Productions/Condemned/Save"
+    },
+    "4730": {
+        "folder": "|TBD|/SaveGame"
+    },
+    "4740": {
+        "folder": "|TBD|"
+    },
+    "4760": {
+        "folder": "|PATHTOGAME|/saves"
+    },
+    "4770": {
+        "folder": "|TBD|"
+    },
+    "4780": {
+        "folder": "|TBD|/saves"
+    },
+    "4790": {
+        "folder": "%USERPROFILE%/Documents/SEGA Rally/Saved Games"
+    },
+    "4800": {
+        "folder": "|PATHTOGAME|/Data/Save"
+    },
+    "4810": {
+        "folder": "|NA|"
+    },
+    "4820": {
+        "folder": "|NA|"
+    },
+    "4830": {
+        "folder": "|TBD|"
+    },
+    "4850": {
+        "filter": "|PATHTOGAME|/*.sav"
+    },
+    "4870": {
+        "filter": "|PATHTOGAME|/*.sav"
+    },
+    "4880": {
+        "filter": "|PATHTOGAME|/*.sav"
+    },
+    "4890": {
+        "folder": "|TBD|"
+    },
+    "4900": {
+        "folder": "%APPDATA%/Zen of Sudoku/users"
+    },
+    "4910": {
+        "folder": "|TBD|"
+    },
+    "4920": {
+        "folder": "|IN_USER_DATA|"
+    },
+    "4930": {
+        "folder": "|NA|"
+    },
+    "4940": {
+        "folder": "|NA|"
+    },
+    "5000": {
+        "folder": "|NA|"
+    },
+    "5010": {
+        "folder": "|NA|"
+    },
+    "5020": {
+        "folder": "|NA|"
+    },
+    "5030": {
+        "folder": "|NA|"
+    },
+    "5040": {
+        "folder": "|NA|"
+    },
+    "5050": {
+        "folder": "|NA|"
+    },
+    "5060": {
+        "folder": "|NA|"
+    },
+    "5070": {
+        "folder": "|NA|"
+    },
+    "5080": {
+        "folder": "|NA|"
+    },
+    "5090": {
+        "folder": "|NA|"
+    },
+    "5100": {
+        "folder": "|NA|"
+    },
+    "5120": {
+        "folder": "|NA|"
+    },
+    "5130": {
+        "folder": "|NA|"
+    },
+    "5140": {
+        "folder": "|NA|"
+    },
+    "5150": {
+        "folder": "|NA|"
+    },
+    "5160": {
+        "folder": "|NA|"
+    },
+    "5170": {
+        "folder": "|NA|"
+    },
+    "5180": {
+        "folder": "|NA|"
+    },
+    "5190": {
+        "folder": "|NA|"
+    },
+    "5200": {
+        "folder": "|NA|"
+    },
+    "5210": {
+        "folder": "|NA|"
+    },
+    "5220": {
+        "folder": "|NA|"
+    },
+    "5230": {
+        "folder": "|NA|"
+    },
+    "5240": {
+        "folder": "|NA|"
+    },
+    "5250": {
+        "folder": "|NA|"
+    },
+    "5260": {
+        "folder": "|TBD|"
+    },
+    "5270": {
+        "folder": "|NA|"
+    },
+    "5280": {
+        "folder": "|NA|"
+    },
+    "5290": {
+        "folder": "|NA|"
+    },
+    "5300": {
+        "folder": "|NA|"
+    },
+    "5310": {
+        "folder": "|NA|"
+    },
+    "5320": {
+        "folder": "|NA|"
+    },
+    "5330": {
+        "folder": "|NA|"
+    },
+    "5340": {
+        "folder": "|NA|"
+    },
+    "5350": {
+        "folder": "|NA|"
+    },
+    "5360": {
+        "folder": "|NA|"
+    },
+    "5370": {
+        "folder": "|NA|"
+    },
+    "5390": {
+        "folder": "|NA|"
+    },
+    "5400": {
+        "folder": "|NA|"
+    },
+    "5410": {
+        "folder": "|NA|"
+    },
+    "5420": {
+        "folder": "|NA|"
+    },
+    "5430": {
+        "folder": "|NA|"
+    },
+    "5450": {
+        "folder": "|NA|"
+    },
+    "5460": {
+        "folder": "|NA|"
+    },
+    "5470": {
+        "folder": "|NA|"
+    },
+    "5480": {
+        "folder": "|NA|"
+    },
+    "5500": {
+        "folder": "|NA|"
+    },
+    "5510": {
+        "folder": "|NA|"
+    },
+    "5520": {
+        "folder": "|NA|"
+    },
+    "5530": {
+        "folder": "|NA|"
+    },
+    "5540": {
+        "folder": "|NA|"
+    },
+    "5550": {
+        "folder": "|NA|"
+    },
+    "5560": {
+        "folder": "|NA|"
+    },
+    "5570": {
+        "folder": "|NA|"
+    },
+    "5580": {
+        "folder": "|NA|"
+    },
+    "5590": {
+        "folder": "|NA|"
+    },
+    "5600": {
+        "folder": "|NA|"
+    },
+    "5610": {
+        "folder": "|NA|"
+    },
+    "5620": {
+        "folder": "|NA|"
+    },
+    "5630": {
+        "folder": "|NA|"
+    },
+    "5640": {
+        "folder": "|NA|"
+    },
+    "5650": {
+        "folder": "|NA|"
+    },
+    "5660": {
+        "folder": "|NA|"
+    },
+    "5670": {
+        "folder": "|NA|"
+    },
+    "5680": {
+        "folder": "|NA|"
+    },
+    "5690": {
+        "folder": "|NA|"
+    },
+    "5700": {
+        "folder": "|NA|"
+    },
+    "5710": {
+        "folder": "|NA|"
+    },
+    "5720": {
+        "folder": "|NA|"
+    },
+    "5730": {
+        "folder": "|NA|"
+    },
+    "5740": {
+        "folder": "|NA|"
+    },
+    "5750": {
+        "folder": "|NA|"
+    },
+    "5760": {
+        "folder": "|NA|"
+    },
+    "5770": {
+        "folder": "|NA|"
+    },
+    "5780": {
+        "folder": "|NA|"
+    },
+    "5790": {
+        "folder": "|NA|"
+    },
+    "5810": {
+        "folder": "|NA|"
+    },
+    "5820": {
+        "folder": "|NA|"
+    },
+    "5830": {
+        "folder": "|NA|"
+    },
+    "5840": {
+        "folder": "|NA|"
+    },
+    "5850": {
+        "folder": "|NA|"
+    },
+    "5860": {
+        "folder": "|NA|"
+    },
+    "5870": {
+        "folder": "|NA|"
+    },
+    "5880": {
+        "folder": "|NA|"
+    },
+    "5890": {
+        "folder": "|NA|"
+    },
+    "5900": {
+        "folder": "|NA|"
+    },
+    "5910": {
+        "folder": "|NA|"
+    },
+    "5930": {
+        "folder": "|NA|"
+    },
+    "5940": {
+        "folder": "|NA|"
+    },
+    "5950": {
+        "folder": "|NA|"
+    },
+    "5960": {
+        "folder": "|NA|"
+    },
+    "5970": {
+        "folder": "|NA|"
+    },
+    "5980": {
+        "folder": "|NA|"
+    },
+    "5990": {
+        "folder": "|NA|"
+    },
+    "6000": {
+        "folder": "|PATHTOGAME|/GameData/Save"
+    },
+    "6010": {
+        "folder": "%APPDATA%/LucasArts/Indiana Jones and the Fate of Atlantis"
+    },
+    "6020": {
+        "folder": "|PATHTOGAME|/GameData/base/saves"
+    },
+    "6030": {
+        "folder": "|PATHTOGAME|/GameData/base/saves"
+    },
+    "6040": {
+        "folder": "%APPDATA%/LucasArts/The Dig"
+    },
+    "6050": {
+        "folder": "|TBD|"
+    },
+    "6060": {
+        "folder": "|PATHTOGAME|/GameData/SaveGames"
+    },
+    "6070": {
+        "folder": "|TBD|"
+    },
+    "6080": {
+        "folder": "%LOCALAPPDATA%/LucasArts/Thrillville 07"
+    },
+    "6090": {
+        "folder": "|PATHTOGAME|/GameData/SaveGames"
+    },
+    "6100": {
+        "folder": "|TBD|"
+    },
+    "6110": {
+        "folder": "|NA|"
+    },
+    "6120": {
+        "folder": "|TBD|"
+    },
+    "6130": {
+        "folder": "|NA|"
+    },
+    "6200": {
+        "folder": "|PATHTOGAME|/GhostData/SaveGames"
+    },
+    "6210": {
+        "folder": "|TBD|"
+    },
+    "6220": {
+        "folder": "|PATHTOGAME|/Savegame"
+    },
+    "6230": {
+        "folder": "|NA|"
+    },
+    "6240": {
+        "file": "|PATHTOGAME|/gamesave.bin"
+    },
+    "6250": {
+        "folder": "%PROGRAMDATA%/Muzzy Lane Software/Making History Gold"
+    },
+    "6260": {
+        "folder": "|NA|"
+    },
+    "6270": {
+        "folder": "|PATHTOGAME|/Save"
+    },
+    "6280": {
+        "folder": "|TBD|"
+    },
+    "6300": {
+        "folder": "|PATHTOGAME|/saves"
+    },
+    "6310": {
+        "folders": [
+            {
+                "Path": "%APPDATA%/Funcom/TLJ",
+                "FriendlyName": "BaseGame"
+            },
+            {
+                "Path": "|PATHTOGAME|/Save",
+                "FriendlyName": "BaseGameAlt1"
+            },
+            {
+                "Path": "%APPDATA%/The Longest Journey/Save",
+                "FriendlyName": "BaseGameAlt2"
+            }
+        ]
+    },
+    "6320": {
+        "folder": "|TBD|"
+    },
+    "6330": {
+        "folder": "|TBD|"
+    },
+    "6340": {
+        "folder": "|TBD|"
+    },
+    "6350": {
+        "folder": "|TBD|"
+    },
+    "6360": {
+        "folder": "|TBD|"
+    },
+    "6370": {
+        "folder": "|TBD|"
+    },
+    "6400": {
+        "folder": "|PATHTOGAME|/Profiles"
+    },
+    "6410": {
+        "folder": "|TBD|"
+    },
+    "6420": {
+        "folders": [
+            {
+                "Path": "|PATHTOGAME|/save",
+                "FriendlyName": "BaseGame"
+            },
+            {
+                "Path": "%APPDATA%/Nexus - The Jupiter Incident/save",
+                "FriendlyName": "BaseGameAlt1"
+            }
+        ]
+    },
+    "6500": {
+        "folder": "|NA|"
+    },
+    "6510": {
+        "folder": "%LOCALAPPDATA%/capcom/lostplanet"
+    },
+    "6520": {
+        "folder": "%LOCALAPPDATA%/capcom/lostplanet"
+    },
+    "6530": {
+        "folder": "|TBD|"
+    },
+    "6540": {
+        "folder": "|TBD|"
+    },
+    "6550": {
+        "folder": "|TBD|"
+    },
+    "6570": {
+        "folder": "|PATHTOGAME|/save"
+    },
+    "6580": {
+        "folder": "|TBD|"
+    },
+    "6590": {
+        "folder": "|TBD|"
+    },
+    "6600": {
+        "folder": "|TBD|"
+    },
+    "6610": {
+        "folder": "|TBD|"
+    },
+    "6700": {
+        "folder": "|NA|"
+    },
+    "6710": {
+        "folder": "|NA|"
+    },
+    "6720": {
+        "folder": "|NA|"
+    },
+    "6750": {
+        "folder": "|NA|"
+    },
+    "6800": {
+        "folder": "|PATHTOGAME|/OUTPUT"
+    },
+    "6810": {
+        "folder": "|PATHTOGAME|/OUTPUT"
+    },
+    "6820": {
+        "folder": "%USERPROFILE%/Documents/CSF Data/Games"
+    },
+    "6830": {
+        "folders": [
+            {
+                "Path": "%USERPROFILE%/Documents/Commandos II/OUTPUT",
+                "FriendlyName": "BaseGame"
+            },
+            {
+                "Path": "|PATHTOGAME|/Legacy/OUTPUT",
+                "FriendlyName": "BaseGameAlt1"
+            },
+            {
+                "Path": "|PATHTOGAME|/OUTPUT",
+                "FriendlyName": "BaseGameAlt1"
+            }
+        ]
+    },
+    "6840": {
+        "folder": "|PATHTOGAME|/Output"
+    },
+    "6850": {
+        "folder": "|PATHTOGAME|/Save"
+    },
+    "6860": {
+        "folder": "%USERPROFILE%/Documents/Hitman Blood Money/Profiles"
+    },
+    "6870": {
+        "folder": "%USERPROFILE%/Documents/Battlestations-Midway/save"
+    },
+    "6880": {
+        "folder": "%USERPROFILE%/Documents/JustCause/Saves/JCSaves"
+    },
+    "6900": {
+        "file": "|PATHTOGAME|/Hitman.sav"
+    },
+    "6910": {
+        "folder": "|PATHTOGAME|/Save"
+    },
+    "6920": {
+        "folder": "%USERPROFILE%/Documents/Deus Ex - Invisible War/SaveGames"
+    },
+    "6930": {
+        "folder": "|TBD|"
+    },
+    "6940": {
+        "folder": "|TBD|"
+    },
+    "6950": {
+        "folder": "|TBD|"
+    },
+    "6980": {
+        "folder": "|PATHTOGAME|/save/SaveGames"
+    },
+    "6990": {
+        "folder": "|PATHTOGAME|/SaveGame"
+    },
+    "7000": {
+        "folder": "%USERPROFILE%/Documents/Tomb Raider - Legend"
+    },
+    "7010": {
+        "folder": "%USERPROFILE%/Documents/Project Snowblind"
+    },
+    "7020": {
+        "folder": "%USERPROFILE%/Documents/Rogue Trooper"
+    },
+    "7030": {
+        "folder": "|TBD|"
+    },
+    "7050": {
+        "folder": "|TBD|"
+    },
+    "7060": {
+        "folder": "|PATHTOGAME|/game"
+    },
+    "7080": {
+        "folder": "|TBD|"
+    },
+    "7090": {
+        "folder": "|NA|"
+    },
+    "7100": {
+        "folder": "|NA|"
+    },
+    "7110": {
+        "folder": "|PATHTOGAME|/Save"
+    },
+    "7200": {
+        "folders": [
+            {
+                "Path": "%USERPROFILE%/Documents/TrackMania/Profiles",
+                "FriendlyName": "Profiles"
+            },
+            {
+                "Path": "%USERPROFILE%/Documents/TrackMania/Scores",
+                "FriendlyName": "Scores"
+            },
+            {
+                "Path": "%USERPROFILE%/Documents/TrackMania/Tracks",
+                "FriendlyName": "Tracks"
+            }
+        ]
+    },
+    "7210": {
+        "folder": "|PATHTOGAME|/SAVEGAME"
+    },
+    "7220": {
+        "folder": "|PATHTOGAME|/SAVEGAME"
+    },
+    "7230": {
+        "folder": "|TBD|"
+    },
+    "7240": {
+        "folder": "|TBD|"
+    },
+    "7250": {
+        "folder": "|TBD|"
+    },
+    "7260": {
+        "folder": "|TBD|"
+    },
+    "7270": {
+        "folder": "|TBD|"
+    },
+    "7280": {
+        "folder": "|TBD|"
+    },
+    "7290": {
+        "folder": "|TBD|"
+    },
+    "7340": {
+        "folder": "|TBD|"
+    },
+    "7400": {
+        "file": "|PATHTOGAME|/Stats.dat"
+    },
+    "7410": {
+        "folder": "|TBD|"
+    },
+    "7420": {
+        "folder": "|TBD|"
+    },
+    "7430": {
+        "folder": "|TBD|"
+    },
+    "7440": {
+        "folder": "|TBD|"
+    },
+    "7450": {
+        "filter": "|PATHTOGAME|/*.dat"
+    },
+    "7470": {
+        "folder": "|TBD|"
+    },
+    "7490": {
+        "folder": "|TBD|"
+    },
+    "7500": {
+        "folder": "|PATHTOGAME|/Profiles"
+    },
+    "7510": {
+        "folders": [
+            {
+                "Path": "%APPDATA%/XBlades",
+                "FriendlyName": "BaseGame"
+            },
+            {
+                "Path": "%LOCALAPPDATA%/XBlades",
+                "FriendlyName": "AltDir"
+            }
+        ]
+    },
+    "7520": {
+        "folder": "%USERPROFILE%/Saved Games/Two Worlds II"
+    },
+    "7530": {
+        "folder": "%LOCALAPPDATA%/TW2CD"
+    },
+    "7600": {
+        "folder": "%USERPROFILE%/Documents/My Games/Sid Meier's Railroads/Saves"
+    },
+    "7610": {
+        "folder": "|PATHTOGAME|/Saved Games"
+    },
+    "7620": {
+        "folder": "|PATHTOGAME|/games"
+    },
+    "7630": {
+        "folder": "|TBD|"
+    },
+    "7650": {
+        "folder": "|TBD|"
+    },
+    "7660": {
+        "folder": "|PATHTOGAME|/SAVEGAME"
+    },
+    "7670": {
+        "folder": "%USERPROFILE%/Documents/Bioshock/SaveGames"
+    },
+    "7680": {
+        "folder": "|TBD|"
+    },
+    "7700": {
+        "folder": "|TBD|"
+    },
+    "7710": {
+        "folder": "|TBD|"
+    },
+    "7720": {
+        "folder": "|TBD|"
+    },
+    "7730": {
+        "folder": "|PATHTOGAME|/Saved Games"
+    },
+    "7740": {
+        "folder": "|TBD|"
+    },
+    "7760": {
+        "folder": "|TBD|"
+    },
+    "7770": {
+        "file": "|PATHTOGAME|/System/User.ini"
+    },
+    "7780": {
+        "folder": "|TBD|"
+    },
+    "7790": {
+        "folder": "|TBD|"
+    },
+    "7800": {
+        "folder": "%USERPROFILE%/Documents/Stubbs the Zombie"
+    },
+    "7810": {
+        "folder": "|TBD|"
+    },
+    "7820": {
+        "folder": "|TBD|"
+    },
+    "7830": {
+        "folder": "%USERPROFILE%/Documents/My Games/men of war/profiles/player/save"
+    },
+    "7840": {
+        "folder": "%USERPROFILE%/Documents/skyfallen entertaiment/deathtrack"
+    },
+    "7850": {
+        "folder": "|PATHTOGAME|/Data/Save"
+    },
+    "7860": {
+        "folder": "|PATHTOGAME|/Profiles"
+    },
+    "7870": {
+        "folder": "|PATHTOGAME|/Savegames"
+    },
+    "7880": {
+        "folder": "|TBD|"
+    },
+    "7890": {
+        "folder": "|TBD|"
+    },
+    "7900": {
+        "folder": "%USERPROFILE%/Documents/The Movies/Saved Games"
+    },
+    "7910": {
+        "folder": "|TBD|"
+    },
+    "7920": {
+        "folder": "|TBD|"
+    },
+    "7930": {
+        "folder": "|NA|"
+    },
+    "7940": {
+        "folder": "|PATHTOGAME|/players/profiles"
+    },
+    "7950": {
+        "folder": "|PATHTOGAME|/players/profiles"
+    },
+    "7970": {
+        "folder": "|TBD|"
+    },
+    "7980": {
+        "folder": "|TBD|"
+    },
+    "7990": {
+        "folder": "%USERPROFILE%/Documents/My Games/Monster Jam"
+    },
+    "8000": {
+        "folder": "%USERPROFILE%/Documents/Eidos/Tomb Raider - Anniversary/Default Profile"
+    },
+    "8010": {
+        "folder": "|TBD|"
+    },
+    "8030": {
+        "folder": "|TBD|"
+    },
+    "8040": {
+        "folder": "|TBD|"
+    },
+    "8060": {
+        "folder": "|TBD|"
+    },
+    "8070": {
+        "folder": "|TBD|"
+    },
+    "8080": {
+        "folder": "%LOCALAPPDATA%/kaneandlynch"
+    },
+    "8090": {
+        "folder": "|TBD|"
+    },
+    "8100": {
+        "folder": "|TBD|"
+    },
+    "8110": {
+        "folder": "|TBD|"
+    },
+    "8140": {
+        "folder": "%USERPROFILE%/Documents/Eidos/Tomb Raider - Underworld"
+    },
+    "8150": {
+        "folder": "|TBD|"
+    },
+    "8160": {
+        "folder": "%USERPROFILE%/Documents/Eidos/Shellshock2"
+    },
+    "8170": {
+        "folder": "%USERPROFILE%/Documents/Battlestations-Pacific/save"
+    },
+    "8180": {
+        "folder": "|TBD|"
+    },
+    "8190": {
+        "folder": "|IN_USER_DATA|"
+    },
+    "8200": {
+        "folder": "|TBD|"
+    },
+    "8210": {
+        "folder": "|TBD|"
+    },
+    "8220": {
+        "folder": "|TBD|"
+    },
+    "8230": {
+        "folder": "|TBD|"
+    },
+    "8240": {
+        "folder": "|TBD|"
+    },
+    "8250": {
+        "folder": "|TBD|"
+    },
+    "8260": {
+        "folder": "|TBD|"
+    },
+    "8270": {
+        "folder": "|TBD|"
+    },
+    "8280": {
+        "folder": "|TBD|"
+    },
+    "8290": {
+        "folder": "|TBD|"
+    },
+    "8300": {
+        "folder": "|TBD|"
+    },
+    "8310": {
+        "folder": "|TBD|"
+    },
+    "8320": {
+        "folder": "|TBD|"
+    },
+    "8330": {
+        "folder": "|TBD|"
+    },
+    "8340": {
+        "folder": "|TBD|"
+    },
+    "8350": {
+        "folder": "|TBD|"
+    },
+    "8360": {
+        "folder": "|TBD|"
+    },
+    "8370": {
+        "folder": "|TBD|"
+    },
+    "8380": {
+        "folder": "|TBD|"
+    },
+    "8400": {
+        "folder": "%USERPROFILE%/AppData/Local/Bizarre Creations/Geometry Wars Retro Evolved"
+    },
+    "8410": {
+        "folder": "|TBD|"
+    },
+    "8420": {
+        "folder": "|TBD|"
+    },
+    "8500": {
+        "folder": "|NA|"
+    },
+    "8510": {
+        "folder": "|NA|"
+    },
+    "8600": {
+        "folder": "%USERPROFILE%/Documents/SimBin/RACE 07/UserData"
+    },
+    "8610": {
+        "folder": "|TBD|"
+    },
+    "8620": {
+        "folder": "|TBD|"
+    },
+    "8630": {
+        "folder": "|TBD|"
+    },
+    "8640": {
+        "folder": "|TBD|"
+    },
+    "8650": {
+        "folder": "|TBD|"
+    },
+    "8660": {
+        "folder": "|TBD|"
+    },
+    "8670": {
+        "folder": "|TBD|"
+    },
+    "8680": {
+        "folder": "|TBD|"
+    },
+    "8690": {
+        "folder": "|TBD|"
+    },
+    "8700": {
+        "folder": "|TBD|"
+    },
+    "8710": {
+        "folder": "|TBD|"
+    },
+    "8720": {
+        "folder": "|TBD|"
+    },
+    "8730": {
+        "folder": "|TBD|"
+    },
+    "8740": {
+        "folder": "|TBD|"
+    },
+    "8750": {
+        "folder": "|TBD|"
+    },
+    "8760": {
+        "folder": "|TBD|"
+    },
+    "8770": {
+        "folder": "|TBD|"
+    },
+    "8790": {
+        "folder": "|PATHTOGAME|/UserData"
+    },
+    "8800": {
+        "folder": "|TBD|"
+    },
+    "8810": {
+        "folder": "|TBD|"
+    },
+    "8820": {
+        "folder": "|TBD|"
+    },
+    "8830": {
+        "folder": "|TBD|"
+    },
+    "8840": {
+        "folder": "|TBD|"
+    },
+    "8850": {
+        "folders": [
+            {
+                "Path": "%USERPROFILE%/Documents/Bioshock2/SaveGames",
+                "FriendlyName": "BaseGame"
+            },
+            {
+                "Path": "%APPDATA%/Bioshock2Steam",
+                "FriendlyName": "SteamVersion"
+            }
+        ]
+    },
+    "8870": {
+        "folder": "%USERPROFILE%/Documents/My Games/BioShock Infinite/XGame/SaveData"
+    },
+    "8880": {
+        "folder": "|PATHTOGAME|/Data/SaveGames"
+    },
+    "8890": {
+        "folder": "%LOCALAPPDATA%/Irrational Games/Freedom Force vs the 3rd Reich/User/SaveGames"
+    },
+    "8900": {
+        "folder": "|TBD|"
+    },
+    "8910": {
+        "folder": "|TBD|"
+    },
+    "8930": {
+        "folder": "%USERPROFILE%/Documents/My Games/Sid Meier's Civilization 5/Saves"
+    },
+    "8940": {
+        "folder": "|TBD|"
+    },
+    "8950": {
+        "folder": "%USERPROFILE%/Documents/My Games/Borderlands/SaveData"
+    },
+    "8960": {
+        "folder": "|TBD|"
+    },
+    "8970": {
+        "folder": "|TBD|"
+    },
+    "8980": {
+        "folder": "%USERPROFILE%/Documents/My Games/Borderlands/SaveData"
+    },
+    "8990": {
+        "folder": "|TBD|"
+    },
+    "9000": {
+        "folder": "|TBD|"
+    },
+    "9010": {
+        "folders": [
+            {
+                "Path": "|PATHTOGAME|/Main/save",
+                "FriendlyName": "Main"
+            },
+            {
+                "Path": "%USERPROFILE%/Documents/RTCW/main/save",
+                "FriendlyName": "AltLocation"
+            }
+        ]
+    },
+    "9020": {
+        "folder": "|TBD|"
+    },
+    "9030": {
+        "folder": "|TBD|"
+    },
+    "9040": {
+        "folder": "|TBD|"
+    },
+    "9050": {
+        "folder": "|PATHTOGAME|/base/savegames"
+    },
+    "9060": {
+        "folder": "|PATHTOGAME|/data1"
+    },
+    "9070": {
+        "folder": "|PATHTOGAME|/base/savegames"
+    },
+    "9080": {
+        "folder": "|TBD|"
+    },
+    "9090": {
+        "folder": "|TBD|"
+    },
+    "9100": {
+        "folder": "|TBD|"
+    },
+    "9120": {
+        "folder": "|TBD|"
+    },
+    "9160": {
+        "folder": "|PATHTOGAME|/Doom II for Windows 95"
+    },
+    "9180": {
+        "folder": "|TBD|"
+    },
+    "9200": {
+        "folder": "%USERPROFILE%/Saved Games/id Software/Rage/base/savegame"
+    },
+    "9220": {
+        "folder": "|TBD|"
+    },
+    "9240": {
+        "folder": "|TBD|"
+    },
+    "9300": {
+        "folder": "|TBD|"
+    },
+    "9310": {
+        "folder": "|PATHTOGAME|/Profiles"
+    },
+    "9320": {
+        "folder": "|TBD|"
+    },
+    "9330": {
+        "folder": "|TBD|"
+    },
+    "9340": {
+        "folders": [
+            {
+                "Path": "%USERPROFILE%/Documents/My Games/Company of Heroes/Savegames",
+                "FriendlyName": "Main"
+            },
+            {
+                "Path": "%USERPROFILE%/Documents/My Games/Company of Heroes Relaunch/Savegames",
+                "FriendlyName": "SteamVersion"
+            }
+        ]
+    },
+    "9350": {
+        "folder": "%LOCALAPPDATA%/Gas Powered Games/SupremeCommander/SAVEGAME"
+    },
+    "9360": {
+        "folder": "|NA|"
+    },
+    "9370": {
+        "folder": "|NA|"
+    },
+    "9390": {
+        "folders": [
+            {
+                "Path": "%USERPROFILE%/Documents/Stalker-STCS/savedgames",
+                "FriendlyName": "Main"
+            },
+            {
+                "Path": "|PATHTOGAME|/_appdata_/savedgames",
+                "FriendlyName": "SteamVersion"
+            }
+        ]
+    },
+    "9400": {
+        "folders": [
+            {
+                "Path": "%USERPROFILE%/Documents/My Games/Juiced2_HIN",
+                "FriendlyName": "Main"
+            },
+            {
+                "Path": "%APPDATA%/THQ/Juiced2/Save",
+                "FriendlyName": "AltMain"
+            }
+        ]
+    },
+    "9420": {
+        "folder": "%LOCALAPPDATA%/Gas Powered Games/Supreme Commander Forged Alliance/SAVEGAME"
+    },
+    "9440": {
+        "folder": "|TBD|"
+    },
+    "9450": {
+        "folder": "|TBD|"
+    },
+    "9460": {
+        "folder": "%USERPROFILE%/Documents/My Games/Frontlines - Fuel of War/GCGame/Save"
+    },
+    "9480": {
+        "folder": "%LOCALAPPDATA%/THQ/Saints Row 2"
+    },
+    "9500": {
+        "folder": "%USERPROFILE%/Documents/Gish"
+    },
+    "9510": {
+        "folder": "|TBD|"
+    },
+    "9710": {
+        "folder": "%USERPROFILE%/Documents/Cooper's Revenge/Savegame"
+    },
+    "9730": {
+        "folder": "%USERPROFILE%/Documents/Atari/Tycoon City - New York"
+    },
+    "9740": {
+        "folder": "%USERPROFILE%/Documents/atari/Fahrenheit Profile"
+    },
+    "9760": {
+        "folder": "|PATHTOGAME|/AOW"
+    },
+    "9800": {
+        "folder": "%USERPROFILE%/Documents/My Games/Death to Spies"
+    },
+    "9810": {
+        "folder": "%USERPROFILE%/Documents/The Witcher/saves"
+    },
+    "9850": {
+        "folder": "%USERPROFILE%/Documents/My Games/Codename Panzers - Cold War/Profiles"
+    },
+    "9860": {
+        "folder": "%APPDATA%/Atari/The Chronicles of Riddick - Assault on Dark Athena/SaveGames"
+    },
+    "9870": {
+        "folder": "%USERPROFILE%/Documents/GHOSTBUSTERS (tm)"
+    },
+    "9880": {
+        "folder": "|TBD|"
+    },
+    "9890": {
+        "folder": "|TBD|"
+    },
+    "9900": {
+        "folder": "|TBD|"
+    },
+    "9910": {
+        "folder": "|TBD|"
+    },
+    "9920": {
+        "folder": "|TBD|"
+    },
+    "9930": {
+        "folder": "%USERPROFILE%/Documents/Eden Games/Test Drive Unlimited 2/savegame"
+    },
+    "9940": {
+        "folder": "|TBD|"
+    },
+    "9950": {
+        "folder": "|TBD|"
+    },
+    "9960": {
+        "folder": "|TBD|"
+    },
+    "9970": {
+        "folder": "|IN_USER_DATA|"
+    },
+    "9980": {
+        "folder": "|TBD|"
+    },
+    "9990": {
+        "folder": "|TBD|"
+    },
+    "10000": {
+        "folder": "%USERPROFILE%/Documents/id Software/Enemy Territory - QUAKE Wars/sdnet"
+    },
+    "10010": {
+        "folder": "|TBD|"
+    },
+    "10030": {
+        "folder": "|TBD|"
+    },
+    "10040": {
+        "folder": "|TBD|"
+    },
+    "10050": {
+        "folder": "|TBD|"
+    },
+    "10080": {
+        "folders": [
+            {
+                "Path": "%APPDATA%/Activision/Quantum of Solace/players",
+                "FriendlyName": "Main"
+            },
+            {
+                "Path": "%LOCALAPPDATA%/Microsoft/XLive/Content",
+                "FriendlyName": "AltMain"
+            }
+        ]
+    },
+    "10090": {
+        "folder": "%LOCALAPPDATA%/Activision/CoDWaW/players/profiles"
+    },
+    "10100": {
+        "folder": "|TBD|"
+    },
+    "10110": {
+        "folder": "|TBD|"
+    },
+    "10120": {
+        "folder": "|TBD|"
+    },
+    "10130": {
+        "folder": "|PATHTOGAME|/UserConfigs"
+    },
+    "10140": {
+        "folder": "|TBD|"
+    },
+    "10150": {
+        "folder": "%USERPROFILE%/Documents/Prototype"
+    },
+    "10160": {
+        "folder": "|PATHTOGAME|/Profiles"
+    },
+    "10170": {
+        "folder": "%LOCALAPPDATA%/id Software/WolfSP/base/savegames"
+    },
+    "10180": {
+        "folder": "|PATHTOGAME|/players"
+    },
+    "10190": {
+        "folder": "|NA|"
+    },
+    "10200": {
+        "folder": "|TBD|"
+    },
+    "10220": {
+        "folder": "|PATHTOGAME|/p3/SAVE"
+    },
+    "10230": {
+        "folder": "|PATHTOGAME|/p3/SAVE"
+    },
+    "10240": {
+        "folder": "|PATHTOGAME|/p3/SAVE"
+    },
+    "10250": {
+        "folder": "|TBD|"
+    },
+    "10260": {
+        "folder": "|TBD|"
+    },
+    "10270": {
+        "folder": "%USERPROFILE%/Documents/My Games/Disciples Reincarnation/Save"
+    },
+    "10400": {
+        "folder": "%USERPROFILE%/Documents/SEGA Rally/Saved Games"
+    },
+    "10410": {
+        "folder": "|TBD|"
+    },
+    "10420": {
+        "folder": "|TBD|"
+    },
+    "10440": {
+        "folder": "|TBD|"
+    },
+    "10460": {
+        "folder": "%PUBLIC%/Documents/The Club Game Save Data"
+    },
+    "11260": {
+        "folder": "|TBD|"
+    },
+    "11330": {
+        "folder": "|TBD|"
+    },
+    "11360": {
+        "folder": "|TBD|"
+    },
+    "11390": {
+        "folder": "|TBD|"
+    },
+    "11420": {
+        "folder": "|TBD|"
+    },
+    "11450": {
+        "folder": "|TBD|"
+    },
+    "11470": {
+        "folder": "|TBD|"
+    },
+    "11480": {
+        "folder": "|TBD|"
+    },
+    "11490": {
+        "folder": "%USERPROFILE%/Documents/Sega/Iron Man"
+    },
+    "11500": {
+        "folder": "%APPDATA%/The Creative Assembly/Empire/save_games"
+    },
+    "12100": {
+        "folder": "%USERPROFILE%/Documents/GTA3 User Files"
+    },
+    "12110": {
+        "folder": "%USERPROFILE%/Documents/GTA Vice City User Files"
+    },
+    "12120": {
+        "folder": "%USERPROFILE%/Documents/GTA San Andreas User Files"
+    },
+    "12210": {
+        "folders": [
+            {
+                "Path": "%LOCALAPPDATA%/Rockstar Games/GTA IV/savegames",
+                "FriendlyName": "Main"
+            },
+            {
+                "Path": "%USERPROFILE%/Documents/Rockstar Games/GTA IV/Profiles",
+                "FriendlyName": "CompleteEdition"
+            }
+        ]
+    },
+    "12710": {
+        "folder": "%USERPROFILE%/Documents/Overlord"
+    },
+    "12750": {
+        "folder": "%USERPROFILE%/Documents/Codemasters/GRID/savegame"
+    },
+    "12790": {
+        "folder": "|TBD|"
+    },
+    "12800": {
+        "folder": "%USERPROFILE%/Documents/My Games/FUEL"
+    },
+    "12810": {
+        "folder": "%USERPROFILE%/Documents/My Games/Overlord II"
+    },
+    "12830": {
+        "folder": "%USERPROFILE%/Documents/My Games/OFDR/Profiles"
+    },
+    "13520": {
+        "folder": "|PATHTOGAME|/Profiles"
+    },
+    "13540": {
+        "folder": "%USERPROFILE%/Documents/Ubisoft/R6Vegas"
+    },
+    "13600": {
+        "folder": "|TBD|"
+    },
+    "15000": {
+        "folder": "|TBD|"
+    },
+    "15100": {
+        "folder": "|TBD|"
+    },
+    "15120": {
+        "folder": "|TBD|"
+    },
+    "15320": {
+        "folder": "|TBD|"
+    },
+    "15700": {
+        "folder": "|TBD|"
+    },
+    "16450": {
+        "folder": "|TBD|"
+    },
+    "16730": {
+        "folder": "|TBD|"
+    },
+    "16810": {
+        "folder": "|TBD|"
+    },
+    "17300": {
+        "folder": "|TBD|"
+    },
+    "17330": {
+        "folder": "|TBD|"
+    },
+    "17340": {
+        "folder": "|TBD|"
+    },
+    "17410": {
+        "folder": "|TBD|"
+    },
+    "17450": {
+        "folder": "|TBD|"
+    },
+    "17470": {
+        "folder": "|TBD|"
+    },
+    "17710": {
+        "folder": "|TBD|"
+    },
+    "18110": {
+        "folder": "|TBD|"
+    },
+    "19830": {
+        "folder": "|TBD|"
+    },
+    "19840": {
+        "folder": "|TBD|"
+    },
+    "19900": {
+        "folder": "|TBD|"
+    },
+    "20500": {
+        "folder": "|TBD|"
+    },
+    "20530": {
+        "folder": "|TBD|"
+    },
+    "20550": {
+        "folder": "|TBD|"
+    },
+    "20900": {
+        "folder": "|TBD|"
+    },
+    "20920": {
+        "folder": "|TBD|"
+    },
+    "20930": {
+        "folder": "|TBD|"
+    },
+    "21000": {
+        "folder": "|TBD|"
+    },
+    "21090": {
+        "folder": "|TBD|"
+    },
+    "21110": {
+        "folder": "|TBD|"
+    },
+    "21100": {
+        "folder": "|TBD|"
+    },
+    "21120": {
+        "folder": "|TBD|"
+    },
+    "21800": {
+        "folder": "|TBD|"
+    },
+    "21980": {
+        "folder": "|TBD|"
+    },
+    "22110": {
+        "folder": "|TBD|"
+    },
+    "22200": {
+        "folder": "|TBD|"
+    },
+    "22208": {
+        "folder": "|TBD|"
+    },
+    "22230": {
+        "folder": "|TBD|"
+    },
+    "22370": {
+        "folder": "|TBD|"
+    },
+    "22380": {
+        "folder": "|TBD|"
+    },
+    "22610": {
+        "folder": "|TBD|"
+    },
+    "22650": {
+        "folder": "|TBD|"
+    },
+    "22670": {
+        "folder": "|TBD|"
+    },
+    "23400": {
+        "folder": "|TBD|"
+    },
+    "23490": {
+        "folder": "|TBD|"
+    },
+    "24240": {
+        "folder": "|TBD|"
+    },
+    "24670": {
+        "folder": "|TBD|"
+    },
+    "24740": {
+        "folder": "|TBD|"
+    },
+    "24800": {
+        "folder": "|TBD|"
+    },
+    "24840": {
+        "folder": "|TBD|"
+    },
+    "31100": {
+        "folder": "|TBD|"
+    },
+    "31110": {
+        "folder": "|TBD|"
+    },
+    "31120": {
+        "folder": "|TBD|"
+    },
+    "31130": {
+        "folder": "|TBD|"
+    },
+    "31170": {
+        "folder": "|TBD|"
+    },
+    "31180": {
+        "folder": "|TBD|"
+    },
+    "31190": {
+        "folder": "|TBD|"
+    },
+    "31200": {
+        "folder": "|TBD|"
+    },
+    "31210": {
+        "folder": "|TBD|"
+    },
+    "31270": {
+        "folder": "|TBD|"
+    },
+    "32350": {
+        "folder": "|TBD|"
+    },
+    "32370": {
+        "folder": "|TBD|"
+    },
+    "32380": {
+        "folder": "|TBD|"
+    },
+    "32390": {
+        "folder": "|TBD|"
+    },
+    "32400": {
+        "folder": "|TBD|"
+    },
+    "32420": {
+        "folder": "|TBD|"
+    },
+    "32430": {
+        "folder": "|TBD|"
+    },
+    "32440": {
+        "folder": "|TBD|"
+    },
+    "32470": {
+        "folder": "|TBD|"
+    },
+    "32500": {
+        "folder": "|TBD|"
+    },
+    "32510": {
+        "folder": "|TBD|"
+    },
+    "32800": {
+        "folder": "|TBD|"
+    },
+    "33100": {
+        "folder": "|TBD|"
+    },
+    "33120": {
+        "folder": "|TBD|"
+    },
+    "33130": {
+        "folder": "|TBD|"
+    },
+    "33180": {
+        "folder": "|TBD|"
+    },
+    "33230": {
+        "folder": "|TBD|"
+    },
+    "33900": {
+        "folder": "|TBD|"
+    },
+    "33905": {
+        "folder": "|TBD|"
+    },
+    "33910": {
+        "folder": "|TBD|"
+    },
+    "33930": {
+        "folder": "|TBD|"
+    },
+    "33950": {
+        "folder": "|TBD|"
+    },
+    "34010": {
+        "folder": "|TBD|"
+    },
+    "34190": {
+        "file": "|PATHTOGAME|/ssr_save.bin"
+    },
+    "34830": {
+        "folder": "|TBD|"
+    },
+    "34870": {
+        "folder": "|TBD|"
+    },
+    "35050": {
+        "folder": "|TBD|"
+    },
+    "35140": {
+        "folder": "|TBD|"
+    },
+    "35450": {
+        "folder": "|TBD|"
+    },
+    "35480": {
+        "folder": "|TBD|"
+    },
+    "35700": {
+        "folder": "|TBD|"
+    },
+    "35720": {
+        "folder": "|TBD|"
+    },
+    "37100": {
+        "folder": "|TBD|"
+    },
+    "37400": {
+        "folder": "|TBD|"
+    },
+    "37420": {
+        "folder": "|TBD|"
+    },
+    "38220": {
+        "folder": "|TBD|"
+    },
+    "39500": {
+        "folder": "|TBD|"
+    },
+    "39510": {
+        "folder": "|TBD|"
+    },
+    "39530": {
+        "folder": "|TBD|"
+    },
+    "39560": {
+        "folder": "|TBD|"
+    },
+    "39690": {
+        "folder": "|TBD|"
+    },
+    "40300": {
+        "folder": "|TBD|"
+    },
+    "40390": {
+        "folder": "|TBD|"
+    },
+    "42120": {
+        "folder": "|TBD|"
+    },
+    "42680": {
+        "folder": "|TBD|"
+    },
+    "42690": {
+        "folder": "|TBD|"
+    },
+    "42750": {
+        "folder": "|TBD|"
+    },
+    "42910": {
+        "folder": "|TBD|"
+    },
+    "43110": {
+        "folder": "|TBD|"
+    },
+    "44340": {
+        "folder": "|TBD|"
+    },
+    "45740": {
+        "folder": "|TBD|"
+    },
+    "46410": {
+        "folder": "|TBD|"
+    },
+    "46500": {
+        "folder": "|TBD|"
+    },
+    "46510": {
+        "folder": "|TBD|"
+    },
+    "47780": {
+        "folder": "|TBD|"
+    },
+    "47790": {
+        "folder": "|TBD|"
+    },
+    "47800": {
+        "folder": "|TBD|"
+    },
+    "47830": {
+        "folder": "|TBD|"
+    },
+    "47810": {
+        "folder": "%USERPROFILE%/Documents/BioWare/Dragon Age/Characters"
+    },
+    "48190": {
+        "folder": "|TBD|"
+    },
+    "48710": {
+        "folder": "|TBD|"
+    },
+    "49520": {
+        "folder": "|TBD|"
+    },
+    "50130": {
+        "folder": "|TBD|"
+    },
+    "50300": {
+        "folder": "|TBD|"
+    },
+    "50620": {
+        "folder": "|TBD|"
+    },
+    "50650": {
+        "folder": "|TBD|"
+    },
+    "55100": {
+        "folder": "|TBD|"
+    },
+    "55110": {
+        "folder": "|TBD|"
+    },
+    "55230": {
+        "folder": "|TBD|"
+    },
+    "56400": {
+        "folder": "|TBD|"
+    },
+    "57300": {
+        "folder": "|TBD|"
+    },
+    "57600": {
+        "folder": "|TBD|"
+    },
+    "57690": {
+        "folder": "|TBD|"
+    },
+    "57900": {
+        "folder": "|TBD|"
+    },
+    "63380": {
+        "folder": "|TBD|"
+    },
+    "65540": {
+        "folder": "|TBD|"
+    },
+    "65560": {
+        "folder": "|TBD|"
+    },
+    "65600": {
+        "folder": "|TBD|"
+    },
+    "65610": {
+        "folder": "|TBD|"
+    },
+    "65700": {
+        "folder": "|TBD|"
+    },
+    "65720": {
+        "folder": "|TBD|"
+    },
+    "65730": {
+        "folder": "|TBD|"
+    },
+    "65780": {
+        "folder": "|TBD|"
+    },
+    "65930": {
+        "folder": "|TBD|"
+    },
+    "65980": {
+        "folder": "%USERPROFILE%/Documents/My Games/Sid Meier's Civilization Beyond Earth/Saves"
+    },
+    "67370": {
+        "folder": "|TBD|"
+    },
+    "70000": {
+        "folder": "|TBD|"
+    },
+    "70100": {
+        "folder": "|TBD|"
+    },
+    "70110": {
+        "folder": "|TBD|"
+    },
+    "70120": {
+        "folder": "|TBD|"
+    },
+    "70900": {
+        "folder": "|TBD|"
+    },
+    "71250": {
+        "folder": "|TBD|"
+    },
+    "71340": {
+        "folder": "|TBD|"
+    },
+    "72200": {
+        "folder": "|TBD|"
+    },
+    "72850": {
+        "folder": "|TBD|"
+    },
+    "78000": {
+        "folder": "|TBD|"
+    },
+    "91200": {
+        "folder": "|TBD|"
+    },
+    "91310": {
+        "folder": "|TBD|"
+    },
+    "91600": {
+        "folder": "|TBD|"
+    },
+    "91604": {
+        "folder": "|TBD|"
+    },
+    "92000": {
+        "folder": "|TBD|"
+    },
+    "94300": {
+        "folder": "|TBD|"
+    },
+    "94590": {
+        "folder": "|TBD|"
+    },
+    "98900": {
+        "folder": "|TBD|"
+    },
+    "102600": {
+        "folder": "|TBD|"
+    },
+    "105000": {
+        "folder": "|TBD|"
+    },
+    "105600": {
+        "folder": "|TBD|"
+    },
+    "108200": {
+        "folder": "|TBD|"
+    },
+    "108800": {
+        "folder": "|TBD|"
+    },
+    "200260": {
+        "folder": "|TBD|"
+    },
+    "200510": {
+        "folder": "|TBD|"
+    },
+    "201570": {
+        "folder": "|TBD|"
+    },
+    "201790": {
+        "folder": "|TBD|"
+    },
+    "201809": {
+        "folder": "|TBD|"
+    },
+    "201810": {
+        "folder": "|TBD|"
+    },
+    "202090": {
+        "folder": "|TBD|"
+    },
+    "202170": {
+        "folder": "|TBD|"
+    },
+    "202480": {
+        "folder": "|TBD|"
+    },
+    "202530": {
+        "folder": "|TBD|"
+    },
+    "202970": {
+        "folder": "|TBD|"
+    },
+    "202990": {
+        "folder": "|TBD|"
+    },
+    "203160": {
+        "folder": "|TBD|"
+    },
+    "203630": {
+        "folder": "|TBD|"
+    },
+    "203650": {
+        "folder": "|TBD|"
+    },
+    "203770": {
+        "folder": "|TBD|"
+    },
+    "203830": {
+        "folder": "|TBD|"
+    },
+    "204100": {
+        "folder": "|TBD|"
+    },
+    "204360": {
+        "folder": "|IN_USER_DATA|"
+    },
+    "204450": {
+        "folder": "|TBD|"
+    },
+    "204880": {
+        "folder": "|TBD|"
+    },
+    "204940": {
+        "folder": "|TBD|"
+    },
+    "205020": {
+        "folder": "|TBD|"
+    },
+    "205100": {
+        "folder": "|TBD|"
+    },
+    "205230": {
+        "folder": "|TBD|"
+    },
+    "206420": {
+        "folder": "|TBD|"
+    },
+    "206690": {
+        "folder": "|TBD|"
+    },
+    "206760": {
+        "folder": "|TBD|"
+    },
+    "207610": {
+        "folder": "|TBD|"
+    },
+    "208200": {
+        "folder": "|TBD|"
+    },
+    "208480": {
+        "folder": "|TBD|"
+    },
+    "208580": {
+        "folder": "|TBD|"
+    },
+    "208650": {
+        "folder": "|TBD|"
+    },
+    "208670": {
+        "folder": "|TBD|"
+    },
+    "209000": {
+        "folder": "|TBD|"
+    },
+    "209160": {
+        "folder": "|TBD|"
+    },
+    "209170": {
+        "folder": "|TBD|"
+    },
+    "209670": {
+        "folder": "|TBD|"
+    },
+    "210770": {
+        "folder": "|TBD|"
+    },
+    "210970": {
+        "folder": "|TBD|"
+    },
+    "211010": {
+        "folder": "|TBD|"
+    },
+    "211500": {
+        "folder": "|TBD|"
+    },
+    "211600": {
+        "folder": "|TBD|"
+    },
+    "211740": {
+        "folder": "|TBD|"
+    },
+    "212010": {
+        "folder": "|TBD|"
+    },
+    "212480": {
+        "folder": "|TBD|"
+    },
+    "212910": {
+        "folder": "|TBD|"
+    },
+    "213330": {
+        "folder": "|TBD|"
+    },
+    "213610": {
+        "folder": "|TBD|"
+    },
+    "214340": {
+        "folder": "|TBD|"
+    },
+    "214510": {
+        "folder": "|TBD|"
+    },
+    "214870": {
+        "folder": "|TBD|"
+    },
+    "214910": {
+        "folder": "|TBD|"
+    },
+    "215690": {
+        "folder": "|TBD|"
+    },
+    "218620": {
+        "folder": "|TBD|"
+    },
+    "218740": {
+        "folder": "|TBD|"
+    },
+    "219150": {
+        "folder": "|TBD|"
+    },
+    "219910": {
+        "folder": "|TBD|"
+    },
+    "220200": {
+        "folder": "|TBD|"
+    },
+    "220240": {
+        "folder": "|TBD|"
+    },
+    "220740": {
+        "folder": "|TBD|"
+    },
+    "221380": {
+        "folder": "|TBD|"
+    },
+    "221680": {
+        "folder": "|TBD|"
+    },
+    "221910": {
+        "folder": "|TBD|"
+    },
+    "222880": {
+        "folder": "|TBD|"
+    },
+    "222900": {
+        "folder": "|TBD|"
+    },
+    "223100": {
+        "folder": "|TBD|"
+    },
+    "223470": {
+        "folder": "|TBD|"
+    },
+    "223750": {
+        "folder": "|TBD|"
+    },
+    "223850": {
+        "folder": "|TBD|"
+    },
+    "224420": {
+        "folder": "|TBD|"
+    },
+    "224480": {
+        "folder": "|TBD|"
+    },
+    "224580": {
+        "folder": "|TBD|"
+    },
+    "224860": {
+        "folder": "|TBD|"
+    },
+    "224960": {
+        "folder": "|TBD|"
+    },
+    "224980": {
+        "folder": "|TBD|"
+    },
+    "225000": {
+        "folder": "|TBD|"
+    },
+    "225020": {
+        "folder": "|TBD|"
+    },
+    "225260": {
+        "folder": "|TBD|"
+    },
+    "225280": {
+        "folder": "|TBD|"
+    },
+    "225300": {
+        "folder": "|TBD|"
+    },
+    "225320": {
+        "folder": "|TBD|"
+    },
+    "225540": {
+        "folder": "|TBD|"
+    },
+    "225640": {
+        "folder": "|TBD|"
+    },
+    "226120": {
+        "folder": "|TBD|"
+    },
+    "226840": {
+        "folder": "|TBD|"
+    },
+    "227100": {
+        "folder": "|TBD|"
+    },
+    "227300": {
+        "folder": "|TBD|"
+    },
+    "228200": {
+        "folder": "|TBD|"
+    },
+    "228260": {
+        "folder": "|TBD|"
+    },
+    "228880": {
+        "folder": "|TBD|"
+    },
+    "228980": {
+        "folder": "|NA|"
+    },
+    "230290": {
+        "folder": "|TBD|"
+    },
+    "230410": {
+        "folder": "|TBD|"
+    },
+    "230820": {
+        "folder": "|TBD|"
+    },
+    "231430": {
+        "folder": "|TBD|"
+    },
+    "232010": {
+        "folder": "|TBD|"
+    },
+    "232950": {
+        "folder": "|TBD|"
+    },
+    "232970": {
+        "folder": "|TBD|"
+    },
+    "233270": {
+        "folder": "|TBD|"
+    },
+    "233720": {
+        "folder": "|TBD|"
+    },
+    "234140": {
+        "folder": "|TBD|"
+    },
+    "234190": {
+        "folder": "|TBD|"
+    },
+    "234390": {
+        "folder": "|TBD|"
+    },
+    "234650": {
+        "folder": "|TBD|"
+    },
+    "234670": {
+        "folder": "|TBD|"
+    },
+    "234940": {
+        "folder": "|TBD|"
+    },
+    "235250": {
+        "folder": "|TBD|"
+    },
+    "235540": {
+        "filter": "%APPDATA%/Fatshark/Warhammer End Times Vermintide/*.sav"
+    },
+    "235620": {
+        "folder": "|TBD|"
+    },
+    "236370": {
+        "folder": "|TBD|"
+    },
+    "236690": {
+        "folder": "|TBD|"
+    },
+    "236830": {
+        "folder": "|TBD|"
+    },
+    "236870": {
+        "folder": "|TBD|"
+    },
+    "237950": {
+        "folder": "|TBD|"
+    },
+    "238090": {
+        "folder": "|TBD|"
+    },
+    "238320": {
+        "folder": "|TBD|"
+    },
+    "238890": {
+        "folder": "|TBD|"
+    },
+    "238960": {
+        "folder": "|TBD|"
+    },
+    "239160": {
+        "folder": "|TBD|"
+    },
+    "239200": {
+        "folder": "|TBD|"
+    },
+    "239450": {
+        "folder": "|TBD|"
+    },
+    "241910": {
+        "folder": "|TBD|"
+    },
+    "241930": {
+        "folder": "|TBD|"
+    },
+    "242050": {
+        "folder": "|TBD|"
+    },
+    "242590": {
+        "folder": "|TBD|"
+    },
+    "242640": {
+        "folder": "|TBD|"
+    },
+    "242700": {
+        "folder": "|TBD|"
+    },
+    "242760": {
+        "folder": "|TBD|"
+    },
+    "243140": {
+        "folder": "|TBD|"
+    },
+    "243200": {
+        "folder": "|TBD|"
+    },
+    "243800": {
+        "folder": "|TBD|"
+    },
+    "244070": {
+        "folder": "|TBD|"
+    },
+    "244090": {
+        "folder": "|TBD|"
+    },
+    "244210": {
+        "folder": "|TBD|"
+    },
+    "244730": {
+        "folder": "|TBD|"
+    },
+    "244850": {
+        "folder": "|TBD|"
+    },
+    "245620": {
+        "folder": "|TBD|"
+    },
+    "246620": {
+        "folder": "|TBD|"
+    },
+    "247910": {
+        "folder": "|TBD|"
+    },
+    "248370": {
+        "folder": "|TBD|"
+    },
+    "248820": {
+        "folder": "|TBD|"
+    },
+    "249230": {
+        "folder": "|TBD|"
+    },
+    "249650": {
+        "folder": "|TBD|"
+    },
+    "250320": {
+        "folder": "|TBD|"
+    },
+    "250460": {
+        "folder": "|TBD|"
+    },
+    "251130": {
+        "folder": "|TBD|"
+    },
+    "251850": {
+        "folder": "|TBD|"
+    },
+    "252310": {
+        "folder": "|TBD|"
+    },
+    "252730": {
+        "folder": "|TBD|"
+    },
+    "252850": {
+        "folder": "|TBD|"
+    },
+    "252950": {
+        "folder": "|TBD|"
+    },
+    "253430": {
+        "folder": "|TBD|"
+    },
+    "253900": {
+        "folder": "|TBD|"
+    },
+    "253980": {
+        "folder": "|TBD|"
+    },
+    "254000": {
+        "folder": "|TBD|"
+    },
+    "254020": {
+        "folder": "|TBD|"
+    },
+    "254060": {
+        "folder": "|TBD|"
+    },
+    "254430": {
+        "folder": "|TBD|"
+    },
+    "255280": {
+        "folder": "|TBD|"
+    },
+    "255320": {
+        "folder": "|TBD|"
+    },
+    "255710": {
+        "folder": "|TBD|"
+    },
+    "257850": {
+        "folder": "|TBD|"
+    },
+    "257890": {
+        "folder": "|TBD|"
+    },
+    "258890": {
+        "folder": "|TBD|"
+    },
+    "259280": {
+        "folder": "|TBD|"
+    },
+    "259940": {
+        "folder": "|TBD|"
+    },
+    "259960": {
+        "folder": "|TBD|"
+    },
+    "259980": {
+        "folder": "|TBD|"
+    },
+    "260000": {
+        "folder": "|TBD|"
+    },
+    "260020": {
+        "folder": "|TBD|"
+    },
+    "260040": {
+        "folder": "|TBD|"
+    },
+    "260060": {
+        "folder": "|TBD|"
+    },
+    "260330": {
+        "folder": "|TBD|"
+    },
+    "261030": {
+        "folder": "|TBD|"
+    },
+    "261180": {
+        "folder": "|TBD|"
+    },
+    "261470": {
+        "folder": "|TBD|"
+    },
+    "261510": {
+        "folder": "|TBD|"
+    },
+    "261640": {
+        "folder": "|TBD|"
+    },
+    "262150": {
+        "folder": "|TBD|"
+    },
+    "262280": {
+        "folder": "|TBD|"
+    },
+    "264320": {
+        "folder": "|TBD|"
+    },
+    "265590": {
+        "folder": "|TBD|"
+    },
+    "267490": {
+        "folder": "|TBD|"
+    },
+    "267900": {
+        "folder": "|TBD|"
+    },
+    "267940": {
+        "folder": "|TBD|"
+    },
+    "267960": {
+        "folder": "|TBD|"
+    },
+    "268130": {
+        "folder": "|TBD|"
+    },
+    "268240": {
+        "folder": "|TBD|"
+    },
+    "268500": {
+        "folder": "|TBD|"
+    },
+    "268540": {
+        "folder": "|TBD|"
+    },
+    "268910": {
+        "folder": "|TBD|"
+    },
+    "271240": {
+        "folder": "|TBD|"
+    },
+    "271260": {
+        "folder": "|TBD|"
+    },
+    "271590": {
+        "folder": "%USERPROFILE%/Documents/Rockstar Games/GTA V/Profiles"
+    },
+    "271860": {
+        "folder": "|TBD|"
+    },
+    "272060": {
+        "folder": "|TBD|"
+    },
+    "272510": {
+        "folder": "|TBD|"
+    },
+    "272890": {
+        "folder": "|TBD|"
+    },
+    "274190": {
+        "folder": "|TBD|"
+    },
+    "274310": {
+        "folder": "|TBD|"
+    },
+    "275490": {
+        "folder": "|TBD|"
+    },
+    "276810": {
+        "folder": "|TBD|"
+    },
+    "277430": {
+        "folder": "|IN_USER_DATA|"
+    },
+    "277950": {
+        "folder": "|TBD|"
+    },
+    "278360": {
+        "folder": "|TBD|"
+    },
+    "280160": {
+        "folder": "|TBD|"
+    },
+    "280180": {
+        "folder": "|TBD|"
+    },
+    "281060": {
+        "folder": "|TBD|"
+    },
+    "281410": {
+        "folder": "|TBD|"
+    },
+    "281990": {
+        "folder": "|TBD|"
+    },
+    "282070": {
+        "folder": "|TBD|"
+    },
+    "283270": {
+        "folder": "|TBD|"
+    },
+    "283370": {
+        "folder": "|TBD|"
+    },
+    "283430": {
+        "folder": "|TBD|"
+    },
+    "284950": {
+        "folder": "|TBD|"
+    },
+    "285160": {
+        "folder": "|TBD|"
+    },
+    "286000": {
+        "folder": "|TBD|"
+    },
+    "286120": {
+        "folder": "|TBD|"
+    },
+    "286160": {
+        "folder": "|TBD|"
+    },
+    "286360": {
+        "folder": "|TBD|"
+    },
+    "287100": {
+        "folder": "|TBD|"
+    },
+    "287120": {
+        "folder": "|TBD|"
+    },
+    "287290": {
+        "folder": "|TBD|"
+    },
+    "287630": {
+        "folder": "|TBD|"
+    },
+    "287700": {
+        "folder": "|TBD|"
+    },
+    "287980": {
+        "folder": "|TBD|"
+    },
+    "288060": {
+        "folder": "|TBD|"
+    },
+    "289070": {
+        "folder": "|TBD|"
+    },
+    "289090": {
+        "folder": "|TBD|"
+    },
+    "289650": {
+        "folder": "|TBD|"
+    },
+    "290080": {
+        "folder": "|TBD|"
+    },
+    "291550": {
+        "folder": "|TBD|"
+    },
+    "291710": {
+        "folder": "|TBD|"
+    },
+    "292030": {
+        "folder": "|TBD|"
+    },
+    "292380": {
+        "folder": "|TBD|"
+    },
+    "295790": {
+        "folder": "|TBD|"
+    },
+    "296050": {
+        "folder": "|TBD|"
+    },
+    "297020": {
+        "folder": "|TBD|"
+    },
+    "297740": {
+        "folder": "|TBD|"
+    },
+    "298110": {
+        "folder": "|TBD|"
+    },
+    "298630": {
+        "folder": "|TBD|"
+    },
+    "298900": {
+        "folder": "|TBD|"
+    },
+    "299260": {
+        "folder": "|TBD|"
+    },
+    "299460": {
+        "folder": "|TBD|"
+    },
+    "300220": {
+        "folder": "|TBD|"
+    },
+    "301640": {
+        "folder": "|TBD|"
+    },
+    "301670": {
+        "folder": "|TBD|"
+    },
+    "301750": {
+        "folder": "|TBD|"
+    },
+    "301910": {
+        "folder": "|TBD|"
+    },
+    "301970": {
+        "folder": "|TBD|"
+    },
+    "302510": {
+        "folder": "|TBD|"
+    },
+    "303390": {
+        "folder": "|TBD|"
+    },
+    "303800": {
+        "folder": "|TBD|"
+    },
+    "304930": {
+        "folder": "|TBD|"
+    },
+    "305980": {
+        "folder": "|TBD|"
+    },
+    "306040": {
+        "folder": "|TBD|"
+    },
+    "306350": {
+        "folder": "|TBD|"
+    },
+    "307070": {
+        "folder": "|TBD|"
+    },
+    "307110": {
+        "folder": "|TBD|"
+    },
+    "307350": {
+        "folder": "|TBD|"
+    },
+    "307780": {
+        "folder": "|TBD|"
+    },
+    "308600": {
+        "folder": "|TBD|"
+    },
+    "310380": {
+        "folder": "|TBD|"
+    },
+    "311190": {
+        "folder": "|TBD|"
+    },
+    "311340": {
+        "folder": "|TBD|"
+    },
+    "311560": {
+        "folder": "|TBD|"
+    },
+    "311730": {
+        "folder": "|TBD|"
+    },
+    "312660": {
+        "folder": "|TBD|"
+    },
+    "312840": {
+        "folder": "|TBD|"
+    },
+    "312990": {
+        "folder": "|TBD|"
+    },
+    "313040": {
+        "folder": "|TBD|"
+    },
+    "313690": {
+        "folder": "|TBD|"
+    },
+    "314030": {
+        "folder": "|TBD|"
+    },
+    "314790": {
+        "folder": "|TBD|"
+    },
+    "314830": {
+        "folder": "|TBD|"
+    },
+    "315260": {
+        "folder": "|TBD|"
+    },
+    "316010": {
+        "folder": "|TBD|"
+    },
+    "318600": {
+        "folder": "|TBD|"
+    },
+    "319270": {
+        "folder": "|TBD|"
+    },
+    "319540": {
+        "folder": "|TBD|"
+    },
+    "319630": {
+        "folder": "|TBD|"
+    },
+    "319910": {
+        "folder": "|TBD|"
+    },
+    "320140": {
+        "folder": "|TBD|"
+    },
+    "321260": {
+        "folder": "|TBD|"
+    },
+    "321360": {
+        "folder": "|TBD|"
+    },
+    "322110": {
+        "folder": "|TBD|"
+    },
+    "322450": {
+        "folder": "|TBD|"
+    },
+    "322500": {
+        "folder": "|TBD|"
+    },
+    "324570": {
+        "folder": "|IN_USER_DATA|"
+    },
+    "325180": {
+        "folder": "|TBD|"
+    },
+    "325520": {
+        "folder": "|TBD|"
+    },
+    "327220": {
+        "folder": "|TBD|"
+    },
+    "329380": {
+        "folder": "|TBD|"
+    },
+    "329440": {
+        "folder": "|TBD|"
+    },
+    "330830": {
+        "folder": "|TBD|"
+    },
+    "331480": {
+        "folder": "|TBD|"
+    },
+    "331670": {
+        "folder": "|TBD|"
+    },
+    "331870": {
+        "folder": "|TBD|"
+    },
+    "332310": {
+        "folder": "|TBD|"
+    },
+    "332740": {
+        "folder": "|TBD|"
+    },
+    "332970": {
+        "folder": "|TBD|"
+    },
+    "333300": {
+        "folder": "|TBD|"
+    },
+    "333950": {
+        "folder": "|TBD|"
+    },
+    "334690": {
+        "folder": "|TBD|"
+    },
+    "334940": {
+        "folder": "|TBD|"
+    },
+    "335300": {
+        "folder": "|TBD|"
+    },
+    "335430": {
+        "folder": "|TBD|"
+    },
+    "338550": {
+        "folder": "|TBD|"
+    },
+    "339470": {
+        "folder": "|TBD|"
+    },
+    "340200": {
+        "folder": "|TBD|"
+    },
+    "343100": {
+        "folder": "|TBD|"
+    },
+    "346010": {
+        "folder": "|TBD|"
+    },
+    "347600": {
+        "folder": "|TBD|"
+    },
+    "348550": {
+        "folder": "|TBD|"
+    },
+    "349730": {
+        "folder": "|TBD|"
+    },
+    "350080": {
+        "folder": "|TBD|"
+    },
+    "351030": {
+        "folder": "|TBD|"
+    },
+    "351510": {
+        "folder": "|TBD|"
+    },
+    "351970": {
+        "folder": "|TBD|"
+    },
+    "354350": {
+        "folder": "|TBD|"
+    },
+    "354430": {
+        "folder": "|TBD|"
+    },
+    "355250": {
+        "folder": "|TBD|"
+    },
+    "355790": {
+        "folder": "|TBD|"
+    },
+    "356040": {
+        "folder": "|TBD|"
+    },
+    "356190": {
+        "folder": "|TBD|"
+    },
+    "356500": {
+        "folder": "|TBD|"
+    },
+    "358280": {
+        "folder": "|TBD|"
+    },
+    "358920": {
+        "folder": "|TBD|"
+    },
+    "358930": {
+        "folder": "|TBD|"
+    },
+    "359550": {
+        "folder": "|TBD|"
+    },
+    "359840": {
+        "folder": "|TBD|"
+    },
+    "360170": {
+        "folder": "|TBD|"
+    },
+    "360430": {
+        "folder": "|TBD|"
+    },
+    "360830": {
+        "folder": "|TBD|"
+    },
+    "361670": {
+        "folder": "|TBD|"
+    },
+    "361690": {
+        "folder": "|TBD|"
+    },
+    "362930": {
+        "folder": "|TBD|"
+    },
+    "365670": {
+        "folder": "|NA|"
+    },
+    "366910": {
+        "folder": "|TBD|"
+    },
+    "368230": {
+        "folder": "|TBD|"
+    },
+    "368390": {
+        "folder": "|TBD|"
+    },
+    "368500": {
+        "folder": "|TBD|"
+    },
+    "370360": {
+        "folder": "|TBD|"
+    },
+    "371660": {
+        "folder": "|TBD|"
+    },
+    "374040": {
+        "folder": "|TBD|"
+    },
+    "374320": {
+        "folder": "|TBD|"
+    },
+    "374900": {
+        "folder": "|TBD|"
+    },
+    "375820": {
+        "folder": "|TBD|"
+    },
+    "376300": {
+        "folder": "|TBD|"
+    },
+    "376680": {
+        "folder": "|TBD|"
+    },
+    "378540": {
+        "folder": "|TBD|"
+    },
+    "378720": {
+        "folder": "|TBD|"
+    },
+    "379430": {
+        "folder": "|TBD|"
+    },
+    "379720": {
+        "folder": "|TBD|"
+    },
+    "381210": {
+        "folder": "|TBD|"
+    },
+    "383120": {
+        "folder": "|TBD|"
+    },
+    "383180": {
+        "folder": "|TBD|"
+    },
+    "383270": {
+        "folder": "|TBD|"
+    },
+    "383840": {
+        "folder": "%USERPROFILE%/AppData/LocalLow/Nimbatus/Nimbatus/Saves"
+    },
+    "384190": {
+        "folder": "|TBD|"
+    },
+    "384310": {
+        "folder": "|TBD|"
+    },
+    "385200": {
+        "folder": "|TBD|"
+    },
+    "386940": {
+        "folder": "|TBD|"
+    },
+    "388410": {
+        "folder": "|TBD|"
+    },
+    "389670": {
+        "folder": "|TBD|"
+    },
+    "389730": {
+        "folder": "|TBD|"
+    },
+    "390720": {
+        "folder": "|TBD|"
+    },
+    "391220": {
+        "folder": "|TBD|"
+    },
+    "391540": {
+        "folder": "|TBD|"
+    },
+    "391720": {
+        "folder": "|TBD|"
+    },
+    "392110": {
+        "folder": "|TBD|"
+    },
+    "393420": {
+        "folder": "|TBD|"
+    },
+    "394360": {
+        "folder": "|TBD|"
+    },
+    "395980": {
+        "folder": "|TBD|"
+    },
+    "396050": {
+        "folder": "|TBD|"
+    },
+    "396900": {
+        "folder": "|TBD|"
+    },
+    "397460": {
+        "folder": "|TBD|"
+    },
+    "398850": {
+        "folder": "|TBD|"
+    },
+    "399810": {
+        "folder": "|TBD|"
+    },
+    "400080": {
+        "folder": "|TBD|"
+    },
+    "400450": {
+        "folder": "|TBD|"
+    },
+    "401680": {
+        "folder": "|TBD|"
+    },
+    "403430": {
+        "folder": "|TBD|"
+    },
+    "403640": {
+        "folder": "|TBD|"
+    },
+    "405310": {
+        "folder": "|TBD|"
+    },
+    "406350": {
+        "folder": "|TBD|"
+    },
+    "409710": {
+        "folder": "|TBD|"
+    },
+    "409720": {
+        "folder": "|TBD|"
+    },
+    "410590": {
+        "folder": "|TBD|"
+    },
+    "411300": {
+        "folder": "|TBD|"
+    },
+    "412020": {
+        "folder": "|TBD|"
+    },
+    "412770": {
+        "folder": "|TBD|"
+    },
+    "414340": {
+        "folder": "|TBD|"
+    },
+    "416790": {
+        "folder": "|TBD|"
+    },
+    "417290": {
+        "folder": "|TBD|"
+    },
+    "418240": {
+        "folder": "|TBD|"
+    },
+    "418460": {
+        "folder": "|TBD|"
+    },
+    "421050": {
+        "folder": "|TBD|"
+    },
+    "421170": {
+        "folder": "|TBD|"
+    },
+    "421800": {
+        "folder": "|TBD|"
+    },
+    "424280": {
+        "folder": "|TBD|"
+    },
+    "424840": {
+        "folder": "|TBD|"
+    },
+    "426000": {
+        "folder": "|TBD|"
+    },
+    "429570": {
+        "folder": "|TBD|"
+    },
+    "429660": {
+        "folder": "|TBD|"
+    },
+    "431240": {
+        "folder": "|TBD|"
+    },
+    "431940": {
+        "folder": "|TBD|"
+    },
+    "432150": {
+        "folder": "|TBD|"
+    },
+    "433170": {
+        "folder": "|TBD|"
+    },
+    "434170": {
+        "folder": "|TBD|"
+    },
+    "437000": {
+        "folder": "|TBD|"
+    },
+    "437630": {
+        "folder": "|TBD|"
+    },
+    "438640": {
+        "folder": "|TBD|"
+    },
+    "438740": {
+        "folder": "|TBD|"
+    },
+    "440900": {
+        "folder": "|TBD|"
+    },
+    "441550": {
+        "folder": "|TBD|"
+    },
+    "442070": {
+        "folder": "|TBD|"
+    },
+    "444640": {
+        "folder": "|TBD|"
+    },
+    "446150": {
+        "folder": "|TBD|"
+    },
+    "448080": {
+        "folder": "|TBD|"
+    },
+    "448510": {
+        "folder": "|TBD|"
+    },
+    "449510": {
+        "folder": "|TBD|"
+    },
+    "452280": {
+        "folder": "|TBD|"
+    },
+    "455400": {
+        "folder": "|TBD|"
+    },
+    "455910": {
+        "folder": "|TBD|"
+    },
+    "456540": {
+        "folder": "|TBD|"
+    },
+    "457480": {
+        "folder": "|TBD|"
+    },
+    "459220": {
+        "folder": "|PATHTOGAME|/savegame"
+    },
+    "460950": {
+        "folder": "|TBD|"
+    },
+    "462780": {
+        "folder": "|TBD|"
+    },
+    "464340": {
+        "folder": "|TBD|"
+    },
+    "464920": {
+        "folder": "|TBD|"
+    },
+    "465200": {
+        "folder": "|TBD|"
+    },
+    "466130": {
+        "folder": "|TBD|"
+    },
+    "471550": {
+        "folder": "|TBD|"
+    },
+    "471810": {
+        "folder": "|TBD|"
+    },
+    "475150": {
+        "folder": "|TBD|"
+    },
+    "484900": {
+        "folder": "|TBD|"
+    },
+    "485510": {
+        "folder": "|TBD|"
+    },
+    "488770": {
+        "folder": "|TBD|"
+    },
+    "489520": {
+        "folder": "|TBD|"
+    },
+    "489610": {
+        "folder": "|TBD|"
+    },
+    "489630": {
+        "folder": "|TBD|"
+    },
+    "490990": {
+        "folder": "|TBD|"
+    },
+    "492720": {
+        "folder": "|TBD|"
+    },
+    "493540": {
+        "folder": "|TBD|"
+    },
+    "493900": {
+        "folder": "|TBD|"
+    },
+    "495420": {
+        "folder": "|TBD|"
+    },
+    "496300": {
+        "folder": "|TBD|"
+    },
+    "498240": {
+        "folder": "|TBD|"
+    },
+    "499900": {
+        "folder": "|TBD|"
+    },
+    "502370": {
+        "folder": "|TBD|"
+    },
+    "504130": {
+        "folder": "|TBD|"
+    },
+    "504210": {
+        "folder": "|TBD|"
+    },
+    "505230": {
+        "folder": "|TBD|"
+    },
+    "507010": {
+        "folder": "|TBD|"
+    },
+    "507490": {
+        "folder": "|TBD|"
+    },
+    "508440": {
+        "folder": "|TBD|"
+    },
+    "509580": {
+        "folder": "|TBD|"
+    },
+    "513710": {
+        "folder": "|TBD|"
+    },
+    "518790": {
+        "folder": "|TBD|"
+    },
+    "520440": {
+        "folder": "|TBD|"
+    },
+    "524010": {
+        "folder": "|TBD|"
+    },
+    "526160": {
+        "folder": "|TBD|"
+    },
+    "527230": {
+        "folder": "|TBD|"
+    },
+    "532210": {
+        "folder": "%LOCALAPPDATA%/Dontnod"
+    },
+    "535480": {
+        "folder": "|TBD|"
+    },
+    "536220": {
+        "folder": "|TBD|"
+    },
+    "536270": {
+        "folder": "|TBD|"
+    },
+    "537340": {
+        "folder": "|TBD|"
+    },
+    "537800": {
+        "folder": "|TBD|"
+    },
+    "541300": {
+        "folder": "|TBD|"
+    },
+    "544610": {
+        "folder": "|TBD|"
+    },
+    "544750": {
+        "folder": "|TBD|"
+    },
+    "551770": {
+        "folder": "|TBD|"
+    },
+    "552500": {
+        "folder": "|TBD|"
+    },
+    "552520": {
+        "folder": "|TBD|"
+    },
+    "552990": {
+        "folder": "|TBD|"
+    },
+    "553310": {
+        "folder": "|TBD|"
+    },
+    "556900": {
+        "folder": "|TBD|"
+    },
+    "563840": {
+        "folder": "|TBD|"
+    },
+    "570940": {
+        "folder": "|TBD|"
+    },
+    "572410": {
+        "folder": "|TBD|"
+    },
+    "573120": {
+        "folder": "|TBD|"
+    },
+    "577940": {
+        "folder": "|TBD|"
+    },
+    "578330": {
+        "folder": "|TBD|"
+    },
+    "578650": {
+        "folder": "|TBD|"
+    },
+    "582010": {
+        "folder": "|TBD|"
+    },
+    "582160": {
+        "folder": "|TBD|"
+    },
+    "582660": {
+        "folder": "|TBD|"
+    },
+    "582890": {
+        "folder": "|TBD|"
+    },
+    "584400": {
+        "folder": "|TBD|"
+    },
+    "585420": {
+        "folder": "|TBD|"
+    },
+    "589360": {
+        "folder": "|TBD|"
+    },
+    "590380": {
+        "folder": "|TBD|"
+    },
+    "595440": {
+        "folder": "|TBD|"
+    },
+    "598780": {
+        "folder": "|TBD|"
+    },
+    "598810": {
+        "folder": "|TBD|"
+    },
+    "600130": {
+        "folder": "|TBD|"
+    },
+    "602430": {
+        "folder": "|TBD|"
+    },
+    "602490": {
+        "folder": "|TBD|"
+    },
+    "606230": {
+        "folder": "|TBD|"
+    },
+    "606880": {
+        "folder": "|TBD|"
+    },
+    "607050": {
+        "folder": "|TBD|"
+    },
+    "609920": {
+        "folder": "|TBD|"
+    },
+    "610180": {
+        "folder": "|TBD|"
+    },
+    "612570": {
+        "folder": "|TBD|"
+    },
+    "612880": {
+        "folder": "|TBD|"
+    },
+    "613100": {
+        "folder": "|TBD|"
+    },
+    "614570": {
+        "folder": "|TBD|"
+    },
+    "614890": {
+        "folder": "|TBD|"
+    },
+    "618970": {
+        "folder": "|TBD|"
+    },
+    "621060": {
+        "folder": "|TBD|"
+    },
+    "622440": {
+        "folder": "|TBD|"
+    },
+    "624270": {
+        "folder": "|TBD|"
+    },
+    "626610": {
+        "folder": "|TBD|"
+    },
+    "627270": {
+        "folder": "|TBD|"
+    },
+    "628670": {
+        "folder": "|TBD|"
+    },
+    "629760": {
+        "folder": "|TBD|"
+    },
+    "629820": {
+        "folder": "|TBD|"
+    },
+    "633060": {
+        "folder": "|TBD|"
+    },
+    "637090": {
+        "folder": "|TBD|"
+    },
+    "637100": {
+        "folder": "|TBD|"
+    },
+    "638000": {
+        "folder": "|TBD|"
+    },
+    "638970": {
+        "folder": "|TBD|"
+    },
+    "640590": {
+        "folder": "|TBD|"
+    },
+    "640820": {
+        "folder": "|TBD|"
+    },
+    "641990": {
+        "folder": "|TBD|"
+    },
+    "643200": {
+        "folder": "|TBD|"
+    },
+    "644290": {
+        "folder": "|TBD|"
+    },
+    "644830": {
+        "folder": "|TBD|"
+    },
+    "647830": {
+        "folder": "|TBD|"
+    },
+    "660160": {
+        "folder": "|TBD|"
+    },
+    "666140": {
+        "folder": "|TBD|"
+    },
+    "666220": {
+        "folder": "|TBD|"
+    },
+    "667720": {
+        "folder": "|TBD|"
+    },
+    "668550": {
+        "folder": "|TBD|"
+    },
+    "671210": {
+        "folder": "|TBD|"
+    },
+    "674500": {
+        "folder": "|TBD|"
+    },
+    "674940": {
+        "folder": "|TBD|"
+    },
+    "675260": {
+        "folder": "|TBD|"
+    },
+    "678900": {
+        "folder": "|TBD|"
+    },
+    "678960": {
+        "folder": "|TBD|"
+    },
+    "680030": {
+        "folder": "|TBD|"
+    },
+    "681730": {
+        "folder": "|TBD|"
+    },
+    "686200": {
+        "folder": "|TBD|"
+    },
+    "690040": {
+        "folder": "|TBD|"
+    },
+    "690640": {
+        "folder": "|TBD|"
+    },
+    "690790": {
+        "folder": "|TBD|"
+    },
+    "692030": {
+        "folder": "|TBD|"
+    },
+    "692180": {
+        "folder": "|TBD|"
+    },
+    "692850": {
+        "folder": "|TBD|"
+    },
+    "701160": {
+        "folder": "|TBD|"
+    },
+    "704270": {
+        "folder": "|TBD|"
+    },
+    "710920": {
+        "folder": "|TBD|"
+    },
+    "712180": {
+        "folder": "|TBD|"
+    },
+    "712190": {
+        "folder": "|TBD|"
+    },
+    "712730": {
+        "folder": "|TBD|"
+    },
+    "716640": {
+        "folder": "|TBD|"
+    },
+    "718560": {
+        "folder": "|TBD|"
+    },
+    "718670": {
+        "folder": "|TBD|"
+    },
+    "718850": {
+        "folder": "|TBD|"
+    },
+    "722560": {
+        "folder": "|TBD|"
+    },
+    "725480": {
+        "folder": "|TBD|"
+    },
+    "727130": {
+        "folder": "|TBD|"
+    },
+    "727850": {
+        "folder": "|TBD|"
+    },
+    "728880": {
+        "folder": "|TBD|"
+    },
+    "729040": {
+        "folder": "|TBD|"
+    },
+    "733790": {
+        "folder": "|TBD|"
+    },
+    "736260": {
+        "folder": "|TBD|"
+    },
+    "737770": {
+        "folder": "|TBD|"
+    },
+    "738520": {
+        "folder": "|TBD|"
+    },
+    "739650": {
+        "folder": "|TBD|"
+    },
+    "740080": {
+        "folder": "|TBD|"
+    },
+    "750920": {
+        "folder": "|TBD|"
+    },
+    "751820": {
+        "folder": "|TBD|"
+    },
+    "752590": {
+        "folder": "|TBD|"
+    },
+    "753640": {
+        "folder": "|TBD|"
+    },
+    "753650": {
+        "folder": "|TBD|"
+    },
+    "757320": {
+        "folder": "|TBD|"
+    },
+    "760650": {
+        "folder": "|TBD|"
+    },
+    "760810": {
+        "folder": "|TBD|"
+    },
+    "761620": {
+        "folder": "|TBD|"
+    },
+    "763970": {
+        "folder": "|TBD|"
+    },
+    "765840": {
+        "folder": "|TBD|"
+    },
+    "765850": {
+        "folder": "|TBD|"
+    },
+    "765860": {
+        "folder": "|TBD|"
+    },
+    "765870": {
+        "folder": "|TBD|"
+    },
+    "765890": {
+        "folder": "|TBD|"
+    },
+    "765900": {
+        "folder": "|TBD|"
+    },
+    "765910": {
+        "folder": "|TBD|"
+    },
+    "774201": {
+        "folder": "|TBD|"
+    },
+    "774241": {
+        "folder": "|TBD|"
+    },
+    "774461": {
+        "folder": "|TBD|"
+    },
+    "774861": {
+        "folder": "|TBD|"
+    },
+    "780800": {
+        "folder": "|TBD|"
+    },
+    "782330": {
+        "folder": "|TBD|"
+    },
+    "785260": {
+        "folder": "|TBD|"
+    },
+    "788100": {
+        "folder": "|TBD|"
+    },
+    "790820": {
+        "folder": "|TBD|"
+    },
+    "792100": {
+        "folder": "|TBD|"
+    },
+    "792710": {
+        "folder": "|TBD|"
+    },
+    "793460": {
+        "folder": "|TBD|"
+    },
+    "794240": {
+        "folder": "|TBD|"
+    },
+    "794260": {
+        "folder": "|TBD|"
+    },
+    "794540": {
+        "folder": "|TBD|"
+    },
+    "795100": {
+        "folder": "|TBD|"
+    },
+    "797410": {
+        "folder": "|TBD|"
+    },
+    "798460": {
+        "folder": "|TBD|"
+    },
+    "800270": {
+        "folder": "|TBD|"
+    },
+    "803980": {
+        "folder": "|TBD|"
+    },
+    "804010": {
+        "folder": "|TBD|"
+    },
+    "808090": {
+        "folder": "|TBD|"
+    },
+    "808910": {
+        "folder": "|TBD|"
+    },
+    "812140": {
+        "folder": "|TBD|"
+    },
+    "813630": {
+        "folder": "|TBD|"
+    },
+    "814380": {
+        "folder": "|TBD|"
+    },
+    "816090": {
+        "folder": "|TBD|"
+    },
+    "823130": {
+        "folder": "|TBD|"
+    },
+    "826600": {
+        "folder": "|TBD|"
+    },
+    "826630": {
+        "folder": "|TBD|"
+    },
+    "828740": {
+        "folder": "|TBD|"
+    },
+    "829110": {
+        "folder": "|TBD|"
+    },
+    "829660": {
+        "folder": "|TBD|"
+    },
+    "833040": {
+        "folder": "|TBD|"
+    },
+    "834530": {
+        "folder": "|TBD|"
+    },
+    "838380": {
+        "folder": "|TBD|"
+    },
+    "840210": {
+        "folder": "|TBD|"
+    },
+    "842100": {
+        "folder": "|TBD|"
+    },
+    "844260": {
+        "folder": "|TBD|"
+    },
+    "846730": {
+        "folder": "|TBD|"
+    },
+    "848350": {
+        "folder": "|TBD|"
+    },
+    "850980": {
+        "folder": "|TBD|"
+    },
+    "854940": {
+        "folder": "|TBD|"
+    },
+    "859570": {
+        "folder": "|TBD|"
+    },
+    "859580": {
+        "folder": "|TBD|"
+    },
+    "863550": {
+        "folder": "|TBD|"
+    },
+    "865360": {
+        "folder": "|TBD|"
+    },
+    "866800": {
+        "folder": "|TBD|"
+    },
+    "870200": {
+        "folder": "|TBD|"
+    },
+    "870780": {
+        "folder": "|TBD|"
+    },
+    "871420": {
+        "folder": "|TBD|"
+    },
+    "874390": {
+        "folder": "|TBD|"
+    },
+    "878580": {
+        "folder": "|TBD|"
+    },
+    "878670": {
+        "folder": "|TBD|"
+    },
+    "882100": {
+        "folder": "|TBD|"
+    },
+    "883360": {
+        "folder": "|TBD|"
+    },
+    "887060": {
+        "folder": "|TBD|"
+    },
+    "888820": {
+        "folder": "|TBD|"
+    },
+    "890720": {
+        "folder": "|TBD|"
+    },
+    "895870": {
+        "folder": "|TBD|"
+    },
+    "897450": {
+        "folder": "|TBD|"
+    },
+    "900270": {
+        "folder": "|TBD|"
+    },
+    "903950": {
+        "folder": "|TBD|"
+    },
+    "904360": {
+        "folder": "|TBD|"
+    },
+    "905370": {
+        "folder": "|TBD|"
+    },
+    "907760": {
+        "folder": "|TBD|"
+    },
+    "914010": {
+        "folder": "|TBD|"
+    },
+    "914110": {
+        "folder": "|TBD|"
+    },
+    "914750": {
+        "folder": "|TBD|"
+    },
+    "926520": {
+        "folder": "|TBD|"
+    },
+    "927350": {
+        "folder": "|TBD|"
+    },
+    "927380": {
+        "folder": "|TBD|"
+    },
+    "929010": {
+        "folder": "|TBD|"
+    },
+    "933820": {
+        "folder": "|TBD|"
+    },
+    "934780": {
+        "folder": "|TBD|"
+    },
+    "939850": {
+        "folder": "|TBD|"
+    },
+    "940010": {
+        "folder": "|TBD|"
+    },
+    "940680": {
+        "folder": "|TBD|"
+    },
+    "940710": {
+        "folder": "|TBD|"
+    },
+    "940910": {
+        "folder": "|TBD|"
+    },
+    "941570": {
+        "folder": "|TBD|"
+    },
+    "944010": {
+        "folder": "|TBD|"
+    },
+    "945010": {
+        "folder": "|TBD|"
+    },
+    "945360": {
+        "folder": "|TBD|"
+    },
+    "945920": {
+        "folder": "|TBD|"
+    },
+    "950180": {
+        "folder": "|TBD|"
+    },
+    "950670": {
+        "folder": "|TBD|"
+    },
+    "955050": {
+        "folder": "|TBD|"
+    },
+    "957720": {
+        "folder": "|TBD|"
+    },
+    "958400": {
+        "folder": "|TBD|"
+    },
+    "960910": {
+        "folder": "|TBD|"
+    },
+    "960990": {
+        "folder": "|TBD|"
+    },
+    "962580": {
+        "folder": "|TBD|"
+    },
+    "963220": {
+        "folder": "|TBD|"
+    },
+    "965680": {
+        "folder": "|TBD|"
+    },
+    "970960": {
+        "folder": "|TBD|"
+    },
+    "971160": {
+        "folder": "|TBD|"
+    },
+    "973000": {
+        "folder": "|TBD|"
+    },
+    "973580": {
+        "folder": "|TBD|"
+    },
+    "973760": {
+        "folder": "|TBD|"
+    },
+    "975510": {
+        "folder": "|TBD|"
+    },
+    "975530": {
+        "folder": "|TBD|"
+    },
+    "975950": {
+        "folder": "|TBD|"
+    },
+    "976310": {
+        "folder": "|TBD|"
+    },
+    "976700": {
+        "folder": "|TBD|"
+    },
+    "976730": {
+        "folder": "|TBD|"
+    },
+    "978520": {
+        "folder": "|TBD|"
+    },
+    "979060": {
+        "folder": "|TBD|"
+    },
+    "979110": {
+        "folder": "|TBD|"
+    },
+    "979120": {
+        "folder": "|TBD|"
+    },
+    "979640": {
+        "folder": "|TBD|"
+    },
+    "980300": {
+        "folder": "|TBD|"
+    },
+    "994140": {
+        "folder": "|TBD|"
+    },
+    "994220": {
+        "folder": "|TBD|"
+    },
+    "996770": {
+        "folder": "|TBD|"
+    },
+    "998740": {
+        "folder": "|TBD|"
+    },
+    "999220": {
+        "folder": "|TBD|"
+    },
+    "1000030": {
+        "folder": "|TBD|"
+    },
+    "1000410": {
+        "folder": "|TBD|"
+    },
+    "1003890": {
+        "folder": "|TBD|"
+    },
+    "1004490": {
+        "folder": "|TBD|"
+    },
+    "1004750": {
+        "folder": "|TBD|"
+    },
+    "1005300": {
+        "folder": "|TBD|"
+    },
+    "1011190": {
+        "folder": "|TBD|"
+    },
+    "1013310": {
+        "folder": "|TBD|"
+    },
+    "1015930": {
+        "folder": "|TBD|"
+    },
+    "1016120": {
+        "folder": "|TBD|"
+    },
+    "1016790": {
+        "folder": "|TBD|"
+    },
+    "1019450": {
+        "folder": "|TBD|"
+    },
+    "1022310": {
+        "folder": "|TBD|"
+    },
+    "1025440": {
+        "folder": "|TBD|"
+    },
+    "1030830": {
+        "folder": "|TBD|"
+    },
+    "1030840": {
+        "folder": "|TBD|"
+    },
+    "1037910": {
+        "folder": "|TBD|"
+    },
+    "1038250": {
+        "folder": "|TBD|"
+    },
+    "1045580": {
+        "folder": "|TBD|"
+    },
+    "1046030": {
+        "folder": "|TBD|"
+    },
+    "1048740": {
+        "folder": "|TBD|"
+    },
+    "1049410": {
+        "folder": "|TBD|"
+    },
+    "1054430": {
+        "folder": "|TBD|"
+    },
+    "1054490": {
+        "folder": "|TBD|"
+    },
+    "1056960": {
+        "folder": "|TBD|"
+    },
+    "1058020": {
+        "folder": "|TBD|"
+    },
+    "1058200": {
+        "folder": "|TBD|"
+    },
+    "1058650": {
+        "folder": "|TBD|"
+    },
+    "1063310": {
+        "folder": "|TBD|"
+    },
+    "1067540": {
+        "folder": "|TBD|"
+    },
+    "1069530": {
+        "folder": "|TBD|"
+    },
+    "1075190": {
+        "folder": "|TBD|"
+    },
+    "1075200": {
+        "folder": "|TBD|"
+    },
+    "1078920": {
+        "folder": "|TBD|"
+    },
+    "1080110": {
+        "folder": "|TBD|"
+    },
+    "1080750": {
+        "folder": "|TBD|"
+    },
+    "1085510": {
+        "folder": "|TBD|"
+    },
+    "1085660": {
+        "folder": "|TBD|"
+    },
+    "1088710": {
+        "folder": "|TBD|"
+    },
+    "1089130": {
+        "folder": "|TBD|"
+    },
+    "1089980": {
+        "folder": "|TBD|"
+    },
+    "1091500": {
+        "folder": "|TBD|"
+    },
+    "1096570": {
+        "folder": "|TBD|"
+    },
+    "1101360": {
+        "folder": "|TBD|"
+    },
+    "1109690": {
+        "folder": "|TBD|"
+    },
+    "1110100": {
+        "folder": "|TBD|"
+    },
+    "1110390": {
+        "folder": "|TBD|"
+    },
+    "1118200": {
+        "folder": "|TBD|"
+    },
+    "1119700": {
+        "folder": "|TBD|"
+    },
+    "1127610": {
+        "folder": "|TBD|"
+    },
+    "1128810": {
+        "folder": "|TBD|"
+    },
+    "1130410": {
+        "folder": "|TBD|"
+    },
+    "1135910": {
+        "folder": "|TBD|"
+    },
+    "1142100": {
+        "folder": "|TBD|"
+    },
+    "1142390": {
+        "folder": "|TBD|"
+    },
+    "1144030": {
+        "folder": "|TBD|"
+    },
+    "1146370": {
+        "folder": "|TBD|"
+    },
+    "1147550": {
+        "folder": "|TBD|"
+    },
+    "1148590": {
+        "folder": "|TBD|"
+    },
+    "1150950": {
+        "folder": "|TBD|"
+    },
+    "1151640": {
+        "folder": "|TBD|"
+    },
+    "1154790": {
+        "folder": "|TBD|"
+    },
+    "1154810": {
+        "folder": "|TBD|"
+    },
+    "1160220": {
+        "folder": "|TBD|"
+    },
+    "1162700": {
+        "folder": "|TBD|"
+    },
+    "1168280": {
+        "folder": "|TBD|"
+    },
+    "1170760": {
+        "folder": "|TBD|"
+    },
+    "1171660": {
+        "folder": "|TBD|"
+    },
+    "1172380": {
+        "folder": "|TBD|"
+    },
+    "1172450": {
+        "folder": "|TBD|"
+    },
+    "1173690": {
+        "folder": "|TBD|"
+    },
+    "1174180": {
+        "folder": "|TBD|"
+    },
+    "1176120": {
+        "folder": "|TBD|"
+    },
+    "1176710": {
+        "folder": "|TBD|"
+    },
+    "1179210": {
+        "folder": "|TBD|"
+    },
+    "1180660": {
+        "folder": "|TBD|"
+    },
+    "1181840": {
+        "folder": "|TBD|"
+    },
+    "1186040": {
+        "folder": "|TBD|"
+    },
+    "1186740": {
+        "folder": "|TBD|"
+    },
+    "1188090": {
+        "folder": "|TBD|"
+    },
+    "1188680": {
+        "folder": "|TBD|"
+    },
+    "1194630": {
+        "folder": "|TBD|"
+    },
+    "1205450": {
+        "folder": "|TBD|"
+    },
+    "1209360": {
+        "folder": "|TBD|"
+    },
+    "1210150": {
+        "folder": "|TBD|"
+    },
+    "1220150": {
+        "folder": "|TBD|"
+    },
+    "1222690": {
+        "folder": "|TBD|"
+    },
+    "1222730": {
+        "folder": "|TBD|"
+    },
+    "1224230": {
+        "folder": "|TBD|"
+    },
+    "1224940": {
+        "folder": "|TBD|"
+    },
+    "1225560": {
+        "folder": "|TBD|"
+    },
+    "1225570": {
+        "folder": "|TBD|"
+    },
+    "1227530": {
+        "folder": "|TBD|"
+    },
+    "1229320": {
+        "folder": "|TBD|"
+    },
+    "1229350": {
+        "folder": "|TBD|"
+    },
+    "1229370": {
+        "folder": "|TBD|"
+    },
+    "1232080": {
+        "folder": "|TBD|"
+    },
+    "1233280": {
+        "folder": "|TBD|"
+    },
+    "1233340": {
+        "folder": "|TBD|"
+    },
+    "1233570": {
+        "folder": "|TBD|"
+    },
+    "1238000": {
+        "folder": "|TBD|"
+    },
+    "1238040": {
+        "folder": "|TBD|"
+    },
+    "1239690": {
+        "folder": "|TBD|"
+    },
+    "1240360": {
+        "folder": "|TBD|"
+    },
+    "1240440": {
+        "folder": "|TBD|"
+    },
+    "1244560": {
+        "folder": "|TBD|"
+    },
+    "1245430": {
+        "folder": "|TBD|"
+    },
+    "1249110": {
+        "folder": "|TBD|"
+    },
+    "1249770": {
+        "folder": "|TBD|"
+    },
+    "1250410": {
+        "folder": "|TBD|"
+    },
+    "1252780": {
+        "folder": "|TBD|"
+    },
+    "1259420": {
+        "folder": "|TBD|"
+    },
+    "1261520": {
+        "folder": "|TBD|"
+    },
+    "1265860": {
+        "folder": "|TBD|"
+    },
+    "1268460": {
+        "folder": "|TBD|"
+    },
+    "1275350": {
+        "folder": "|TBD|"
+    },
+    "1275760": {
+        "folder": "|TBD|"
+    },
+    "1276390": {
+        "folder": "|TBD|"
+    },
+    "1279630": {
+        "folder": "|TBD|"
+    },
+    "1281590": {
+        "folder": "|TBD|"
+    },
+    "1282690": {
+        "folder": "|TBD|"
+    },
+    "1284410": {
+        "folder": "|TBD|"
+    },
+    "1286350": {
+        "folder": "|TBD|"
+    },
+    "1287590": {
+        "folder": "|TBD|"
+    },
+    "1295550": {
+        "folder": "|TBD|"
+    },
+    "1302050": {
+        "folder": "|TBD|"
+    },
+    "1304680": {
+        "folder": "|TBD|"
+    },
+    "1309830": {
+        "folder": "|TBD|"
+    },
+    "1311070": {
+        "folder": "|TBD|"
+    },
+    "1314280": {
+        "folder": "|TBD|"
+    },
+    "1325200": {
+        "folder": "|TBD|"
+    },
+    "1325350": {
+        "folder": "|TBD|"
+    },
+    "1331910": {
+        "folder": "|TBD|"
+    },
+    "1342620": {
+        "folder": "|TBD|"
+    },
+    "1349230": {
+        "folder": "|TBD|"
+    },
+    "1364100": {
+        "folder": "|TBD|"
+    },
+    "1364800": {
+        "folder": "|TBD|"
+    },
+    "1373430": {
+        "folder": "|TBD|"
+    },
+    "1378060": {
+        "folder": "|TBD|"
+    },
+    "1391110": {
+        "folder": "|TBD|"
+    },
+    "1397220": {
+        "folder": "|TBD|"
+    },
+    "1404210": {
+        "folder": "|TBD|"
+    },
+    "1405790": {
+        "folder": "|TBD|"
+    },
+    "1407700": {
+        "folder": "|TBD|"
+    },
+    "1412570": {
+        "folder": "|TBD|"
+    },
+    "1421230": {
+        "folder": "|TBD|"
+    },
+    "1421480": {
+        "folder": "|TBD|"
+    },
+    "1435990": {
+        "folder": "|TBD|"
+    },
+    "1448030": {
+        "folder": "|TBD|"
+    },
+    "1449560": {
+        "folder": "|TBD|"
+    },
+    "1449690": {
+        "folder": "|TBD|"
+    },
+    "1452390": {
+        "folder": "|TBD|"
+    },
+    "1463730": {
+        "folder": "|TBD|"
+    },
+    "1464620": {
+        "folder": "|TBD|"
+    },
+    "1481400": {
+        "folder": "|TBD|"
+    },
+    "1484720": {
+        "folder": "|TBD|"
+    },
+    "1485700": {
+        "folder": "|TBD|"
+    },
+    "1493710": {
+        "folder": "|TBD|"
+    },
+    "1493800": {
+        "folder": "|TBD|"
+    },
+    "1504280": {
+        "folder": "|TBD|"
+    },
+    "1515950": {
+        "folder": "|TBD|"
+    },
+    "1544360": {
+        "folder": "|TBD|"
+    },
+    "1568590": {
+        "folder": "|TBD|"
+    },
+    "1593500": {
+        "folder": "|TBD|"
+    },
+    "1624800": {
+        "folder": "|TBD|"
+    },
+    "1641480": {
+        "folder": "|TBD|"
+    },
+    "1648900": {
+        "folder": "|TBD|"
+    },
+    "1655460": {
+        "folder": "|TBD|"
+    },
+    "1660520": {
+        "folder": "|TBD|"
+    },
+    "1661260": {
+        "folder": "|TBD|"
+    },
+    "1662060": {
+        "folder": "|TBD|"
+    },
+    "1664350": {
+        "folder": "|TBD|"
+    },
+    "1668770": {
+        "folder": "|TBD|"
+    },
+    "1705670": {
+        "folder": "|TBD|"
+    },
+    "1712390": {
+        "folder": "|TBD|"
+    },
+    "1714040": {
+        "folder": "|TBD|"
+    },
+    "1728870": {
+        "folder": "|TBD|"
+    },
+    "1753260": {
+        "folder": "|TBD|"
+    },
+    "1773660": {
+        "folder": "|TBD|"
+    },
+    "1781160": {
+        "folder": "|TBD|"
+    },
+    "1782210": {
+        "folder": "|TBD|"
+    },
+    "1811180": {
+        "folder": "|TBD|"
+    }
+}
