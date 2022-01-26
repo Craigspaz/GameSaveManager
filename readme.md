@@ -7,7 +7,7 @@ Currently only Windows is supported
 Currently only Steam is supported
 
 ## How does it work
-1. This application runs on a cron. The default install file will set it up for run once an hour.
+1. This application runs on a cron. The cron needs to set up by hand currently. Please create a task in task scheduler and have it run on the schedule of your choosing.
 1. The application will scan through the Steam configuration files on your system and find your games
 1. The application will then check in the app_save_path_definitions.json file for a definition on where the game saves should be located
 1. If that path exists it will make a copy of the backup based on the backup configuration
