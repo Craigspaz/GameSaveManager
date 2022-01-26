@@ -7,7 +7,7 @@ Currently only Windows is supported
 Currently only Steam is supported
 
 ## How does it work
-1. This application runs on a cron. The cron needs to set up by hand currently. Please create a task in task scheduler and have it run on the schedule of your choosing.
+1. This application runs on a cron. There is a sample installation script which shows how you can configure the cron.
 1. The application will scan through the Steam configuration files on your system and find your games
 1. The application will then check in the app_save_path_definitions.json file for a definition on where the game saves should be located
 1. If that path exists it will make a copy of the backup based on the backup configuration
@@ -64,3 +64,8 @@ From Source:
 1. Rename sample-config.json to config.json
 1. Edit config.json to the desired settings
 1. Add a scheduled task in Windows to run on a schedule the way you would like it to run
+
+With Install Script In Source:
+1. Clone this repo
+1. Edit sample-config.json to be the configuration file you want
+1. Run install.ps1 (It will copy the files to %appdata%/GameSaveManager and it will add a scheduled task to task scheduler)
