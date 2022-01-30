@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0.0",
+    "version": "1.1.0.0",
     "USERDATA": {
         "folder": "|STEAMINSTALLDIR|/userdata"
     },
@@ -2276,35 +2276,237 @@
     "10460": {
         "folder": "%PUBLIC%/Documents/The Club Game Save Data"
     },
+    "10510": {
+        "folder": "|TBD|"
+    },
+    "10520": {
+        "folder": "|TBD|"
+    },
+    "10530": {
+        "folder": "%USERPROFILE%/Documents/My Games/Space Siege/Save"
+    },
+    "10540": {
+        "folder": "%USERPROFILE%/Documents/Sports Interactive/Football Manager 2009"
+    },
+    "10560": {
+        "folder": "%USERPROFILE%/Documents/Sports Interactive/Football Manager 2009"
+    },
+    "10570": {
+        "folder": "|TBD|"
+    },
+    "10580": {
+        "folder": "|NA|"
+    },
+    "10590": {
+        "folder": "|TBD|"
+    },
+    "10600": {
+        "folder": "|TBD|"
+    },
+    "10610": {
+        "folder": "|TBD|"
+    },
+    "10620": {
+        "folder": "|TBD|"
+    },
+    "10630": {
+        "folder": "|TBD|"
+    },
+    "10640": {
+        "folder": "|TBD|"
+    },
+    "10650": {
+        "folder": "|TBD|"
+    },
+    "10660": {
+        "folder": "|TBD|"
+    },
+    "10680": {
+        "folder": "%LOCALAPPDATA%/AliensVsPredator"
+    },
+    "10690": {
+        "folder": "|TBD|"
+    },
+    "10700": {
+        "folder": "|TBD|"
+    },
+    "11000": {
+        "folder": "|TBD|"
+    },
+    "11020": {
+        "folders": [
+            {
+                "Path": "%USERPROFILE%/Documents/TrackMania/Profiles",
+                "FriendlyName": "Profiles"
+            },
+            {
+                "Path": "%USERPROFILE%/Documents/TrackMania/Scores",
+                "FriendlyName": "Scores"
+            },
+            {
+                "Path": "%USERPROFILE%/Documents/TrackMania/Trackss",
+                "FriendlyName": "Tracks"
+            }
+        ]
+    },
+    "11040": {
+        "folder": "|TBD|"
+    },
+    "11050": {
+        "folder": "|TBD|"
+    },
+    "11060": {
+        "folder": "|TBD|"
+    },
+    "11070": {
+        "folder": "|NA|"
+    },
+    "11080": {
+        "folder": "|TBD|"
+    },
+    "11090": {
+        "folder": "|TBD|"
+    },
+    "11120": {
+        "folder": "|TBD|"
+    },
+    "11130": {
+        "folder": "|PATHTOGAME|/data"
+    },
+    "11140": {
+        "folder": "|TBD|"
+    },
+    "11150": {
+        "folder": "|PATHTOGAME|/save"
+    },
+    "11170": {
+        "folder": "|TBD|"
+    },
+    "11180": {
+        "folder": "|TBD|"
+    },
+    "11190": {
+        "folder": "%APPDATA%/Games/sherlock holmes versus jack the ripper/save"
+    },
+    "11200": {
+        "folder": "|PATHTOGAME|/Profiles"
+    },
+    "11210": {
+        "folder": "|TBD|"
+    },
+    "11220": {
+        "folder": "|TBD|"
+    },
+    "11230": {
+        "folder": "|TBD|"
+    },
+    "11240": {
+        "folder": "%USERPROFILE%/Documents/st/st"
+    },
+    "11250": {
+        "folder": "|PATHTOGAME|/save"
+    },
     "11260": {
         "folder": "|TBD|"
     },
+    "11270": {
+        "folder": "|TBD|"
+    },
+    "11280": {
+        "folder": "|TBD|"
+    },
     "11330": {
+        "file": "|PATHTOGAME|/config.dat"
+    },
+    "11340": {
+        "folder": "|TBD|"
+    },
+    "11350": {
         "folder": "|TBD|"
     },
     "11360": {
-        "folder": "|TBD|"
+        "folder": "|PATHTOGAME|/Save/"
+    },
+    "11370": {
+        "folder": "%USERPROFILE%/Documents/Nikopol"
     },
     "11390": {
-        "folder": "|TBD|"
+        "folder": "%PROGRAMDATA%/Synetic/BurningWheels"
     },
     "11420": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/Codemasters/Clive Barker's Jericho"
+    },
+    "11430": {
+        "folder": "|NA|"
+    },
+    "11440": {
+        "folders": [
+            {
+                "Path": "%PUBLIC%/Documents/Codemasters/DiRT/savegame",
+                "FriendlyName": "Windows"
+            },
+            {
+                "Path": "|PATHTOGAME|/savegame",
+                "FriendlyName": "SteamVersion"
+            }
+        ]
     },
     "11450": {
+        "folder": "%USERPROFILE%/Documents/Overlord"
+    },
+    "11460": {
         "folder": "|TBD|"
     },
     "11470": {
         "folder": "|TBD|"
     },
     "11480": {
-        "folder": "|TBD|"
-    },
-    "11490": {
-        "folder": "%USERPROFILE%/Documents/Sega/Iron Man"
+        "folder": "|PATHTOGAME|/profiles"
     },
     "11500": {
-        "folder": "%APPDATA%/The Creative Assembly/Empire/save_games"
+        "folder": "|PATHTOGAME|/savedata"
+    },
+    "11510": {
+        "folder": "|TBD|"
+    },
+    "11520": {
+        "folder": "|TBD|"
+    },
+    "11550": {
+        "folder": "|PATHTOGAME|/profiles"
+    },
+    "11560": {
+        "folder": "|TBD|"
+    },
+    "11570": {
+        "folder": "|TBD|"
+    },
+    "11580": {
+        "filter": "|PATHTOGAME|/*.chp"
+    },
+    "11590": {
+        "folder": "%USERPROFILE%/Documents/HospitalTycoon"
+    },
+    "11600": {
+        "folder": "|TBD|"
+    },
+    "11610": {
+        "folder": "|TBD|"
+    },
+    "11700": {
+        "folder": "|NA|"
+    },
+    "11720": {
+        "folder": "|TBD|"
+    },
+    "11900": {
+        "folder": "|TBD|"
+    },
+    "11910": {
+        "folder": "|TBD|"
+    },
+    "11920": {
+        "folder": "|TBD|"
     },
     "12100": {
         "folder": "%USERPROFILE%/Documents/GTA3 User Files"
@@ -2314,6 +2516,30 @@
     },
     "12120": {
         "folder": "%USERPROFILE%/Documents/GTA San Andreas User Files"
+    },
+    "12130": {
+        "folder": "%USERPROFILE%/Documents/Manhunt User Files/SaveGames"
+    },
+    "12140": {
+        "folder": "%USERPROFILE%/Documents/Max Payne Savegames"
+    },
+    "12150": {
+        "folder": "%USERPROFILE%/Documents/Max Payne 2 Savegames"
+    },
+    "12160": {
+        "filter": "|PATHTOGAME|/userdata/*.sav"
+    },
+    "12170": {
+        "folder": "|PATHTOGAME|/GTADATA/"
+    },
+    "12180": {
+        "folder": "|PATHTOGAME|/player"
+    },
+    "12190": {
+        "folder": "|PATHTOGAME|/WinEnv/Configs/FrontEnd/PLAYERS"
+    },
+    "12200": {
+        "folder": "%USERPROFILE%/Documents/Bully Scholarship Edition"
     },
     "12210": {
         "folders": [
