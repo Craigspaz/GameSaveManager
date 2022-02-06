@@ -1,5 +1,5 @@
 {
-    "version": "1.1.0.0",
+    "version": "1.2.0.0",
     "USERDATA": {
         "folder": "|STEAMINSTALLDIR|/userdata"
     },
@@ -2553,11 +2553,155 @@
             }
         ]
     },
+    "12220": {
+        "folders": [
+            {
+                "Path": "%LOCALAPPDATA%/Rockstar Games/GTA IV/savegames",
+                "FriendlyName": "Main"
+            },
+            {
+                "Path": "%USERPROFILE%/Documents/Rockstar Games/GTA IV/Profiles",
+                "FriendlyName": "CompleteEdition"
+            }
+        ]
+    },
+    "12230": {
+        "folder": "%USERPROFILE%/Documents/GTA3 User Files"
+    },
+    "12240": {
+        "folder": "%USERPROFILE%/Documents/GTA Vice City User Files"
+    },
+    "12250": {
+        "folder": "%USERPROFILE%/Documents/GTA San Andreas User Files"
+    },
+    "12260": {
+        "folder": "%USERPROFILE%/Documents/Max Payne 2 Savegames"
+    },
+    "12270": {
+        "folder": "%USERPROFILE%/Documents/Bully Scholarship Edition"
+    },
+    "12280": {
+        "folder": "%USERPROFILE%/Documents/GTA3 User Files"
+    },
+    "12290": {
+        "folder": "%USERPROFILE%/Documents/Manhunt User Files/SaveGames"
+    },
+    "12300": {
+        "folder": "|TBD|"
+    },
+    "12310": {
+        "folder": "|TBD|"
+    },
+    "12320": {
+        "folder": "|PATHTOGAME|/save"
+    },
+    "12330": {
+        "folder": "%USERPROFILE%/Documents/Ascaron Entertainment/Darkstar One/Save"
+    },
+    "12340": {
+        "folder": "%USERPROFILE%/Documents/Jack Keane/save"
+    },
+    "12360": {
+        "folder": "%LOCALAPPDATA%/FlatOut Ultimate Carnage/Savegame"
+    },
+    "12370": {
+        "folder": "|TBD|"
+    },
+    "12380": {
+        "folder": "|TBD|"
+    },
+    "12390": {
+        "folder": "%USERPROFILE%/Documents/My Games/Exodus"
+    },
+    "12400": {
+        "folder": "|TBD|"
+    },
+    "12420": {
+        "folder": "|TBD|"
+    },
+    "12430": {
+        "folder": "|TBD|"
+    },
+    "12440": {
+        "folder": "|TBD|"
+    },
+    "12450": {
+        "folder": "|TBD|"
+    },
+    "12460": {
+        "folder": "|TBD|"
+    },
+    "12470": {
+        "folder": "%USERPROFILE%/Documents/Ascaron Entertainment/Port Royale 2"
+    },
+    "12480": {
+        "folder": "|TBD|"
+    },
+    "12500": {
+        "folder": "%USERPROFILE%/Documents/Puzzle Quest/Saves"
+    },
+    "12510": {
+        "folder": "|TBD|"
+    },
+    "12520": {
+        "folder": "%USERPROFILE%/Documents/18 WoS American Long Haul/save"
+    },
+    "12530": {
+        "folder": "|TBD|"
+    },
+    "12540": {
+        "folder": "|TBD|"
+    },
+    "12550": {
+        "folder": "|TBD|"
+    },
+    "12560": {
+        "folder": "|TBD|"
+    },
+    "12570": {
+        "folder": "|TBD|"
+    },
+    "12580": {
+        "folder": "|TBD|"
+    },
+    "12590": {
+        "folder": "|PATHTOGAME|/save_data"
+    },
+    "12600": {
+        "folder": "|TBD|"
+    },
+    "12630": {
+        "folder": "%USERPROFILE%/Documents/Legend - Hand of God"
+    },
+    "12640": {
+        "folder": "%USERPROFILE%/Documents/Drakensang/profiles/default/save"
+    },
+    "12650": {
+        "folder": "|TBD|"
+    },
+    "12660": {
+        "folder": "|TBD|"
+    },
+    "12670": {
+        "folder": "|TBD|"
+    },
+    "12680": {
+        "folder": "|TBD|"
+    },
+    "12690": {
+        "folder": "%USERPROFILE%/Documents/Hunting Unlimited 2010/saves"
+    },
     "12710": {
         "folder": "%USERPROFILE%/Documents/Overlord"
     },
+    "12720": {
+        "folder": "%LOCALAPPDATA%/My Games/Turning Point/TPGame/SaveData"
+    },
     "12750": {
         "folder": "%USERPROFILE%/Documents/Codemasters/GRID/savegame"
+    },
+    "12770": {
+        "folder": "%USERPROFILE%/Documents/My Games/Rise of the Argonauts"
     },
     "12790": {
         "folder": "|TBD|"
@@ -2567,6 +2711,9 @@
     },
     "12810": {
         "folder": "%USERPROFILE%/Documents/My Games/Overlord II"
+    },
+    "12820": {
+        "folder": "|TBD|"
     },
     "12830": {
         "folder": "%USERPROFILE%/Documents/My Games/OFDR/Profiles"
