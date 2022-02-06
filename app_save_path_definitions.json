@@ -1,5 +1,5 @@
 {
-    "version": "1.2.0.0",
+    "version": "1.3.0.0",
     "USERDATA": {
         "folder": "|STEAMINSTALLDIR|/userdata"
     },
@@ -2983,7 +2983,7 @@
         "folder": "|TBD|"
     },
     "35140": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/Square Enix/Batman Arkham Asylum GOTY/SaveData"
     },
     "35450": {
         "folder": "|TBD|"
@@ -3106,7 +3106,7 @@
         "folder": "|TBD|"
     },
     "55230": {
-        "folder": "|TBD|"
+        "folder": "%LOCALAPPDATA%/Saints Row The Third"
     },
     "56400": {
         "folder": "|TBD|"
@@ -3229,7 +3229,16 @@
         "folder": "|TBD|"
     },
     "200260": {
-        "folder": "|TBD|"
+        "folders": [
+            {
+                "Path": "|IN_USER_DATA|",
+                "FriendlyName": "Steam"
+            },
+            {
+                "Path": "%USERPROFILE%/Documents/WB Games/Batman Arkham City GOTY/SaveData",
+                "FriendlyName": "Windows"
+            }
+        ]
     },
     "200510": {
         "folder": "|TBD|"
@@ -3244,7 +3253,7 @@
         "folder": "|TBD|"
     },
     "201810": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Saved Games/MachineGames/Wolfenstein The New Order/base/savegame"
     },
     "202090": {
         "folder": "|TBD|"
@@ -3265,7 +3274,7 @@
         "folder": "|TBD|"
     },
     "203160": {
-        "folder": "|TBD|"
+        "folder": "|IN_USER_DATA|"
     },
     "203630": {
         "folder": "|TBD|"
@@ -3280,7 +3289,7 @@
         "folder": "|TBD|"
     },
     "204100": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/Rockstar Games/Max Payne 3/Profiles"
     },
     "204360": {
         "folder": "|IN_USER_DATA|"
@@ -3298,13 +3307,13 @@
         "folder": "|TBD|"
     },
     "205100": {
-        "folder": "|TBD|"
+        "folder": "|IN_USER_DATA|"
     },
     "205230": {
         "folder": "|TBD|"
     },
     "206420": {
-        "folder": "|TBD|"
+        "folder": "|PATHTOGAME|/_saves"
     },
     "206690": {
         "folder": "|TBD|"
@@ -3313,7 +3322,7 @@
         "folder": "|TBD|"
     },
     "207610": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/Telltale Games/The Walking Dead"
     },
     "208200": {
         "folder": "|TBD|"
@@ -3325,7 +3334,7 @@
         "folder": "|TBD|"
     },
     "208650": {
-        "folder": "|TBD|"
+        "folder": "|PATHTOGAME|/BMGame/SaveData"
     },
     "208670": {
         "folder": "|TBD|"
@@ -3418,7 +3427,7 @@
         "folder": "|TBD|"
     },
     "221910": {
-        "folder": "|TBD|"
+        "folder": "|PATHTOGAME|/thestanleyparable/save"
     },
     "222880": {
         "folder": "|TBD|"
@@ -3442,7 +3451,7 @@
         "folder": "|TBD|"
     },
     "224480": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Saved Games/Octodad Dadliest Catch"
     },
     "224580": {
         "folder": "|TBD|"
@@ -3529,7 +3538,7 @@
         "folder": "|TBD|"
     },
     "233720": {
-        "folder": "|TBD|"
+        "registry": "HKEY_CURRENT_USER/Software/Bossa Studios/Surgeon Simulator 2013"
     },
     "234140": {
         "folder": "|TBD|"
@@ -3604,7 +3613,7 @@
         "folder": "|TBD|"
     },
     "242590": {
-        "folder": "|TBD|"
+        "folder": "|NA|"
     },
     "242640": {
         "folder": "|TBD|"
@@ -3751,7 +3760,7 @@
         "folder": "|TBD|"
     },
     "261030": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/Telltale Games/The Walking Dead Season Two"
     },
     "261180": {
         "folder": "|TBD|"
@@ -4177,7 +4186,7 @@
         "folder": "|TBD|"
     },
     "350080": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Saved Games/MachineGames/Wolfenstein The Old Blood/base/savegame"
     },
     "351030": {
         "folder": "|TBD|"
@@ -4333,7 +4342,7 @@
         "folder": "|TBD|"
     },
     "391220": {
-        "folder": "|TBD|"
+        "folder": "|IN_USER_DATA|"
     },
     "391540": {
         "folder": "|TBD|"
@@ -4381,7 +4390,7 @@
         "folder": "|TBD|"
     },
     "403640": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Saved Games/Arkane Studios/dishonored2/base/savegame"
     },
     "405310": {
         "folder": "|TBD|"
@@ -4438,10 +4447,10 @@
         "folder": "|TBD|"
     },
     "426000": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/AppData/LocalLow/HuniePot/HunieCam Studio"
     },
     "429570": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/Telltale Games/The Walking Dead Michonne"
     },
     "429660": {
         "folder": "|TBD|"
@@ -4579,7 +4588,7 @@
         "folder": "|TBD|"
     },
     "498240": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/Telltale Games/Batman The Telltale Series"
     },
     "499900": {
         "folder": "|TBD|"
@@ -4633,7 +4642,16 @@
         "folder": "|TBD|"
     },
     "536220": {
-        "folder": "|TBD|"
+        "folders": [
+            {
+                "Path": "%USERPROFILE%/Documents/Telltale Games/The Walking Dead - A New Frontier (Season 3)",
+                "FriendlyName": "Path1"
+            },
+            {
+                "Path": "%USERPROFILE%/Documents/Telltale Games/The Walking Dead A New Frontier",
+                "FriendlyName": "AltPath"
+            }
+        ]
     },
     "536270": {
         "folder": "|TBD|"
@@ -4753,13 +4771,13 @@
         "folder": "|TBD|"
     },
     "612880": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Saved Games/MachineGames/Wolfenstein II The New Colossus/base"
     },
     "613100": {
         "folder": "|TBD|"
     },
     "614570": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Saved Games/Arkane Studios/Dishonored_DO/base/savegame"
     },
     "614890": {
         "folder": "|TBD|"
@@ -4852,7 +4870,7 @@
         "folder": "|TBD|"
     },
     "675260": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/Telltale Games/Batman The Enemy Within - The Telltale Series"
     },
     "678900": {
         "folder": "|TBD|"
@@ -4960,7 +4978,16 @@
         "folder": "|TBD|"
     },
     "752590": {
-        "folder": "|TBD|"
+        "folders": [
+            {
+                "Path": "%USERPROFILE%/Documents/My Games/A Plague Tale Innocence",
+                "FriendlyName": "Windows"
+            },
+            {
+                "Path": "|IN_USER_DATA|",
+                "FriendlyName": "SteamVersion"
+            }
+        ]
     },
     "753640": {
         "folder": "|TBD|"
@@ -5146,7 +5173,7 @@
         "folder": "|TBD|"
     },
     "866800": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/Telltale Games/The Walking Dead The Final Season"
     },
     "870200": {
         "folder": "|TBD|"
@@ -5536,7 +5563,7 @@
         "folder": "|TBD|"
     },
     "1151640": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/Horizon Zero Dawn/Saved Game"
     },
     "1154790": {
         "folder": "|TBD|"
@@ -5584,7 +5611,7 @@
         "folder": "|TBD|"
     },
     "1181840": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/AppData/LocalLow/What Pumpkin/Hiveswap Episode 2/Saves"
     },
     "1186040": {
         "folder": "|TBD|"
@@ -5593,13 +5620,13 @@
         "folder": "|TBD|"
     },
     "1188090": {
-        "folder": "|TBD|"
+        "folder": "|NA|"
     },
     "1188680": {
         "folder": "|TBD|"
     },
     "1194630": {
-        "folder": "|TBD|"
+        "folder": "%LOCALAPPDATA%/LittleHope/Saved/SaveGames"
     },
     "1205450": {
         "folder": "|TBD|"
@@ -5608,79 +5635,88 @@
         "folder": "|TBD|"
     },
     "1210150": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/AppData/LocalLow/OneMoreDream Studios/Ageless"
     },
     "1220150": {
-        "folder": "|TBD|"
+        "folder": "%LOCALAPPDATA%/Blue Fire/Saved/SaveGames"
     },
     "1222690": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/BioWare/Dragon Age Inquisition/Save"
     },
     "1222730": {
-        "folder": "|TBD|"
+        "folders": [
+            {
+                "Path": "%USERPROFILE%/Documents/STAR WARS Squadrons Steam",
+                "FriendlyName": "SteamVersion"
+            },
+            {
+                "Path": "%USERPROFILE%/Documents/STAR WARS Squadrons",
+                "FriendlyName": "WindowsVersion"
+            }
+        ]
     },
     "1224230": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Saved Games/Quantic Dream/Detroit Become Human"
     },
     "1224940": {
-        "folder": "|TBD|"
+        "folder": "|NA|"
     },
     "1225560": {
-        "folder": "|TBD|"
+        "folder": "%LOCALAPPDATA%/Unravel"
     },
     "1225570": {
-        "folder": "|TBD|"
+        "folder": "%LOCALAPPDATA%/UnravelTwo"
     },
     "1227530": {
-        "folder": "|TBD|"
+        "folder": "%LOCALAPPDATA%/Partisans/Saved/SaveGames"
     },
     "1229320": {
-        "folder": "|TBD|"
+        "folder": "|NA|"
     },
     "1229350": {
-        "folder": "|TBD|"
+        "folder": "|NA|"
     },
     "1229370": {
-        "folder": "|TBD|"
+        "folder": "|NA|"
     },
     "1232080": {
-        "folder": "|TBD|"
+        "folder": "|NA|"
     },
     "1233280": {
-        "folder": "|TBD|"
+        "folder": "|NA|"
     },
     "1233340": {
-        "folder": "|TBD|"
+        "folder": "|NA|"
     },
     "1233570": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/Mirrors Edge Catalyst/settings/PROF_SAVE"
     },
     "1238000": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/BioWare/Mass Effect Andromeda/Save"
     },
     "1238040": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/BioWare/Dragon Age 2/Characters"
     },
     "1239690": {
         "folder": "|TBD|"
     },
     "1240360": {
-        "folder": "|TBD|"
+        "folder": "|NA|"
     },
     "1240440": {
-        "folder": "|TBD|"
+        "folder": "|IN_USER_DATA|"
     },
     "1244560": {
-        "folder": "|TBD|"
+        "folder": "|NA|"
     },
     "1245430": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/AppData/LocalLow/MrPink/Golden Light"
     },
     "1249110": {
-        "folder": "|TBD|"
+        "folder": "%LOCALAPPDATA%/Skully/Saved/SaveGames"
     },
     "1249770": {
-        "folder": "|TBD|"
+        "folder": "|NA|"
     },
     "1250410": {
         "folder": "|TBD|"
@@ -5689,49 +5725,58 @@
         "folder": "|TBD|"
     },
     "1259420": {
-        "folder": "|TBD|"
+        "folder": "%LOCALAPPDATA%/BendGame/Saved"
     },
     "1261520": {
-        "folder": "|TBD|"
+        "folder": "|PATHTOGAME|/SAVE"
     },
     "1265860": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/NASCAR Heat 5"
     },
     "1268460": {
-        "folder": "|TBD|"
+        "folder": "|NA|"
     },
     "1275350": {
         "folder": "|TBD|"
     },
     "1275760": {
-        "folder": "|TBD|"
+        "folder": "%LOCALAPPDATA%/SFL/Saved"
     },
     "1276390": {
         "folder": "|TBD|"
     },
     "1279630": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/AppData/LocalLow/DrawDistance/VtM Shadows of New York/Saves"
     },
     "1281590": {
-        "folder": "|TBD|"
+        "folder": "%LOCALAPPDATA%/HouseOfAshes/Saved/SaveGames"
     },
     "1282690": {
-        "folder": "|TBD|"
+        "folders": [
+            {
+                "Path": "%USERPROFILE%/Saved Games/Crysis3/SaveGames",
+                "FriendlyName": "MainPath"
+            },
+            {
+                "Path": "|PATHTOGAME|/Crysis 3/USER/SaveGames",
+                "FriendlyName": "AltPath"
+            }
+        ]
     },
     "1284410": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/AppData/LocalLow/CDProjektRED/Gwent"
     },
     "1286350": {
-        "folder": "|TBD|"
+        "folder": "%LOCALAPPDATA%/BPM/Saved/SaveGames"
     },
     "1287590": {
         "folder": "|TBD|"
     },
     "1295550": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/My Games/DRAGON QUEST XI S/Steam"
     },
     "1302050": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/AppData/LocalLow/Santa Ragione/MILKY WAY PRINCE/Saves"
     },
     "1304680": {
         "folder": "|TBD|"
@@ -5740,28 +5785,28 @@
         "folder": "|TBD|"
     },
     "1311070": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/AppData/LocalLow/Navegante Entertainment/Greak_ Memories of Azur/Data"
     },
     "1314280": {
         "folder": "|TBD|"
     },
     "1325200": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/KoeiTecmo/NIOH2/Savedata"
     },
     "1325350": {
-        "folder": "|TBD|"
+        "folder": "%LOCALAPPDATA%/DrLivingstone/Saved"
     },
     "1331910": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/AppData/LocalLow/Aspyr/Morkredd/SaveData"
     },
     "1342620": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/AppData/LocalLow/Different Tales/Heart of the Forest/Saves"
     },
     "1349230": {
-        "folder": "|TBD|"
+        "folder": "%APPDATA%/Thunkspace/5dchesswithmultiversetimetravel"
     },
     "1364100": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/AppData/LocalLow/DigiTales Interactive/Lacuna/saves"
     },
     "1364800": {
         "folder": "|TBD|"
@@ -5773,28 +5818,28 @@
         "folder": "|TBD|"
     },
     "1391110": {
-        "folder": "|TBD|"
+        "folder": "|NA|"
     },
     "1397220": {
         "folder": "|TBD|"
     },
     "1404210": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/Rockstar Games/Red Dead Redemption 2/Profiles"
     },
     "1405790": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/AppData/LocalLow/Bithell Games/John Wick Hex"
     },
     "1407700": {
-        "folder": "|TBD|"
+        "folder": "|NA|"
     },
     "1412570": {
-        "folder": "|TBD|"
+        "folder": "|IN_USER_DATA|"
     },
     "1421230": {
         "folder": "|TBD|"
     },
     "1421480": {
-        "folder": "|TBD|"
+        "folder": "|NA|"
     },
     "1435990": {
         "folder": "|TBD|"
@@ -5803,13 +5848,13 @@
         "folder": "|TBD|"
     },
     "1449560": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Saved Games/metro exodus"
     },
     "1449690": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/Telltale Games/TWDTTDS"
     },
     "1452390": {
-        "folder": "|TBD|"
+        "folder": "|NA|"
     },
     "1463730": {
         "folder": "|TBD|"
@@ -5818,25 +5863,25 @@
         "folder": "|TBD|"
     },
     "1481400": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/AppData/LocalLow/BitGolem/Dagon"
     },
     "1484720": {
-        "folder": "|TBD|"
+        "folder": "%LOCALAPPDATA%/Dead_Estate"
     },
     "1485700": {
         "folder": "|TBD|"
     },
     "1493710": {
-        "folder": "|TBD|"
+        "folder": "|NA|"
     },
     "1493800": {
         "folder": "|TBD|"
     },
     "1504280": {
-        "folder": "|TBD|"
+        "folder": "|NA|"
     },
     "1515950": {
-        "folder": "|TBD|"
+        "folder": "|IN_USER_DATA|"
     },
     "1544360": {
         "folder": "|TBD|"
@@ -5851,7 +5896,7 @@
         "folder": "|TBD|"
     },
     "1641480": {
-        "folder": "|TBD|"
+        "folder": "|IN_USER_DATA|"
     },
     "1648900": {
         "folder": "|TBD|"
@@ -5887,16 +5932,16 @@
         "folder": "|TBD|"
     },
     "1753260": {
-        "folder": "|TBD|"
+        "file": "|PATHTOGAME|/SaveFile.gwsave"
     },
     "1773660": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/Humankind/Save Files"
     },
     "1781160": {
         "folder": "|TBD|"
     },
     "1782210": {
-        "folder": "|TBD|"
+        "folder": "|PATHTOGAME|/SavesDir"
     },
     "1811180": {
         "folder": "|TBD|"
