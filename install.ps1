@@ -14,7 +14,10 @@ Copy-Item ".\sample-config.json" -destination "$install_path\config.json"
 
 
 $action = New-ScheduledTaskAction -Execute "$install_path\main.exe" -WorkingDirectory $install_path
-$trigger = New-ScheduledTaskTrigger -Once -At ([datetime]::Today) -RepetitionInterval (New-TimeSpan -Hours 1) -RepetitionDuration (New-TimeSpan -Days 1)
-Register-ScheduledTask -Action $action -Trigger $trigger -TaskName "GameSaveManager" -Description "Backs up game saves"
+$trigger = New-ScheduledTaskTrigger -Daily -At 12am #([datetime]::Today) #-RepetitionInterval (New-TimeSpan -Hours 1) -RepetitionDuration (New-TimeSpan -Days 1)
+$task = Register-ScheduledTask -Action $action -Trigger $trigger -TaskName "GameSaveManager" -Description "Backs up game saves"
+$task.Triggers.Repetition.Duration = "P1D"
+$task.Triggers.Repetition.Interval = "PT1H"
+$task | Set-ScheduledTask
 
 Write-Output "Completed Install"
