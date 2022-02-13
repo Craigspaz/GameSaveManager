@@ -1,5 +1,5 @@
 {
-    "version": "1.3.2.1",
+    "version": "1.3.3.0",
     "USERDATA": {
         "folder": "|STEAMINSTALLDIR|/userdata"
     },
@@ -2727,28 +2727,286 @@
     "12830": {
         "folder": "%USERPROFILE%/Documents/My Games/OFDR/Profiles"
     },
+    "12840": {
+        "folder": "%USERPROFILE%/Documents/My Games/DiRT2/savegame"
+    },
+    "12850": {
+        "folder": "%USERPROFILE%/Documents/My Games/DiRT2/savegame"
+    },
+    "12860": {
+        "folder": "%USERPROFILE%/My Documents/My Games/Codemasters/Ashes Cricket 2009"
+    },
+    "12880": {
+        "folder": "|NA|"
+    },
+    "12890": {
+        "folder": "|TBD|"
+    },
+    "12900": {
+        "folder": "|TBD|"
+    },
+    "12910": {
+        "folder": "|TBD|"
+    },
+    "13000": {
+        "file": "|PATHTOGAME|/save.dat"
+    },
+    "13010": {
+        "file": "|PATHTOGAME|/save.dat"
+    },
+    "13100": {
+        "folder": "|PATHTOGAME|/System/Save"
+    },
+    "13120": {
+        "folder": "|NA|"
+    },
+    "13140": {
+        "folder": "%USERPROFILE%/Documents/America's Army 3"
+    },
+    "13160": {
+        "folder": "|NA|"
+    },
+    "13180": {
+        "folder": "|NA|"
+    },
+    "13200": {
+        "folders": [
+            {
+                "Path": "|PATHTOGAME|/Save",
+                "FriendlyName": "Save"
+            },
+            {
+                "Path": "|PATHTOGAME|/System",
+                "FriendlyName": "User"
+            }
+        ]
+    },
+    "13210": {
+        "folder": "%USERPROFILE%/Documents/My Games/Unreal Tournament 3/UTGame/SaveData"
+    },
+    "13230": {
+        "folder": "|PATHTOGAME|/Saves"
+    },
+    "13240": {
+        "file": "|PATHTOGAME|/System/User.ini"
+    },
+    "13250": {
+        "folder": "|PATHTOGAME|/Save"
+    },
+    "13260": {
+        "folder": "|NA|"
+    },
+    "13500": {
+        "folder": "|PATHTOGAME|/GameProfiles/POPWWPROFILES"
+    },
+    "13510": {
+        "folder": "%LOCALAPPDATA%/GRAW2/settings/profiles"
+    },
     "13520": {
         "folder": "|PATHTOGAME|/Profiles"
+    },
+    "13530": {
+        "folder": "|PATHTOGAME|/POP3Profiles"
     },
     "13540": {
         "folder": "%USERPROFILE%/Documents/Ubisoft/R6Vegas"
     },
+    "13560": {
+        "folder": "|PATHTOGAME|/Save"
+    },
+    "13570": {
+        "folder": "%PROGRAMDATA%/Ubisoft/Tom Clancy's Splinter Cell Chaos Theory/Profiles"
+    },
+    "13580": {
+        "folder": "%PROGRAMDATA%/Application Data/Ubisoft/SplinterCell4"
+    },
     "13600": {
+        "folder": "|PATHTOGAME|/Profiles"
+    },
+    "13620": {
         "folder": "|TBD|"
+    },
+    "13630": {
+        "folder": "|TBD|"
+    },
+    "13640": {
+        "folder": "|PATHTOGAME|/Settings/profiles"
+    },
+    "13650": {
+        "folder": "|PATHTOGAME|/data/save"
+    },
+    "13660": {
+        "folder": "|TBD|"
+    },
+    "13700": {
+        "folder": "|TBD|"
+    },
+    "13900": {
+        "folder": "|NA|"
     },
     "15000": {
-        "folder": "|TBD|"
+        "folder": "|PATHTOGAME|/data/save"
+    },
+    "15060": {
+        "folder": "|PATHTOGAME|/Data/SaveGame"
+    },
+    "15080": {
+        "file": "|PATHTOGAME|/Rayman4.sav"
     },
     "15100": {
-        "folder": "|TBD|"
+        "folder": "%APPDATA%/Ubisoft/Assassin's Creed/Saved Games"
     },
     "15120": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/My Games/Ubisoft/R6Vegas2"
+    },
+    "15130": {
+        "filter": "|PATHTOGAME|/*.sav"
+    },
+    "15160": {
+        "filter": "|TBD|"
+    },
+    "15170": {
+        "filter": "%USERPROFILE%/Documents/My Games/Heroes of Might and Magic V/Profiles"
+    },
+    "15190": {
+        "filter": "%APPDATA%/Gearbox Software/Brothers In Arms"
+    },
+    "15200": {
+        "filter": "|TBD|"
+    },
+    "15210": {
+        "filter": "%USERPROFILE%/Documents/SH3"
+    },
+    "15220": {
+        "filter": "|TBD|"
+    },
+    "15230": {
+        "filter": "|TBD|"
+    },
+    "15240": {
+        "filter": "|TBD|"
+    },
+    "15260": {
+        "filter": "|PATHTOGAME|/Data/Users"
+    },
+    "15270": {
+        "filter": "|PATHTOGAME|/SAVES"
+    },
+    "15280": {
+        "filter": "|TBD|"
+    },
+    "15300": {
+        "filter": "|PATHTOGAME|/Mods/Origmiss/save"
+    },
+    "15310": {
+        "filter": "%USERPROFILE%/Documents/THE SETTLERS - Heritage of Kings/SaveGames"
     },
     "15320": {
+        "folder": "|PATHTOGAME|/USER"
+    },
+    "15330": {
+        "folder": "%USERPROFILE%/Documents/THE SETTLERS - Rise of an Empire/SaveGames"
+    },
+    "15350": {
+        "folder": "|TBD|"
+    },
+    "15360": {
+        "folder": "|TBD|"
+    },
+    "15370": {
+        "folder": "%USERPROFILE%/Documents/My Games/Heroes of Might and Magic V - Tribes of the East/Profiles"
+    },
+    "15380": {
+        "folder": "|TBD|"
+    },
+    "15390": {
+        "folder": "%USERPROFILE%/Documents/My Games/BIA Hells Highway/SumacGame/SaveData"
+    },
+    "15400": {
+        "folder": "|TBD|"
+    },
+    "15410": {
+        "folder": "|TBD|"
+    },
+    "15500": {
+        "folder": "%LOCALAPPDATA%/The Wonderful End of the World"
+    },
+    "15510": {
+        "folder": "%LOCALAPPDATA%/The Wonderful End of the World"
+    },
+    "15520": {
+        "folder": "%LOCALAPPDATA%/AaaaaRecklessDisregard"
+    },
+    "15530": {
+        "folder": "%LOCALAPPDATA%/AaaaaRecklessDisregard"
+    },
+    "15540": {
+        "folder": "|TBD|"
+    },
+    "15560": {
+        "registry": "HKEY_CURRENT_USER\\Software\\Dejobaan Games\\Awesome"
+    },
+    "15620": {
+        "folder": "%USERPROFILE%/Documents/My Games/Dawn of War 2"
+    },
+    "15640": {
+        "folder": "%USERPROFILE%/Documents/My Games/Dawn of War 2"
+    },
+    "15660": {
+        "folder": "|TBD|"
+    },
+    "15680": {
         "folder": "|TBD|"
     },
     "15700": {
+        "filter": "|PATHTOGAME|/*.sav"
+    },
+    "15710": {
+        "filter": "|PATHTOGAME|/*.sav"
+    },
+    "15720": {
+        "folder": "|TBD|"
+    },
+    "15730": {
+        "folder": "|TBD|"
+    },
+    "15740": {
+        "folder": "|PATHTOGAME|/saves"
+    },
+    "15750": {
+        "folder": "%USERPROFILE%/Documents/Oddworld/Stranger's Wrath HD/Save"
+    },
+    "15900": {
+        "folder": "|TBD|"
+    },
+    "15910": {
+        "folder": "|TBD|"
+    },
+    "15920": {
+        "folder": "|TBD|"
+    },
+    "15930": {
+        "folder": "%PROGRAMDATA%/MumboJumbo/Luxor 3/Profiles"
+    },
+    "15940": {
+        "folder": "|TBD|"
+    },
+    "15950": {
+        "folder": "|TBD|"
+    },
+    "15960": {
+        "folder": "|TBD|"
+    },
+    "15970": {
+        "folder": "|TBD|"
+    },
+    "15980": {
+        "folder": "|TBD|"
+    },
+    "15990": {
+        "folder": "|TBD|"
+    },
+    "16000": {
         "folder": "|TBD|"
     },
     "16450": {
