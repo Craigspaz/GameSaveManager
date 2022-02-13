@@ -63,9 +63,26 @@ From Source:
 1. pipenv install --dev
 1. Rename sample-config.json to config.json
 1. Edit config.json to the desired settings
+1. pipenv run pyinstaller --noconsole -F --icon=favicon.ico main.py
+1. Create a directory in %appdata%/GameSaveManager
+1. Copy main.exe from the dist directory along with config.json and app_save_path_definitions.json to the directory you just created
 1. Add a scheduled task in Windows to run on a schedule the way you would like it to run
 
 With Install Script In Source:
 1. Clone this repo
 1. Edit sample-config.json to be the configuration file you want
 1. Run install.ps1 (It will copy the files to %appdata%/GameSaveManager and it will add a scheduled task to task scheduler)
+
+
+## How to update definitions
+
+From Source:
+1. Clone this repo
+1. pipenv install
+1. pipenv install --dev
+1. pipenv run pyinstaller --noconsole -F --icon=favicon.ico main.py
+1. Copy main.exe from the dist directory along with app_save_path_definitions.json to the folder located here: %appdata%/GameSaveManager
+
+With the Upgrade Script In Source:
+1. Clone this repo
+1. Run update.ps1 (Note: If you the code is running you might get an error)
