@@ -1,5 +1,5 @@
 {
-    "version": "1.3.0.0",
+    "version": "1.3.1.0",
     "USERDATA": {
         "folder": "|STEAMINSTALLDIR|/userdata"
     },
@@ -2794,10 +2794,10 @@
         "folder": "|TBD|"
     },
     "20900": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/The Witcher/saves"
     },
     "20920": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/Witcher 2/gamesaves"
     },
     "20930": {
         "folder": "|TBD|"
@@ -3124,7 +3124,7 @@
         "folder": "|TBD|"
     },
     "63380": {
-        "folder": "|TBD|"
+        "folder": "%LOCALAPPDATA%/SniperV2/PC_ProfileSaves"
     },
     "65540": {
         "folder": "|TBD|"
@@ -3157,7 +3157,7 @@
         "folder": "%USERPROFILE%/Documents/My Games/Sid Meier's Civilization Beyond Earth/Saves"
     },
     "67370": {
-        "folder": "|TBD|"
+        "folder": "%APPDATA%/DarknessII"
     },
     "70000": {
         "folder": "|TBD|"
@@ -3184,7 +3184,7 @@
         "folder": "|TBD|"
     },
     "72850": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/My Games/Skyrim/Saves"
     },
     "78000": {
         "folder": "|TBD|"
@@ -3670,7 +3670,7 @@
         "folder": "|TBD|"
     },
     "250320": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/Telltale Games/The Wolf Among Us"
     },
     "250460": {
         "folder": "|TBD|"
@@ -3835,7 +3835,7 @@
         "folder": "|TBD|"
     },
     "274190": {
-        "folder": "|TBD|"
+        "folder": "|PATHTOGAME|/Saves"
     },
     "274310": {
         "folder": "|TBD|"
@@ -3940,7 +3940,7 @@
         "folder": "|TBD|"
     },
     "292030": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/The Witcher 3/gamesaves"
     },
     "292380": {
         "folder": "|TBD|"
@@ -3997,10 +3997,10 @@
         "folder": "|TBD|"
     },
     "303800": {
-        "folder": "|TBD|"
+        "registry": "HKEY_CURRENT_USER/Software/CD Projekt RED S.A./The Witcher AG"
     },
     "304930": {
-        "folder": "|TBD|"
+        "registry": "HKEY_CURRENT_USER/Software/Smartly Dressed Games/Unturned"
     },
     "305980": {
         "folder": "|TBD|"
@@ -4102,7 +4102,16 @@
         "folder": "|TBD|"
     },
     "322500": {
-        "folder": "|TBD|"
+        "folders": [
+            {
+                "Path": "%USERPROFILE%/AppData/LocalLow/SUPERHOT_Team/SUPERHOT",
+                "FriendlyName": "BaseGame"
+            },
+            {
+                "Path": "%USERPROFILE%/AppData/LocalLow/SUPERHOT_Team/SUPERHOT/Screenshots/Replays",
+                "FriendlyName": "Replays"
+            }
+        ]
     },
     "324570": {
         "folder": "|IN_USER_DATA|"
@@ -4123,7 +4132,7 @@
         "folder": "|TBD|"
     },
     "330830": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/Telltale Games/Tales from the Borderlands"
     },
     "331480": {
         "folder": "|TBD|"
@@ -4267,7 +4276,7 @@
         "folder": "|TBD|"
     },
     "370360": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/My Games/TIS-100"
     },
     "371660": {
         "folder": "|TBD|"
@@ -4282,7 +4291,7 @@
         "folder": "|TBD|"
     },
     "375820": {
-        "folder": "|TBD|"
+        "folder": "%APPDATA%/Human Resource Machine"
     },
     "376300": {
         "folder": "|TBD|"
@@ -4387,7 +4396,7 @@
         "folder": "|TBD|"
     },
     "403430": {
-        "folder": "|TBD|"
+        "folder": "%APPDATA%/ArcadeGameSeries"
     },
     "403640": {
         "folder": "%USERPROFILE%/Saved Games/Arkane Studios/dishonored2/base/savegame"
@@ -4669,7 +4678,7 @@
         "folder": "|TBD|"
     },
     "544750": {
-        "folder": "|TBD|"
+        "folder": "%LOCALAPPDATA%/SoulcaliburVI/Saved/SaveGames"
     },
     "551770": {
         "folder": "|TBD|"
@@ -5059,7 +5068,7 @@
         "folder": "|TBD|"
     },
     "792100": {
-        "folder": "|TBD|"
+        "folder": "%APPDATA%/7 Billion Humans"
     },
     "792710": {
         "folder": "|TBD|"
@@ -5329,7 +5338,7 @@
         "folder": "|TBD|"
     },
     "973760": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/AppData/LocalLow/CDProjektRED/Thronebreaker/SaveData"
     },
     "975510": {
         "folder": "|TBD|"
@@ -5347,7 +5356,7 @@
         "folder": "|TBD|"
     },
     "976730": {
-        "folder": "|TBD|"
+        "folder": "|IN_USER_DATA|"
     },
     "978520": {
         "folder": "|TBD|"
@@ -5458,7 +5467,7 @@
         "folder": "|TBD|"
     },
     "1058020": {
-        "folder": "|TBD|"
+        "folder": "|PATHTOGAME|/GameData/SaveGames"
     },
     "1058200": {
         "folder": "|TBD|"
@@ -5506,7 +5515,7 @@
         "folder": "|TBD|"
     },
     "1091500": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Saved Games/CD Projekt Red/Cyberpunk 2077"
     },
     "1096570": {
         "folder": "|TBD|"
