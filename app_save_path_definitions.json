@@ -1,5 +1,5 @@
 {
-    "version": "1.3.1.0",
+    "version": "1.3.2.0",
     "USERDATA": {
         "folder": "|STEAMINSTALLDIR|/userdata"
     },
@@ -448,7 +448,16 @@
         "folder": "|PATHTOGAME|/main/players"
     },
     "2640": {
-        "folder": "|PATHTOGAME|/Main/save"
+        "folders": [
+            {
+                "Path": "|PATHTOGAME|/Main/save",
+                "FriendlyName": "BaseGame"
+            },
+            {
+                "Path": "|PATHTOGAME|/uo/save",
+                "FriendlyName": "UO"
+            }
+        ]
     },
     "2670": {
         "folder": "|TBD|"
@@ -3085,7 +3094,7 @@
         "folder": "|TBD|"
     },
     "49520": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/My Games/Borderlands 2/WillowGame/SaveData"
     },
     "50130": {
         "folder": "|TBD|"
@@ -3214,7 +3223,7 @@
         "folder": "|TBD|"
     },
     "102600": {
-        "folder": "|TBD|"
+        "folder": "|PATHTOGAME|/Data/startup"
     },
     "105000": {
         "folder": "|TBD|"
@@ -3227,6 +3236,9 @@
     },
     "108800": {
         "folder": "|TBD|"
+    },
+    "115300": {
+        "folder": "|PATHTOGAME|/players2/save"
     },
     "200260": {
         "folders": [
@@ -3268,7 +3280,7 @@
         "folder": "|TBD|"
     },
     "202970": {
-        "folder": "|TBD|"
+        "folder": "|PATHTOGAME|/players/save"
     },
     "202990": {
         "folder": "|TBD|"
@@ -3295,7 +3307,7 @@
         "folder": "|IN_USER_DATA|"
     },
     "204450": {
-        "folder": "|TBD|"
+        "folder": "|IN_USER_DATA|"
     },
     "204880": {
         "folder": "|TBD|"
@@ -3340,7 +3352,7 @@
         "folder": "|TBD|"
     },
     "209000": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/WB Games/Batman Arkham Origins/SaveData"
     },
     "209160": {
         "folder": "|TBD|"
@@ -3352,7 +3364,7 @@
         "folder": "|TBD|"
     },
     "210770": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/My Games/Sanctum2/SanctumGame/SaveData"
     },
     "210970": {
         "folder": "|TBD|"
@@ -3421,7 +3433,7 @@
         "folder": "|TBD|"
     },
     "221380": {
-        "folder": "|TBD|"
+        "folder": "|PATHTOGAME|/SaveGame"
     },
     "221680": {
         "folder": "|TBD|"
@@ -3448,7 +3460,7 @@
         "folder": "|TBD|"
     },
     "224420": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/My Games/Afterfall InSanity/RascalGame/SaveData"
     },
     "224480": {
         "folder": "%USERPROFILE%/Saved Games/Octodad Dadliest Catch"
@@ -4081,7 +4093,7 @@
         "folder": "|TBD|"
     },
     "319630": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/My Games/Life Is Strange/Saves"
     },
     "319910": {
         "folder": "|TBD|"
@@ -4156,7 +4168,7 @@
         "folder": "|TBD|"
     },
     "333950": {
-        "folder": "|TBD|"
+        "folder": "%APPDATA%/MedievalEngineers/Saves"
     },
     "334690": {
         "folder": "|TBD|"
@@ -4183,7 +4195,7 @@
         "folder": "|TBD|"
     },
     "346010": {
-        "folder": "|TBD|"
+        "folder": "|PATHTOGAME|/Besiege_Data"
     },
     "347600": {
         "folder": "|TBD|"
@@ -4408,10 +4420,10 @@
         "folder": "|TBD|"
     },
     "409710": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/BioshockHD/Bioshock/SaveGames"
     },
     "409720": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/BioshockHD/Bioshock2/SaveGames"
     },
     "410590": {
         "folder": "|TBD|"
@@ -4426,7 +4438,7 @@
         "folder": "|TBD|"
     },
     "414340": {
-        "folder": "|TBD|"
+        "folder": "%LOCALAPPDATA%/HellbladeGame/Saved/SaveGames"
     },
     "416790": {
         "folder": "|TBD|"
@@ -4492,7 +4504,7 @@
         "folder": "|TBD|"
     },
     "440900": {
-        "folder": "|TBD|"
+        "folder": "|PATHTOGAME|/ConanSandbox/Saved"
     },
     "441550": {
         "folder": "|TBD|"
@@ -5086,7 +5098,7 @@
         "folder": "|TBD|"
     },
     "795100": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/AppData/LocalLow/Blue Wizard/Friday the 13th"
     },
     "797410": {
         "folder": "|TBD|"
@@ -5509,7 +5521,7 @@
         "folder": "|TBD|"
     },
     "1089130": {
-        "folder": "|TBD|"
+        "folder": "|PATHTOGAME|/baseq2/save"
     },
     "1089980": {
         "folder": "|TBD|"
