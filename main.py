@@ -566,86 +566,91 @@ for path in library_paths:
                             break
 
                     registry_backup = get_keys(registry_backup, registry_key_handle, registry_key)
+                    print("Registry Backup: " + str(registry_backup))
+                    if registry_backup != None:
 
-                    tmp_file = open("./tmp_file.json", "w")
-                    tmp_file.write(json.dumps(registry_backup))
-                    tmp_file.close()
+                        tmp_file = open("./tmp_file.json", "w")
+                        try:
+                            tmp_file.write(json.dumps(registry_backup))
+                        except:
+                            tmp_file.write(str(registry_backup))
+                        tmp_file.close()
 
-                    if "backup_methods" in user_defined_config:
-                        for backup_method in user_defined_config["backup_methods"]:
-                            if "backup_type" in backup_method and backup_method["backup_type"] == "FILE_SYSTEM":
-                                backup_folder_base_path = None
-                                storage_format = None
-                                if "backup_folder_path" in backup_method:
-                                    backup_folder_base_path = backup_method["backup_folder_path"]
-                                if "storage_format" in backup_method:
-                                    storage_format = backup_method["storage_format"]
-                                if backup_folder_base_path == None:
-                                    print("Backup Method is a FILE SYSTEM Type but does not have a path to store the backups")
-                                    continue
-                                if storage_format == None or storage_format == "POINT_IN_TIME":
-                                    print("Storage Format is using DEFAULT POINT_IN_TIME")
-                                    if os.path.isdir(backup_folder_base_path + "/" + str(app) + "/") == False:
-                                        os.mkdir(backup_folder_base_path + "/" + str(app) + "/")
-                                    folder_path = backup_folder_base_path + "/" + str(app) + "/" + str(datetime.datetime.now().strftime("%Y_%m_%d__%H_%M_%S_%f") + "/")
-                                    print("Creating Backup folder: " + str(folder_path))
-                                    if OPERATING_SYSTEM == 0:
-                                        folder_path = folder_path.replace("\\", "/")
-                                    source_file = "./tmp_file.json"
-                                    source_file_name = "tmp_file.json"
-                                    
-                                    destination = folder_path + source_file_name
-                                    if OPERATING_SYSTEM == 0:
-                                        destination = destination.replace("\\", "/")
-                                    print("Copying file: " + str(source_file) + " to: " + str(destination))
-                                    create_dir_if_needed(folder_path, source_file_name)
-                                    shutil.copy(source_file, destination)
-                            elif "backup_type" in backup_method and backup_method["backup_type"] == "S3":
-                                backup_bucket_name = None
-                                folder_prefix = None
-                                storage_format = None
-                                if "backup_bucket_name" in backup_method:
-                                    backup_bucket_name = backup_method["backup_bucket_name"]
-                                if "folder_prefix" in backup_method:
-                                    folder_prefix = backup_method["folder_prefix"]
-                                if "storage_format" in backup_method:
-                                    storage_format = backup_method["storage_format"]
-                                if (storage_format == None or storage_format == "OVERWRITE") and s3_resource != None:
-                                    print("Storage Format is using DEFAULT POINT_IN_TIME")
-                                    source_file = "./tmp_file.json"
-                                    source_file_name = "tmp_file.json"
-                                    save_path = None
-                                    if folder_prefix != None:
-                                        save_path = str(folder_prefix + "/" + str(app) + "/" + str(source_file_name)).replace("\\", "/")
-                                    else:
-                                        save_path = str(str(app) + "/" + str(source_file_name)).replace("\\", "/")
-                                    print("File Name S3: " + str(save_path))
+                        if "backup_methods" in user_defined_config:
+                            for backup_method in user_defined_config["backup_methods"]:
+                                if "backup_type" in backup_method and backup_method["backup_type"] == "FILE_SYSTEM":
+                                    backup_folder_base_path = None
+                                    storage_format = None
+                                    if "backup_folder_path" in backup_method:
+                                        backup_folder_base_path = backup_method["backup_folder_path"]
+                                    if "storage_format" in backup_method:
+                                        storage_format = backup_method["storage_format"]
+                                    if backup_folder_base_path == None:
+                                        print("Backup Method is a FILE SYSTEM Type but does not have a path to store the backups")
+                                        continue
+                                    if storage_format == None or storage_format == "POINT_IN_TIME":
+                                        print("Storage Format is using DEFAULT POINT_IN_TIME")
+                                        if os.path.isdir(backup_folder_base_path + "/" + str(app) + "/") == False:
+                                            os.mkdir(backup_folder_base_path + "/" + str(app) + "/")
+                                        folder_path = backup_folder_base_path + "/" + str(app) + "/" + str(datetime.datetime.now().strftime("%Y_%m_%d__%H_%M_%S_%f") + "/")
+                                        print("Creating Backup folder: " + str(folder_path))
+                                        if OPERATING_SYSTEM == 0:
+                                            folder_path = folder_path.replace("\\", "/")
+                                        source_file = "./tmp_file.json"
+                                        source_file_name = "tmp_file.json"
+                                        
+                                        destination = folder_path + source_file_name
+                                        if OPERATING_SYSTEM == 0:
+                                            destination = destination.replace("\\", "/")
+                                        print("Copying file: " + str(source_file) + " to: " + str(destination))
+                                        create_dir_if_needed(folder_path, source_file_name)
+                                        shutil.copy(source_file, destination)
+                                elif "backup_type" in backup_method and backup_method["backup_type"] == "S3":
+                                    backup_bucket_name = None
+                                    folder_prefix = None
+                                    storage_format = None
+                                    if "backup_bucket_name" in backup_method:
+                                        backup_bucket_name = backup_method["backup_bucket_name"]
+                                    if "folder_prefix" in backup_method:
+                                        folder_prefix = backup_method["folder_prefix"]
+                                    if "storage_format" in backup_method:
+                                        storage_format = backup_method["storage_format"]
+                                    if (storage_format == None or storage_format == "OVERWRITE") and s3_resource != None:
+                                        print("Storage Format is using DEFAULT POINT_IN_TIME")
+                                        source_file = "./tmp_file.json"
+                                        source_file_name = "tmp_file.json"
+                                        save_path = None
+                                        if folder_prefix != None:
+                                            save_path = str(folder_prefix + "/" + str(app) + "/" + str(source_file_name)).replace("\\", "/")
+                                        else:
+                                            save_path = str(str(app) + "/" + str(source_file_name)).replace("\\", "/")
+                                        print("File Name S3: " + str(save_path))
 
-                                    response = None
-                                    try:
-                                        response = s3_client.get_object(Bucket=backup_bucket_name, Key=save_path)
-                                    except:
-                                        print("File is not in S3. Uploading...")
-                                    print(response)
-                                    if response != None and "ETag" in response:
-                                        etag = response["ETag"][1:len(response["ETag"]) - 1]
-                                        print("ETAG: " + str(etag))
-                                        local_hash = hashlib.md5(open(source_file,"rb").read()).hexdigest()
-                                        print("Local Hash: " + str(local_hash))
-                                        if local_hash == etag:
-                                            print("Hashes are the same for file")
-                                            continue
-                                    if response != None and "LastModified" in response:
-                                        file_modified_time = os.path.getmtime(source_file)
-                                        file_modified_date_time = datetime.datetime.fromtimestamp(file_modified_time)
-                                        last_modified_time = response["LastModified"]
-                                        if last_modified_time > utc.localize(file_modified_date_time):
-                                            print("Local file is older than one in s3. Skipping...")
-                                            continue
+                                        response = None
+                                        try:
+                                            response = s3_client.get_object(Bucket=backup_bucket_name, Key=save_path)
+                                        except:
+                                            print("File is not in S3. Uploading...")
+                                        print(response)
+                                        if response != None and "ETag" in response:
+                                            etag = response["ETag"][1:len(response["ETag"]) - 1]
+                                            print("ETAG: " + str(etag))
+                                            local_hash = hashlib.md5(open(source_file,"rb").read()).hexdigest()
+                                            print("Local Hash: " + str(local_hash))
+                                            if local_hash == etag:
+                                                print("Hashes are the same for file")
+                                                continue
+                                        if response != None and "LastModified" in response:
+                                            file_modified_time = os.path.getmtime(source_file)
+                                            file_modified_date_time = datetime.datetime.fromtimestamp(file_modified_time)
+                                            last_modified_time = response["LastModified"]
+                                            if last_modified_time > utc.localize(file_modified_date_time):
+                                                print("Local file is older than one in s3. Skipping...")
+                                                continue
 
-                                    s3_resource.meta.client.upload_file(source_file, backup_bucket_name, save_path)
+                                        s3_resource.meta.client.upload_file(source_file, backup_bucket_name, save_path)
 
-                    os.remove("./tmp_file.json")
+                        os.remove("./tmp_file.json")
         else:
             print("App '" + str(app) + "' is not in Save Path Definitions")
 user_defined_config["last_scan_time"] = time_scan_started.strftime("%m/%d/%Y %H:%M:%S")
