@@ -1,5 +1,5 @@
 {
-    "version": "1.3.3.0",
+    "version": "1.3.4.0",
     "USERDATA": {
         "folder": "|STEAMINSTALLDIR|/userdata"
     },
@@ -5260,7 +5260,7 @@
         "folder": "|TBD|"
     },
     "750920": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/Shadow of the Tomb Raider"
     },
     "751820": {
         "folder": "|TBD|"
@@ -5442,6 +5442,114 @@
     "848350": {
         "folder": "|TBD|"
     },
+    "849160": {
+        "folder": "|NA|"
+    },
+    "849161": {
+        "folder": "|NA|"
+    },
+    "849162": {
+        "folder": "|NA|"
+    },
+    "849163": {
+        "folder": "|NA|"
+    },
+    "849164": {
+        "folder": "|NA|"
+    },
+    "849165": {
+        "folder": "|NA|"
+    },
+    "849166": {
+        "folder": "|NA|"
+    },
+    "849167": {
+        "folder": "|NA|"
+    },
+    "849168": {
+        "folder": "|NA|"
+    },
+    "849170": {
+        "folder": "|NA|"
+    },
+    "849171": {
+        "folder": "|NA|"
+    },
+    "849176": {
+        "folder": "|NA|"
+    },
+    "849177": {
+        "folder": "|NA|"
+    },
+    "849178": {
+        "folder": "|NA|"
+    },
+    "849179": {
+        "folder": "|NA|"
+    },
+    "849180": {
+        "folder": "|NA|"
+    },
+    "849181": {
+        "folder": "|NA|"
+    },
+    "849186": {
+        "folder": "|NA|"
+    },
+    "849187": {
+        "folder": "|NA|"
+    },
+    "849188": {
+        "folder": "|NA|"
+    },
+    "849200": {
+        "folder": "|NA|"
+    },
+    "849260": {
+        "folder": "|NA|"
+    },
+    "849261": {
+        "folder": "|NA|"
+    },
+    "849262": {
+        "folder": "|NA|"
+    },
+    "849303": {
+        "folder": "|NA|"
+    },
+    "849300": {
+        "folder": "|NA|"
+    },
+    "849301": {
+        "folder": "|NA|"
+    },
+    "849302": {
+        "folder": "|NA|"
+    },
+    "849304": {
+        "folder": "|NA|"
+    },
+    "849305": {
+        "folder": "|NA|"
+    },
+    "849306": {
+        "folder": "|NA|"
+    },
+    "849307": {
+        "folder": "|NA|"
+    },
+    "849308": {
+        "folder": "|NA|"
+    },
+    "849309": {
+        "folder": "|NA|"
+    },
+    "849310": {
+        "folder": "|NA|"
+    },
+    "849311": {
+        "folder": "|NA|"
+    },
     "850980": {
         "folder": "|TBD|"
     },
@@ -5493,6 +5601,15 @@
     "888820": {
         "folder": "|TBD|"
     },
+    "890030": {
+        "folder": "|NA|"
+    },
+    "890031": {
+        "folder": "|NA|"
+    },
+    "890032": {
+        "folder": "|NA|"
+    },
     "890720": {
         "folder": "|TBD|"
     },
@@ -5510,6 +5627,9 @@
     },
     "904360": {
         "folder": "|TBD|"
+    },
+    "905320": {
+        "folder": "|NA|"
     },
     "905370": {
         "folder": "|TBD|"
@@ -5561,6 +5681,9 @@
     },
     "941570": {
         "folder": "|TBD|"
+    },
+    "943200": {
+        "folder": "|NA|"
     },
     "944010": {
         "folder": "|TBD|"
@@ -5618,6 +5741,9 @@
     },
     "973760": {
         "folder": "%USERPROFILE%/AppData/LocalLow/CDProjektRED/Thronebreaker/SaveData"
+    },
+    "974630": {
+        "folder": "|NA|"
     },
     "975510": {
         "folder": "|TBD|"
@@ -5687,6 +5813,9 @@
     },
     "1005300": {
         "folder": "|TBD|"
+    },
+    "1058360": {
+        "folder": "|NA|"
     },
     "1011190": {
         "folder": "|TBD|"
@@ -5801,6 +5930,9 @@
     },
     "1101360": {
         "folder": "|TBD|"
+    },
+    "1109290": {
+        "folder": "|NA|"
     },
     "1109690": {
         "folder": "|TBD|"
