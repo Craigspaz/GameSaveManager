@@ -328,6 +328,7 @@ for path in library_paths:
                                                 save_path = str(str(app) + str(file.replace(processed_path, ""))).replace("\\", "/")
                                             print("File Name S3: " + str(save_path))
 
+                                            response = None
                                             try:
                                                 response = s3_client.get_object(Bucket=backup_bucket_name, Key=save_path)
                                             except:
