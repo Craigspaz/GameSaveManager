@@ -1,14 +1,9 @@
 import json
 import datetime
-from lib2to3.pgen2.token import OP
 import os
 import shutil
 import boto3
-import hashlib
-import pytz
 import winreg
-
-utc = pytz.UTC
 
 print("Starting up Version: v1.0.0.0")
 
@@ -338,7 +333,7 @@ for path in library_paths:
                                                 remote_modified_date = response["LastModified"]
 
                                                 local_file_time = os.path.getmtime(file)
-                                                local_file_datetime = datetime.datetime.frometimestamp(local_file_time, tz=datetime.timezone.utc)
+                                                local_file_datetime = datetime.datetime.fromtimestamp(local_file_time, tz=datetime.timezone.utc)
 
                                                 if remote_modified_date == local_file_datetime:
                                                     print("Modified dates are the same so skipping...")
@@ -414,7 +409,7 @@ for path in library_paths:
                                             if response != None and "LastModified" in response:
                                                 remote_modified_date = response["LastModified"]
                                                 local_file_time = os.path.getmtime(file)
-                                                local_file_datetime = datetime.datetime.frometimestamp(local_file_time, tz=datetime.timezone.utc)
+                                                local_file_datetime = datetime.datetime.fromtimestamp(local_file_time, tz=datetime.timezone.utc)
                                                 if remote_modified_date == local_file_datetime:
                                                     print("Modified dates are the same so skipping...")
                                                     continue
@@ -506,7 +501,7 @@ for path in library_paths:
                                         if response != None and "LastModified" in response:
                                             remote_modified_date = response["LastModified"]
                                             local_file_time = os.path.getmtime(file)
-                                            local_file_datetime = datetime.datetime.frometimestamp(local_file_time, tz=datetime.timezone.utc)
+                                            local_file_datetime = datetime.datetime.fromtimestamp(local_file_time, tz=datetime.timezone.utc)
                                             if remote_modified_date == local_file_datetime:
                                                 print("Modified dates are the same so skipping...")
                                                 continue
@@ -612,7 +607,7 @@ for path in library_paths:
                                         if response != None and "LastModified" in response:
                                             remote_modified_date = response["LastModified"]
                                             local_file_time = os.path.getmtime(file)
-                                            local_file_datetime = datetime.datetime.frometimestamp(local_file_time, tz=datetime.timezone.utc)
+                                            local_file_datetime = datetime.datetime.fromtimestamp(local_file_time, tz=datetime.timezone.utc)
                                             if remote_modified_date == local_file_datetime:
                                                 print("Modified dates are the same so skipping...")
                                                 continue
