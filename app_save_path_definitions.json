@@ -4540,7 +4540,7 @@
         "folder": "|TBD|"
     },
     "322110": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/20XX"
     },
     "322450": {
         "folder": "|TBD|"
@@ -5087,6 +5087,9 @@
     },
     "520440": {
         "folder": "|TBD|"
+    },
+    "523650": {
+        "folder": "%USERPROFILE%/AppData/LocalLow/Movie Games Lunarium/Lust For Darkness"
     },
     "524010": {
         "folder": "|TBD|"
@@ -5890,7 +5893,7 @@
         "folder": "|TBD|"
     },
     "960990": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Saved Games/Beyond Two Souls Steam/Save"
     },
     "962580": {
         "folder": "|TBD|"
@@ -6512,6 +6515,9 @@
     },
     "1668770": {
         "folder": "|TBD|"
+    },
+    "1672970": {
+        "folder": "%USERPROFILE%/Saved Games/Mojang Studios/Dungeons"
     },
     "1705670": {
         "folder": "|TBD|"

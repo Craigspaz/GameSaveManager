@@ -330,26 +330,19 @@ for path in library_paths:
 
                                             response = None
                                             try:
-                                                response = s3_client.get_object(Bucket=backup_bucket_name, Key=save_path)
+                                                response = s3_client.head_object(Bucket=backup_bucket_name, Key=save_path)
                                             except:
                                                 print("File is not in S3. Uploading...")
                                             print(response)
-                                            if response != None and"ETag" in response:
-                                                etag = response["ETag"][1:len(response["ETag"]) - 1]
-                                                print("ETAG: " + str(etag))
-                                                local_hash = hashlib.md5(open(file,"rb").read()).hexdigest()
-                                                print("Local Hash: " + str(local_hash))
-                                                if local_hash == etag:
-                                                    print("Hashes are the same for file")
-                                                    continue
                                             if response != None and "LastModified" in response:
-                                                file_modified_time = os.path.getmtime(file)
-                                                file_modified_date_time = datetime.datetime.fromtimestamp(file_modified_time)
-                                                last_modified_time = response["LastModified"]
-                                                if last_modified_time > utc.localize(file_modified_date_time):
-                                                    print("Local file is older than one in s3. Skipping...")
-                                                    continue
+                                                remote_modified_date = response["LastModified"]
 
+                                                local_file_time = os.path.getmtime(file)
+                                                local_file_datetime = datetime.datetime.frometimestamp(local_file_time, tz=datetime.timezone.utc)
+
+                                                if remote_modified_date == local_file_datetime:
+                                                    print("Modified dates are the same so skipping...")
+                                                    continue
                                             s3_resource.meta.client.upload_file(file, backup_bucket_name, save_path)
                     else:
                         print("App '" + str(app) + "' Save Location does not exist")
@@ -414,24 +407,16 @@ for path in library_paths:
                                                 save_path = str(str(app) + "/" + str(friendly_name) + str(file.replace(processed_path, ""))).replace("\\", "/")
                                             print("File Name S3: " + str(save_path))
                                             try:
-                                                response = s3_client.get_object(Bucket=backup_bucket_name, Key=save_path)
+                                                response = s3_client.head_object(Bucket=backup_bucket_name, Key=save_path)
                                             except:
                                                 print("File is not in S3. Uploading...")
                                             print(response)
-                                            if response != None and"ETag" in response:
-                                                etag = response["ETag"][1:len(response["ETag"]) - 1]
-                                                print("ETAG: " + str(etag))
-                                                local_hash = hashlib.md5(open(file,"rb").read()).hexdigest()
-                                                print("Local Hash: " + str(local_hash))
-                                                if local_hash == etag:
-                                                    print("Hashes are the same for file")
-                                                    continue
                                             if response != None and "LastModified" in response:
-                                                file_modified_time = os.path.getmtime(file)
-                                                file_modified_date_time = datetime.datetime.fromtimestamp(file_modified_time)
-                                                last_modified_time = response["LastModified"]
-                                                if last_modified_time > utc.localize(file_modified_date_time):
-                                                    print("Local file is older than one in s3. Skipping...")
+                                                remote_modified_date = response["LastModified"]
+                                                local_file_time = os.path.getmtime(file)
+                                                local_file_datetime = datetime.datetime.frometimestamp(local_file_time, tz=datetime.timezone.utc)
+                                                if remote_modified_date == local_file_datetime:
+                                                    print("Modified dates are the same so skipping...")
                                                     continue
                                             s3_resource.meta.client.upload_file(file, backup_bucket_name, save_path)
                     else:
@@ -514,26 +499,17 @@ for path in library_paths:
 
                                         response = None
                                         try:
-                                            response = s3_client.get_object(Bucket=backup_bucket_name, Key=save_path)
+                                            response = s3_client.head_object(Bucket=backup_bucket_name, Key=save_path)
                                         except:
                                             print("File is not in S3. Uploading...")
                                         print(response)
-                                        if response != None and "ETag" in response:
-                                            etag = response["ETag"][1:len(response["ETag"]) - 1]
-                                            print("ETAG: " + str(etag))
-                                            local_hash = hashlib.md5(open(file,"rb").read()).hexdigest()
-                                            print("Local Hash: " + str(local_hash))
-                                            if local_hash == etag:
-                                                print("Hashes are the same for file")
-                                                continue
                                         if response != None and "LastModified" in response:
-                                            file_modified_time = os.path.getmtime(file)
-                                            file_modified_date_time = datetime.datetime.fromtimestamp(file_modified_time)
-                                            last_modified_time = response["LastModified"]
-                                            if last_modified_time > utc.localize(file_modified_date_time):
-                                                print("Local file is older than one in s3. Skipping...")
+                                            remote_modified_date = response["LastModified"]
+                                            local_file_time = os.path.getmtime(file)
+                                            local_file_datetime = datetime.datetime.frometimestamp(local_file_time, tz=datetime.timezone.utc)
+                                            if remote_modified_date == local_file_datetime:
+                                                print("Modified dates are the same so skipping...")
                                                 continue
-
                                         s3_resource.meta.client.upload_file(file, backup_bucket_name, save_path)
             elif "registry" in save_path_definitions[app]:
                 print("APP Save Type is WINDOWS REGISTRY")
@@ -629,24 +605,16 @@ for path in library_paths:
 
                                         response = None
                                         try:
-                                            response = s3_client.get_object(Bucket=backup_bucket_name, Key=save_path)
+                                            response = s3_client.head_object(Bucket=backup_bucket_name, Key=save_path)
                                         except:
                                             print("File is not in S3. Uploading...")
                                         print(response)
-                                        if response != None and "ETag" in response:
-                                            etag = response["ETag"][1:len(response["ETag"]) - 1]
-                                            print("ETAG: " + str(etag))
-                                            local_hash = hashlib.md5(open(source_file,"rb").read()).hexdigest()
-                                            print("Local Hash: " + str(local_hash))
-                                            if local_hash == etag:
-                                                print("Hashes are the same for file")
-                                                continue
                                         if response != None and "LastModified" in response:
-                                            file_modified_time = os.path.getmtime(source_file)
-                                            file_modified_date_time = datetime.datetime.fromtimestamp(file_modified_time)
-                                            last_modified_time = response["LastModified"]
-                                            if last_modified_time > utc.localize(file_modified_date_time):
-                                                print("Local file is older than one in s3. Skipping...")
+                                            remote_modified_date = response["LastModified"]
+                                            local_file_time = os.path.getmtime(file)
+                                            local_file_datetime = datetime.datetime.frometimestamp(local_file_time, tz=datetime.timezone.utc)
+                                            if remote_modified_date == local_file_datetime:
+                                                print("Modified dates are the same so skipping...")
                                                 continue
 
                                         s3_resource.meta.client.upload_file(source_file, backup_bucket_name, save_path)
