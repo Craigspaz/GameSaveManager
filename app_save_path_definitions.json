@@ -1,5 +1,5 @@
 {
-    "version": "1.3.7.0",
+    "version": "1.3.8.0",
     "USERDATA": {
         "folder": "|STEAMINSTALLDIR|/userdata"
     },
@@ -3683,37 +3683,274 @@
     "21400": {
         "folder": "|TBD|"
     },
-    "21800": {
+    "21410": {
         "folder": "|TBD|"
     },
-    "21980": {
+    "21500": {
         "folder": "|TBD|"
+    },
+    "21510": {
+        "folder": "|TBD|"
+    },
+    "21600": {
+        "folder": "|TBD|"
+    },
+    "21610": {
+        "folder": "|TBD|"
+    },
+    "21620": {
+        "folder": "|TBD|"
+    },
+    "21630": {
+        "folder": "|TBD|"
+    },
+    "21640": {
+        "folder": "|TBD|"
+    },
+    "21650": {
+        "folder": "|TBD|"
+    },
+    "21660": {
+        "folder": "|TBD|"
+    },
+    "21670": {
+        "folder": "|TBD|"
+    },
+    "21680": {
+        "folder": "|PATHTOGAME|/saves"
+    },
+    "21690": {
+        "folder": "%USERPROFILE%/Documents/CAPCOM/RESIDENT EVIL 5"
+    },
+    "21730": {
+        "filter": "|PATHTOGAME|/*.save"
+    },
+    "21750": {
+        "folder": "|TBD|"
+    },
+    "21760": {
+        "folder": "%USERPROFILE%/Documents/World in Conflict"
+    },
+    "21780": {
+        "folder": "%USERPROFILE%/Documents/My Games/Driver Parallel Lines"
+    },
+    "21800": {
+        "folder": "%USERPROFILE%/Saved Games/Tom Clancy's EndWar/Saved Games"
+    },
+    "21900": {
+        "folder": "%USERPROFILE%/Saved Games/Tom Clancy's H.A.W.X/Profiles"
+    },
+    "21910": {
+        "folder": "%USERPROFILE%/Documents/World in Conflict"
+    },
+    "21920": {
+        "folder": "%LOCALAPPDATA%/Wheelman"
+    },
+    "21930": {
+        "folder": "|TBD|"
+    },
+    "21940": {
+        "folder": "|TBD|"
+    },
+    "21950": {
+        "folder": "|TBD|"
+    },
+    "21960": {
+        "folder": "|TBD|"
+    },
+    "21970": {
+        "folder": "|IN_USER_DATA|"
+    },
+    "21980": {
+        "folder": "%USERPROFILE%/Documents/Call of Juarez - Bound in Blood/Out/save"
+    },
+    "21990": {
+        "folder": "|TBD|"
+    },
+    "22000": {
+        "folder": "%LOCALAPPDATA%/2DBoy/WorldOfGoo"
+    },
+    "22010": {
+        "folder": "|TBD|"
+    },
+    "22100": {
+        "folder": "%USERPROFILE%/Documents/Mount&Blade Savegames"
     },
     "22110": {
         "folder": "|TBD|"
     },
-    "22200": {
+    "22120": {
+        "folders": [
+            {
+                "Path": "%USERPROFILE%/Documents/Penumbra/Black Plague",
+                "FriendlyName": "Path1"
+            },
+            {
+                "Path": "%USERPROFILE%/Documents/Penumbra/Requiem",
+                "FriendlyName": "Path2"
+            }
+        ]
+    },
+    "22130": {
+        "folder": "|PATHTOGAME|/scenarios/save games"
+    },
+    "22140": {
+        "folders": [
+            {
+                "Path": "%USERPROFILE%/Documents/Penumbra/Black Plague",
+                "FriendlyName": "Path1"
+            },
+            {
+                "Path": "%USERPROFILE%/Documents/Penumbra/Requiem",
+                "FriendlyName": "Path2"
+            }
+        ]
+    },
+    "22150": {
         "folder": "|TBD|"
     },
+    "22160": {
+        "folder": "|TBD|"
+    },
+    "22170": {
+        "folder": "|TBD|"
+    },
+    "22180": {
+        "folder": "%USERPROFILE%/Documents/Penumbra Overture/Episode1"
+    },
+    "22190": {
+        "folder": "|TBD|"
+    },
+    "22200": {
+        "folder": "|PATHTOGAME|/zenozoik/SAVE"
+    },
     "22208": {
+        "folder": "|NA|"
+    },
+    "22210": {
+        "folder": "|TBD|"
+    },
+    "22220": {
         "folder": "|TBD|"
     },
     "22230": {
         "folder": "|TBD|"
     },
-    "22370": {
+    "22300": {
+        "folder": "%USERPROFILE%/Documents/My Games/Fallout3/Saves"
+    },
+    "22310": {
+        "folder": "%USERPROFILE%/Documents/My Games/Bethesda/Rogue Warrior/Saves"
+    },
+    "22320": {
+        "folder": "|PATHTOGAME|/Saves"
+    },
+    "22330": {
+        "folder": "%USERPROFILE%/Documents/My Games/Oblivion/Saves"
+    },
+    "22340": {
+        "folder": "%USERPROFILE%/Documents/Bethesda/Call of Cthulhu"
+    },
+    "22350": {
         "folder": "|TBD|"
+    },
+    "22360": {
+        "folder": "|TBD|"
+    },
+    "22370": {
+        "folder": "%USERPROFILE%/Documents/My Games/Fallout3/Saves"
     },
     "22380": {
+        "folder": "%USERPROFILE%/Documents/My Games/FalloutNV/Saves"
+    },
+    "22400": {
         "folder": "|TBD|"
     },
+    "22410": {
+        "folder": "|TBD|"
+    },
+    "22420": {
+        "folder": "|TBD|"
+    },
+    "22430": {
+        "folder": "|TBD|"
+    },
+    "22440": {
+        "folder": "|TBD|"
+    },
+    "22450": {
+        "folder": "%USERPROFILE%/Documents/My Games/Hunted/DFgame/SaveData"
+    },
+    "22460": {
+        "folder": "|TBD|"
+    },
+    "22470": {
+        "folder": "|TBD|"
+    },
+    "22480": {
+        "folder": "|TBD|"
+    },
+    "22490": {
+        "folder": "|TBD|"
+    },
+    "22500": {
+        "folder": "|TBD|"
+    },
+    "22510": {
+        "folder": "|TBD|"
+    },
+    "22520": {
+        "folder": "|TBD|"
+    },
+    "22600": {
+        "folder": "|IN_USER_DATA|"
+    },
     "22610": {
+        "folder": "%USERPROFILE%/Documents/My Games/UnrealEngine3/AlienBreedEp1Game/SaveData"
+    },
+    "22620": {
+        "folder": "|TBD|"
+    },
+    "22630": {
+        "folder": "|TBD|"
+    },
+    "22640": {
         "folder": "|TBD|"
     },
     "22650": {
+        "folder": "%USERPROFILE%/Documents/My Games/UnrealEngine3/AlienBreed2AssaultGame/SaveData"
+    },
+    "22660": {
         "folder": "|TBD|"
     },
     "22670": {
+        "folder": "%USERPROFILE%/Documents/My Games/UnrealEngine3/AlienBreed3DescentGame/SaveData"
+    },
+    "22680": {
+        "folder": "|TBD|"
+    },
+    "22690": {
+        "folder": "|TBD|"
+    },
+    "22700": {
+        "folder": "%USERPROFILE%/Saved Games/Ascaron Entertainment/Sacred 2"
+    },
+    "22800": {
+        "folder": "|TBD|"
+    },
+    "22830": {
+        "folder": "|TBD|"
+    },
+    "22870": {
+        "folder": "|TBD|"
+    },
+    "22880": {
+        "folder": "|TBD|"
+    },
+    "22890": {
+        "folder": "|TBD|"
+    },
+    "23000": {
         "folder": "|TBD|"
     },
     "23400": {
