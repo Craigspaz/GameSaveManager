@@ -71,7 +71,14 @@ From Source:
 With Install Script In Source:
 1. Clone this repo
 1. Edit sample-config.json to be the configuration file you want
-1. Run install.ps1 (It will copy the files to %appdata%/GameSaveManager and it will add a scheduled task to task scheduler)
+1. Run install.ps1 with no commandline arguements or the install arguement(It will copy the files to %appdata%/GameSaveManager and it will add a scheduled task to task scheduler)
+```
+install.ps1
+```
+or
+```
+install install
+```
 
 
 ## How to update definitions
@@ -85,4 +92,7 @@ From Source:
 
 With the Upgrade Script In Source:
 1. Clone this repo
-1. Run update.ps1 (Note: If you the code is running you might get an error)
+1. Run install.ps1 with the command line arguement update (Note: If you the code is running you might get an error)
+```
+install update
+```
