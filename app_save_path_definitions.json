@@ -1,5 +1,5 @@
 {
-    "version": "1.3.6.0",
+    "version": "1.3.7.0",
     "USERDATA": {
         "folder": "|STEAMINSTALLDIR|/userdata"
     },
@@ -3423,22 +3423,160 @@
     "19000": {
         "folder": "%PUBLIC%/Public Documents/Silent Hill Homecoming"
     },
-    "19830": {
+    "19020": {
         "folder": "|TBD|"
+    },
+    "19030": {
+        "folder": "|IN_USER_DATA|"
+    },
+    "19040": {
+        "folder": "|TBD|"
+    },
+    "19060": {
+        "folder": "|TBD|"
+    },
+    "19080": {
+        "folder": "|TBD|"
+    },
+    "19090": {
+        "folder": "|TBD|"
+    },
+    "19200": {
+        "folder": "|TBD|"
+    },
+    "19210": {
+        "folder": "|TBD|"
+    },
+    "19300": {
+        "folder": "|TBD|"
+    },
+    "19320": {
+        "folder": "|TBD|"
+    },
+    "19330": {
+        "folder": "|TBD|"
+    },
+    "19500": {
+        "folder": "|TBD|"
+    },
+    "19510": {
+        "folder": "|TBD|"
+    },
+    "19630": {
+        "folder": "|TBD|"
+    },
+    "19640": {
+        "folder": "|TBD|"
+    },
+    "19650": {
+        "folder": "|TBD|"
+    },
+    "19660": {
+        "folder": "|TBD|"
+    },
+    "19670": {
+        "folder": "|TBD|"
+    },
+    "19680": {
+        "folder": "%USERPROFILE%/Documents/My Games/Alice Madness Returns/AliceGame/CheckPoint"
+    },
+    "19800": {
+        "folder": "%APPDATA%/Gearbox Software/Earned In Blood"
+    },
+    "19810": {
+        "folder": "|PATHTOGAME|/Data/Save/game"
+    },
+    "19830": {
+        "folder": "|PATHTOGAME|/Save"
     },
     "19840": {
-        "folder": "|TBD|"
+        "folder": "|PATHTOGAME|/Save"
+    },
+    "19890": {
+        "folder": "|NA|"
     },
     "19900": {
+        "folder": "%USERPROFILE%/Documents/My Games/Far Cry 2/Saved Games"
+    },
+    "19910": {
+        "folder": "|TBD|"
+    },
+    "19930": {
+        "folder": "|TBD|"
+    },
+    "19940": {
+        "folder": "|NA|"
+    },
+    "19950": {
+        "folder": "|NA|"
+    },
+    "19960": {
+        "folder": "|NA|"
+    },
+    "19970": {
+        "folder": "|NA|"
+    },
+    "19980": {
+        "file": "|PATHTOGAME|/PRINCE.SAV"
+    },
+    "19990": {
+        "folder": "%LOCALAPPDATA%/Ubisoft/SWSnow/saves"
+    },
+    "20200": {
+        "folder": "|TBD|"
+    },
+    "20400": {
         "folder": "|TBD|"
     },
     "20500": {
+        "folder": "%USERPROFILE%/Documents/My Games/Red Faction Guerrilla/Saves"
+    },
+    "20510": {
+        "folder": "%USERPROFILE%/Documents/Stalker-STCS/savedgames"
+    },
+    "20520": {
         "folder": "|TBD|"
     },
     "20530": {
-        "folder": "|TBD|"
+        "folder": "|PATHTOGAME|/savegame"
+    },
+    "20540": {
+        "folder": "%USERPROFILE%/Documents/My Games/Company of Heroes/Savegames"
     },
     "20550": {
+        "folder": "|PATHTOGAME|/profiles"
+    },
+    "20560": {
+        "folder": "|TBD|"
+    },
+    "20570": {
+        "folder": "%USERPROFILE%/Documents/My Games/Dawn of War 2/Saved Games"
+    },
+    "20590": {
+        "folder": "|TBD|"
+    },
+    "20600": {
+        "folder": "|TBD|"
+    },
+    "20700": {
+        "folder": "|TBD|"
+    },
+    "20710": {
+        "folder": "%USERPROFILE%/Documents/MrRobot/data/saves"
+    },
+    "20720": {
+        "folder": "|TBD|"
+    },
+    "20730": {
+        "folder": "|TBD|"
+    },
+    "20800": {
+        "folder": "|TBD|"
+    },
+    "20820": {
+        "folder": "%LOCALAPPDATA%/Sidhe/SH/data/profiles"
+    },
+    "20840": {
         "folder": "|TBD|"
     },
     "20900": {
@@ -3451,18 +3589,98 @@
         "folder": "|TBD|"
     },
     "21000": {
+        "folder": "%LOCALAPPDATA%/Warner Bros. Interactive Entertainment/LEGO Batman/Saved Games"
+    },
+    "21010": {
+        "folder": "|PATHTOGAME|/SaveData/Profile1"
+    },
+    "21020": {
         "folder": "|TBD|"
+    },
+    "21030": {
+        "folder": "|PATHTOGAME|/SaveData/Profile1"
+    },
+    "21040": {
+        "folder": "|TBD|"
+    },
+    "21050": {
+        "folder": "%LOCALAPPDATA%/wanted/saves"
+    },
+    "21080": {
+        "folder": "%LOCALAPPDATA%/salvation/data/saves"
     },
     "21090": {
-        "folder": "|TBD|"
-    },
-    "21110": {
-        "folder": "|TBD|"
+        "folders": [
+            {
+                "Path": "%PUBLIC%/Documents/Monolith Productions/FEAR/Save/Profile000/SinglePlayer",
+                "FriendlyName": "Path1"
+            },
+            {
+                "Path": "%PUBLIC%/Documents/TimeGate Studios/FEARXP/Save/Profile000/SinglePlayer",
+                "FriendlyName": "Path2"
+            },
+            {
+                "Path": "%PUBLIC%/Documents/TimeGate Studios/FEARXP2/Save/Profile000/SinglePlayer",
+                "FriendlyName": "Path3"
+            }
+        ]
     },
     "21100": {
-        "folder": "|TBD|"
+        "folder": "|IN_USER_DATA|"
+    },
+    "21110": {
+        "folders": [
+            {
+                "Path": "%PUBLIC%/Documents/Monolith Productions/FEAR/Save/Profile000/SinglePlayer",
+                "FriendlyName": "Path1"
+            },
+            {
+                "Path": "%PUBLIC%/Documents/TimeGate Studios/FEARXP/Save/Profile000/SinglePlayer",
+                "FriendlyName": "Path2"
+            },
+            {
+                "Path": "%PUBLIC%/Documents/TimeGate Studios/FEARXP2/Save/Profile000/SinglePlayer",
+                "FriendlyName": "Path3"
+            }
+        ]
     },
     "21120": {
+        "folder": "%PUBLIC%/Documents/TimeGate Studios/FEARXP2/Save/Profile000/SinglePlayer"
+    },
+    "21130": {
+        "folder": "%APPDATA%/WB Games/LEGO® Harry Potter™/SavedGames"
+    },
+    "21140": {
+        "folder": "%LOCALAPPDATA%/LEGO Software/LEGO Universe"
+    },
+    "21150": {
+        "folder": "|TBD|"
+    },
+    "21160": {
+        "folder": "|TBD|"
+    },
+    "21170": {
+        "folder": "|TBD|"
+    },
+    "21180": {
+        "folder": "|TBD|"
+    },
+    "21200": {
+        "folder": "|TBD|"
+    },
+    "21210": {
+        "folder": "|TBD|"
+    },
+    "21220": {
+        "folder": "|TBD|"
+    },
+    "21300": {
+        "folder": "|PATHTOGAME|/Data"
+    },
+    "21310": {
+        "folder": "|TBD|"
+    },
+    "21400": {
         "folder": "|TBD|"
     },
     "21800": {
