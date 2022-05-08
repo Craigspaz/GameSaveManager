@@ -1,5 +1,5 @@
 {
-    "version": "1.3.5.0",
+    "version": "1.3.6.0",
     "USERDATA": {
         "folder": "|STEAMINSTALLDIR|/userdata"
     },
@@ -3192,29 +3192,236 @@
     "17200": {
         "folder": "|TBD|"
     },
-    "17300": {
+    "17210": {
         "folder": "|TBD|"
+    },
+    "17220": {
+        "folder": "|TBD|"
+    },
+    "17300": {
+        "folder": "%USERPROFILE%/Documents/My Games/Crysis/SaveGames"
+    },
+    "17310": {
+        "folder": "%USERPROFILE%/Documents/My Games/Crysis/SaveGames"
     },
     "17330": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/My Games/Crysis_WARHEAD/SaveGames"
     },
     "17340": {
+        "folder": "%USERPROFILE%/Documents/My Games/Crysis_WARHEAD/SaveGames"
+    },
+    "17390": {
+        "folders": [
+            {
+                "Path": "%APPDATA%/Spore/Games",
+                "FriendlyName": "Path1"
+            },
+            {
+                "Path": "%USERPROFILE%/Documents/My Spore Creations",
+                "FriendlyName": "Path2"
+            }
+        ]
+    },
+    "17400": {
         "folder": "|TBD|"
     },
     "17410": {
+        "folder": "%USERPROFILE%/Documents/EA Games/Mirror's Edge/TdGame/Savefiles"
+    },
+    "17420": {
+        "folder": "|TBD|"
+    },
+    "17430": {
+        "folder": "%USERPROFILE%/Documents/NFS Undercover"
+    },
+    "17440": {
         "folder": "|TBD|"
     },
     "17450": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/BioWare/Dragon Age"
+    },
+    "17460": {
+        "folder": "%USERPROFILE%/Documents/Bioware/Mass Effect/Save"
     },
     "17470": {
+        "folder": "%USERPROFILE%/Documents/Electronic Arts/Dead Space"
+    },
+    "17480": {
+        "folder": "%USERPROFILE%/Saved Games/Red Alert 3"
+    },
+    "17500": {
+        "folder": "|TBD|"
+    },
+    "17510": {
+        "folder": "|TBD|"
+    },
+    "17520": {
+        "folder": "|TBD|"
+    },
+    "17530": {
+        "folder": "|TBD|"
+    },
+    "17540": {
+        "folder": "|TBD|"
+    },
+    "17550": {
+        "folder": "|TBD|"
+    },
+    "17570": {
+        "folder": "|TBD|"
+    },
+    "17580": {
+        "folder": "|TBD|"
+    },
+    "17590": {
+        "folder": "|TBD|"
+    },
+    "17600": {
+        "folder": "|TBD|"
+    },
+    "17700": {
         "folder": "|TBD|"
     },
     "17710": {
         "folder": "|TBD|"
     },
+    "17720": {
+        "folder": "|TBD|"
+    },
+    "17730": {
+        "folder": "|TBD|"
+    },
+    "17740": {
+        "folder": "|TBD|"
+    },
+    "17750": {
+        "folder": "|TBD|"
+    },
+    "17760": {
+        "folder": "|TBD|"
+    },
+    "17770": {
+        "folder": "|TBD|"
+    },
+    "17780": {
+        "folder": "|TBD|"
+    },
+    "17790": {
+        "folder": "|NA|"
+    },
+    "17800": {
+        "folder": "%USERPROFILE%/Documents/SpellForce2/save"
+    },
+    "17810": {
+        "folder": "%USERPROFILE%/Documents/SpellForce2/save"
+    },
+    "18000": {
+        "folder": "|TBD|"
+    },
+    "18010": {
+        "folder": "|TBD|"
+    },
+    "18020": {
+        "folder": "|TBD|"
+    },
+    "18030": {
+        "folder": "|TBD|"
+    },
+    "18040": {
+        "folder": "%APPDATA%/Hothead Games/DeathSpank"
+    },
+    "18050": {
+        "folder": "%APPDATA%/Hothead Games/DeathSpankTOV"
+    },
+    "18060": {
+        "folder": "|TBD|"
+    },
+    "18070": {
+        "folder": "%APPDATA%/Hothead Games/TheBaconing"
+    },
+    "18080": {
+        "folder": "|TBD|"
+    },
+    "18100": {
+        "folder": "|TBD|"
+    },
     "18110": {
         "folder": "|TBD|"
+    },
+    "18120": {
+        "folder": "|TBD|"
+    },
+    "18300": {
+        "folder": "|TBD|"
+    },
+    "18310": {
+        "folder": "|TBD|"
+    },
+    "18400": {
+        "folder": "%USERPROFILE%/AppData/Local/VirtualStore/Program Files (x86)/Crazy Machines 2/profiles"
+    },
+    "18420": {
+        "folder": "|TBD|"
+    },
+    "18430": {
+        "folder": "|TBD|"
+    },
+    "18440": {
+        "folder": "|TBD|"
+    },
+    "18450": {
+        "folder": "|TBD|"
+    },
+    "18460": {
+        "folder": "|TBD|"
+    },
+    "18470": {
+        "folder": "%USERPROFILE%/Documents/Helldorado/Savegame"
+    },
+    "18480": {
+        "folder": "%USERPROFILE%/Documents/MataHari/Savegames"
+    },
+    "18490": {
+        "folder": "%LOCALAPPDATA%/Daedalic Entertainment GmbH/The Whispered World Special Edition/Savegames"
+    },
+    "18500": {
+        "folder": "|TBD|"
+    },
+    "18510": {
+        "folder": "|TBD|"
+    },
+    "18520": {
+        "folder": "|TBD|"
+    },
+    "18530": {
+        "folder": "|TBD|"
+    },
+    "18600": {
+        "folder": "|TBD|"
+    },
+    "18610": {
+        "folder": "|TBD|"
+    },
+    "18700": {
+        "folder": "%APPDATA%/Broken Rules/And Yet It Moves"
+    },
+    "18710": {
+        "folder": "%APPDATA%/Broken Rules/And Yet It Moves"
+    },
+    "18800": {
+        "folder": "|TBD|"
+    },
+    "18820": {
+        "folder": "|TBD|"
+    },
+    "18900": {
+        "folder": "|TBD|"
+    },
+    "18930": {
+        "folder": "|TBD|"
+    },
+    "19000": {
+        "folder": "%PUBLIC%/Public Documents/Silent Hill Homecoming"
     },
     "19830": {
         "folder": "|TBD|"
