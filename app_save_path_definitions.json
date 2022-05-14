@@ -1,5 +1,5 @@
 {
-    "version": "1.3.8.0",
+    "version": "1.3.9.0",
     "USERDATA": {
         "folder": "|STEAMINSTALLDIR|/userdata"
     },
@@ -3953,10 +3953,121 @@
     "23000": {
         "folder": "|TBD|"
     },
+    "23100": {
+        "folder": "|TBD|"
+    },
+    "23120": {
+        "folder": "%APPDATA%/Atlus/Droplitz/Droplitz_save0"
+    },
+    "23130": {
+        "folder": "|TBD|"
+    },
+    "23140": {
+        "folder": "|TBD|"
+    },
+    "23150": {
+        "folder": "|TBD|"
+    },
+    "23160": {
+        "folder": "|TBD|"
+    },
+    "23170": {
+        "folder": "|TBD|"
+    },
+    "23180": {
+        "folder": "|TBD|"
+    },
+    "23190": {
+        "folder": "|TBD|"
+    },
+    "23200": {
+        "folder": "|TBD|"
+    },
+    "23300": {
+        "filter": "|PATHTOGAME|/*.dat"
+    },
+    "23310": {
+        "folder": "%USERPROFILE%/Documents/My Games/The last remnant/RushGame/Save"
+    },
+    "23320": {
+        "folder": "|TBD|"
+    },
+    "23330": {
+        "folder": "|TBD|"
+    },
+    "23340": {
+        "folder": "|TBD|"
+    },
+    "23350": {
+        "folder": "|TBD|"
+    },
+    "23360": {
+        "folder": "|TBD|"
+    },
+    "23370": {
+        "folder": "|TBD|"
+    },
+    "23380": {
+        "filter": "|PATHTOGAME|/*.dat"
+    },
+    "23390": {
+        "folder": "|TBD|"
+    },
     "23400": {
         "folder": "|TBD|"
     },
+    "23410": {
+        "folder": "|TBD|"
+    },
+    "23420": {
+        "folder": "|PATHTOGAME|/save games"
+    },
+    "23440": {
+        "folder": "|PATHTOGAME|/save games"
+    },
+    "23450": {
+        "folder": "%APPDATA%/Reign of Augustus/Saves"
+    },
+    "23460": {
+        "folder": "%USERPROFILE%/Documents/Ceville/save"
+    },
+    "23470": {
+        "folder": "|TBD|"
+    },
+    "23480": {
+        "folder": "|TBD|"
+    },
     "23490": {
+        "folder": "%APPDATA%/Tropico 3/Saves"
+    },
+    "23500": {
+        "folder": "%USERPROFILE%/Documents/puzzle quest galactrix"
+    },
+    "23510": {
+        "folder": "|TBD|"
+    },
+    "23520": {
+        "folder": "|TBD|"
+    },
+    "23530": {
+        "folder": "|IN_USER_DATA|"
+    },
+    "23550": {
+        "folder": "|TBD|"
+    },
+    "23600": {
+        "folder": "|PATHTOGAME|/User/chars"
+    },
+    "23610": {
+        "folder": "|TBD|"
+    },
+    "23700": {
+        "folder": "%USERPROFILE%/Documents/Puzzle Kingdoms"
+    },
+    "23900": {
+        "file": "|PATHTOGAME|/marble/client/prefs.cs"
+    },
+    "24000": {
         "folder": "|TBD|"
     },
     "24240": {
@@ -5403,7 +5514,7 @@
         "folder": "|TBD|"
     },
     "374900": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/AppData/LocalLow/Microids/The ABC Murders/Profils"
     },
     "375820": {
         "folder": "%APPDATA%/Human Resource Machine"
@@ -5442,7 +5553,7 @@
         "folder": "%USERPROFILE%/AppData/LocalLow/Nimbatus/Nimbatus/Saves"
     },
     "384190": {
-        "folder": "|TBD|"
+        "folder": "%LOCALAPPDATA%/AbzuGame/Saved/SaveGames"
     },
     "384310": {
         "folder": "|TBD|"
