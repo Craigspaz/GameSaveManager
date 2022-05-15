@@ -1,5 +1,5 @@
 {
-    "version": "1.3.10.0",
+    "version": "1.3.11.0",
     "USERDATA": {
         "folder": "|STEAMINSTALLDIR|/userdata"
     },
@@ -4282,6 +4282,296 @@
     },
     "25000": {
         "folder": "%USERPROFILE%/Documents/Wolfire"
+    },
+    "25010": {
+        "folder": "|PATHTOGAME|/Data"
+    },
+    "25100": {
+        "folder": "|TBD|"
+    },
+    "25300": {
+        "folder": "|TBD|"
+    },
+    "25310": {
+        "folder": "|TBD|"
+    },
+    "25320": {
+        "folder": "|TBD|"
+    },
+    "25330": {
+        "folder": "|TBD|"
+    },
+    "25340": {
+        "folder": "|TBD|"
+    },
+    "25350": {
+        "folder": "|TBD|"
+    },
+    "25360": {
+        "folder": "|TBD|"
+    },
+    "25370": {
+        "folder": "|TBD|"
+    },
+    "25380": {
+        "folder": "|TBD|"
+    },
+    "25390": {
+        "folder": "|TBD|"
+    },
+    "25500": {
+        "folder": "|TBD|"
+    },
+    "25510": {
+        "folder": "|TBD|"
+    },
+    "25600": {
+        "folder": "%USERPROFILE%/Documents/Eschalon Book 1 Saved Games"
+    },
+    "25610": {
+        "folder": "|TBD|"
+    },
+    "25620": {
+        "folder": "%APPDATA%/Basilisk Games/Book 2 Saved Games"
+    },
+    "25700": {
+        "folder": "|IN_USER_DATA|"
+    },
+    "25710": {
+        "folder": "|TBD|"
+    },
+    "25720": {
+        "folder": "|TBD|"
+    },
+    "25730": {
+        "folder": "|TBD|"
+    },
+    "25740": {
+        "folder": "|TBD|"
+    },
+    "25750": {
+        "folder": "|TBD|"
+    },
+    "25760": {
+        "folder": "|TBD|"
+    },
+    "25800": {
+        "folder": "|PATHTOGAME|/Save Games"
+    },
+    "25810": {
+        "folder": "|TBD|"
+    },
+    "25830": {
+        "folder": "%APPDATA%/Black Sea Studios/Knights of Honor/save"
+    },
+    "25840": {
+        "folder": "|PATHTOGAME|/Saved Games"
+    },
+    "25850": {
+        "folder": "%USERPROFILE%/Documents/Elven Legacy Profiles/Profiles"
+    },
+    "25860": {
+        "folder": "|PATHTOGAME|/SavedGames"
+    },
+    "25870": {
+        "folder": "|TBD|"
+    },
+    "25880": {
+        "folder": "|TBD|"
+    },
+    "25890": {
+        "folder": "|PATHTOGAME|/save games"
+    },
+    "25900": {
+        "folder": "%USERPROFILE%/Documents/My Games/Kings Bounty"
+    },
+    "25910": {
+        "folder": "|TBD|"
+    },
+    "25920": {
+        "folder": "|PATHTOGAME|/SavedGames"
+    },
+    "25930": {
+        "folder": "%USERPROFILE%/Documents/East India Company/SaveGame"
+    },
+    "25940": {
+        "folder": "|TBD|"
+    },
+    "25960": {
+        "folder": "|TBD|"
+    },
+    "25980": {
+        "folder": "%USERPROFILE%/Documents/majesty2"
+    },
+    "25990": {
+        "folder": "%USERPROFILE%/Documents/My Games/MajestyHD"
+    },
+    "26000": {
+        "folder": "|TBD|"
+    },
+    "26010": {
+        "folder": "|TBD|"
+    },
+    "26100": {
+        "folder": "|TBD|"
+    },
+    "26110": {
+        "folder": "|TBD|"
+    },
+    "26120": {
+        "folder": "|TBD|"
+    },
+    "26130": {
+        "folder": "|TBD|"
+    },
+    "26140": {
+        "folder": "|TBD|"
+    },
+    "26160": {
+        "folder": "|TBD|"
+    },
+    "26170": {
+        "folder": "|TBD|"
+    },
+    "26180": {
+        "folder": "|TBD|"
+    },
+    "26300": {
+        "folder": "%USERPROFILE%/Documents/My Games/MOB/SaveGames"
+    },
+    "26500": {
+        "folder": "%APPDATA%/Lazy 8 Studios/Cogs"
+    },
+    "26510": {
+        "folder": "|TBD|"
+    },
+    "26700": {
+        "folder": "|TBD|"
+    },
+    "26710": {
+        "folder": "|TBD|"
+    },
+    "26720": {
+        "folder": "|TBD|"
+    },
+    "26800": {
+        "folder": "%APPDATA%/Braid"
+    },
+    "26810": {
+        "folder": "|TBD|"
+    },
+    "26900": {
+        "folder": "%APPDATA%/Crayon Physics Deluxe"
+    },
+    "26910": {
+        "folder": "|TBD|"
+    },
+    "27000": {
+        "folder": "%APPDATA%/The Path"
+    },
+    "27020": {
+        "folder": "|TBD|"
+    },
+    "27030": {
+        "folder": "|TBD|"
+    },
+    "27040": {
+        "folder": "%APPDATA%/The Path"
+    },
+    "27050": {
+        "folder": "|TBD|"
+    },
+    "27200": {
+        "folder": "|TBD|"
+    },
+    "27220": {
+        "folder": "%LOCALAPPDATA%/Divinity 2/Savegames"
+    },
+    "27240": {
+        "folder": "|TBD|"
+    },
+    "27300": {
+        "folder": "%USERPROFILE%/Documents/My Games/Saw/SawGame/Checkpoints"
+    },
+    "27320": {
+        "folder": "|TBD|"
+    },
+    "27330": {
+        "folder": "|TBD|"
+    },
+    "27400": {
+        "folder": "|TBD|"
+    },
+    "27600": {
+        "folder": "|TBD|"
+    },
+    "27610": {
+        "folder": "|TBD|"
+    },
+    "27800": {
+        "folder": "|TBD|"
+    },
+    "27810": {
+        "folder": "|TBD|"
+    },
+    "27900": {
+        "folders": [
+            {
+                "Path": "%USERPROFILE%/Documents/TwinSector/SaveGames",
+                "FriendlyName": "SaveGames"
+            },
+            {
+                "Path": "%USERPROFILE%/Documents/TwinSector/Temp",
+                "FriendlyName": "Temp"
+            }
+        ]
+    },
+    "27910": {
+        "folder": "|TBD|"
+    },
+    "27920": {
+        "folder": "|TBD|"
+    },
+    "27930": {
+        "folder": "|TBD|"
+    },
+    "27940": {
+        "folder": "|TBD|"
+    },
+    "28000": {
+        "folders": [
+            {
+                "Path": "%USERPROFILE%/Documents/Square Enix/Kane & Lynch 2 - Dog Days",
+                "FriendlyName": "SaveGames"
+            }
+        ]
+    },
+    "28010": {
+        "folder": "|TBD|"
+    },
+    "28020": {
+        "folder": "|TBD|"
+    },
+    "28030": {
+        "folder": "|TBD|"
+    },
+    "28040": {
+        "folder": "|TBD|"
+    },
+    "28050": {
+        "folder": "|IN_USER_DATA|"
+    },
+    "28070": {
+        "folder": "|TBD|"
+    },
+    "28080": {
+        "folder": "|TBD|"
+    },
+    "28090": {
+        "folder": "|TBD|"
+    },
+    "28100": {
+        "folder": "|TBD|"
     },
     "31100": {
         "folder": "|TBD|"
