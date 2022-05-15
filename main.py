@@ -85,10 +85,13 @@ def does_dir_need_to_be_backuped(dir, last_scan_time, filter=None):
     print("Last Scan Time: " + str(last_scan_time.strftime("%Y_%m_%d__%H_%M_%S_%f")))
     files = get_list_of_directory_files(dir, filter)
     for file in files:
-        modified_time = os.path.getmtime(file)
-        modified_date_time = datetime.datetime.fromtimestamp(modified_time)
-        if modified_date_time > last_scan_time:
-            return True
+        try:
+            modified_time = os.path.getmtime(file)
+            modified_date_time = datetime.datetime.fromtimestamp(modified_time)
+            if modified_date_time > last_scan_time:
+                return True
+        except:
+            print("File no longer exits. Skipping...")
     print("Dir does not need to be backed up")
     return False
 
@@ -296,7 +299,10 @@ for path in library_paths:
                                                 if OPERATING_SYSTEM == 0:
                                                     destination = destination.replace("\\", "/")
                                                 print("Copying file: " + str(source_file) + " to: " + str(destination))
-                                                shutil.copy(source_file, destination)
+                                                try:
+                                                    shutil.copy(source_file, destination)
+                                                except Exception as e:
+                                                    print("Failed to copy file. This can happen if the source file was deleted: " + str(e))
                                 elif "backup_type" in backup_method and backup_method["backup_type"] == "S3":
                                     backup_bucket_name = None
                                     folder_prefix = None
@@ -332,13 +338,19 @@ for path in library_paths:
                                             if response != None and "LastModified" in response:
                                                 remote_modified_date = response["LastModified"]
 
-                                                local_file_time = os.path.getmtime(file)
-                                                local_file_datetime = datetime.datetime.fromtimestamp(local_file_time, tz=datetime.timezone.utc)
+                                                try:
+                                                    local_file_time = os.path.getmtime(file)
+                                                    local_file_datetime = datetime.datetime.fromtimestamp(local_file_time, tz=datetime.timezone.utc)
 
-                                                if remote_modified_date == local_file_datetime:
-                                                    print("Modified dates are the same so skipping...")
-                                                    continue
-                                            s3_resource.meta.client.upload_file(file, backup_bucket_name, save_path)
+                                                    if remote_modified_date == local_file_datetime:
+                                                        print("Modified dates are the same so skipping...")
+                                                        continue
+                                                except Exception as e:
+                                                    print("Source file likely no longer exists: " + str(e))
+                                            try:
+                                                s3_resource.meta.client.upload_file(file, backup_bucket_name, save_path)
+                                            except Exception as e:
+                                                print("Failed to upload file to s3: " + str(e))
                     else:
                         print("App '" + str(app) + "' Save Location does not exist")
             elif "folders" in save_path_definitions[app]:
@@ -408,12 +420,19 @@ for path in library_paths:
                                             print(response)
                                             if response != None and "LastModified" in response:
                                                 remote_modified_date = response["LastModified"]
-                                                local_file_time = os.path.getmtime(file)
-                                                local_file_datetime = datetime.datetime.fromtimestamp(local_file_time, tz=datetime.timezone.utc)
-                                                if remote_modified_date == local_file_datetime:
-                                                    print("Modified dates are the same so skipping...")
-                                                    continue
-                                            s3_resource.meta.client.upload_file(file, backup_bucket_name, save_path)
+
+                                                try:
+                                                    local_file_time = os.path.getmtime(file)
+                                                    local_file_datetime = datetime.datetime.fromtimestamp(local_file_time, tz=datetime.timezone.utc)
+                                                    if remote_modified_date == local_file_datetime:
+                                                        print("Modified dates are the same so skipping...")
+                                                        continue
+                                                except Exception as e:
+                                                    print("Source file likely no longer exists: " + str(e))
+                                            try:
+                                                s3_resource.meta.client.upload_file(file, backup_bucket_name, save_path)
+                                            except Exception as e:
+                                                print("S3 Upload failed: " + str(e))
                     else:
                         print("App '" + str(app) + "' Save Location does not exist")
             elif "file" in save_path_definitions[app]:
@@ -500,12 +519,19 @@ for path in library_paths:
                                         print(response)
                                         if response != None and "LastModified" in response:
                                             remote_modified_date = response["LastModified"]
-                                            local_file_time = os.path.getmtime(file)
-                                            local_file_datetime = datetime.datetime.fromtimestamp(local_file_time, tz=datetime.timezone.utc)
-                                            if remote_modified_date == local_file_datetime:
-                                                print("Modified dates are the same so skipping...")
-                                                continue
-                                        s3_resource.meta.client.upload_file(file, backup_bucket_name, save_path)
+                                            
+                                            try:
+                                                local_file_time = os.path.getmtime(file)
+                                                local_file_datetime = datetime.datetime.fromtimestamp(local_file_time, tz=datetime.timezone.utc)
+                                                if remote_modified_date == local_file_datetime:
+                                                    print("Modified dates are the same so skipping...")
+                                                    continue
+                                            except Exception as e:
+                                                print("Source file likely no longer exists: " + str(e))
+                                        try:
+                                            s3_resource.meta.client.upload_file(file, backup_bucket_name, save_path)
+                                        except Exception as e:
+                                            print("Failed to upload file to s3: " + str(e))
             elif "registry" in save_path_definitions[app]:
                 print("APP Save Type is WINDOWS REGISTRY")
                 if OPERATING_SYSTEM == 0: # If OS is Windows
@@ -606,13 +632,20 @@ for path in library_paths:
                                         print(response)
                                         if response != None and "LastModified" in response:
                                             remote_modified_date = response["LastModified"]
-                                            local_file_time = os.path.getmtime(file)
-                                            local_file_datetime = datetime.datetime.fromtimestamp(local_file_time, tz=datetime.timezone.utc)
-                                            if remote_modified_date == local_file_datetime:
-                                                print("Modified dates are the same so skipping...")
-                                                continue
 
-                                        s3_resource.meta.client.upload_file(source_file, backup_bucket_name, save_path)
+                                            try:
+                                                local_file_time = os.path.getmtime(file)
+                                                local_file_datetime = datetime.datetime.fromtimestamp(local_file_time, tz=datetime.timezone.utc)
+                                                if remote_modified_date == local_file_datetime:
+                                                    print("Modified dates are the same so skipping...")
+                                                    continue
+                                            except Exception as e:
+                                                print("Source file likely no longer exists: " + str(e))
+
+                                        try:
+                                            s3_resource.meta.client.upload_file(source_file, backup_bucket_name, save_path)
+                                        except Exception as e:
+                                            print("Failed to upload file to s3: " + str(e))
 
                         os.remove("./tmp_file.json")
         else:
