@@ -5,7 +5,7 @@ import shutil
 import boto3
 import winreg
 
-print("Starting up Version: v1.0.0.0")
+print("Starting up Version: v1.0.1.0")
 
 # TODO: Pull Value dynamically
 OPERATING_SYSTEM = 0 # 0 is Windows, 1 is Linux and 2 is Mac OS
@@ -335,22 +335,28 @@ for path in library_paths:
                                             except:
                                                 print("File is not in S3. Uploading...")
                                             print(response)
-                                            if response != None and "LastModified" in response:
-                                                remote_modified_date = response["LastModified"]
-
-                                                try:
-                                                    local_file_time = os.path.getmtime(file)
-                                                    local_file_datetime = datetime.datetime.fromtimestamp(local_file_time, tz=datetime.timezone.utc)
-
-                                                    if remote_modified_date == local_file_datetime:
+                                            local_file_datetime = None
+                                            try:
+                                                local_file_time = os.path.getmtime(file)
+                                                local_file_datetime = datetime.datetime.fromtimestamp(local_file_time, tz=datetime.timezone.utc)
+                                            except Exception as e:
+                                                print("Source file likely no longer exists: " + str(e))
+                                                continue
+                                            if response != None and "Metadata" in response:
+                                                metadata = response["Metadata"]
+                                                if "modified_date" in metadata:
+                                                    remote_modified_date = datetime.datetime.strptime(response["Metadata"]["modified_date"], "%Y_%m_%d__%H_%M_%S_%f")
+                                                    print("Remote Modified Date: " + str(remote_modified_date.strftime("%Y_%m_%d__%H_%M_%S_%f")) + " | Local File Time: " + str(local_file_datetime.strftime("%Y_%m_%d__%H_%M_%S_%f")))
+                                                    if str(remote_modified_date.strftime("%Y_%m_%d__%H_%M_%S_%f")) == str(local_file_datetime.strftime("%Y_%m_%d__%H_%M_%S_%f")):
                                                         print("Modified dates are the same so skipping...")
                                                         continue
-                                                except Exception as e:
-                                                    print("Source file likely no longer exists: " + str(e))
                                             try:
-                                                s3_resource.meta.client.upload_file(file, backup_bucket_name, save_path)
+                                                if local_file_datetime != None:
+                                                    s3_resource.meta.client.upload_file(file, backup_bucket_name, save_path, ExtraArgs={"Metadata": {"modified_date": str(local_file_datetime.strftime("%Y_%m_%d__%H_%M_%S_%f"))}})
+                                                else:
+                                                    print("Strangely file does not have a modified datetime...")
                                             except Exception as e:
-                                                print("Failed to upload file to s3: " + str(e))
+                                                print("S3 Upload failed: " + str(e))
                     else:
                         print("App '" + str(app) + "' Save Location does not exist")
             elif "folders" in save_path_definitions[app]:
@@ -418,19 +424,27 @@ for path in library_paths:
                                             except:
                                                 print("File is not in S3. Uploading...")
                                             print(response)
-                                            if response != None and "LastModified" in response:
-                                                remote_modified_date = response["LastModified"]
+                                            local_file_datetime = None
+                                            try:
+                                                local_file_time = os.path.getmtime(file)
+                                                local_file_datetime = datetime.datetime.fromtimestamp(local_file_time, tz=datetime.timezone.utc)
+                                            except Exception as e:
+                                                print("Source file likely no longer exists: " + str(e))
+                                                continue
 
-                                                try:
-                                                    local_file_time = os.path.getmtime(file)
-                                                    local_file_datetime = datetime.datetime.fromtimestamp(local_file_time, tz=datetime.timezone.utc)
-                                                    if remote_modified_date == local_file_datetime:
+                                            if response != None and "Metadata" in response:
+                                                metadata = response["Metadata"]
+                                                if "modified_date" in metadata:
+                                                    remote_modified_date = datetime.datetime.strptime(response["Metadata"]["modified_date"], "%Y_%m_%d__%H_%M_%S_%f")
+                                                    print("Remote Modified Date: " + str(remote_modified_date.strftime("%Y_%m_%d__%H_%M_%S_%f")) + " | Local File Time: " + str(local_file_datetime.strftime("%Y_%m_%d__%H_%M_%S_%f")))
+                                                    if str(remote_modified_date.strftime("%Y_%m_%d__%H_%M_%S_%f")) == str(local_file_datetime.strftime("%Y_%m_%d__%H_%M_%S_%f")):
                                                         print("Modified dates are the same so skipping...")
                                                         continue
-                                                except Exception as e:
-                                                    print("Source file likely no longer exists: " + str(e))
                                             try:
-                                                s3_resource.meta.client.upload_file(file, backup_bucket_name, save_path)
+                                                if local_file_datetime != None:
+                                                    s3_resource.meta.client.upload_file(file, backup_bucket_name, save_path, ExtraArgs={"Metadata": {"modified_date": str(local_file_datetime.strftime("%Y_%m_%d__%H_%M_%S_%f"))}})
+                                                else:
+                                                    print("Strangely file does not have a modified datetime...")
                                             except Exception as e:
                                                 print("S3 Upload failed: " + str(e))
                     else:
@@ -517,21 +531,29 @@ for path in library_paths:
                                         except:
                                             print("File is not in S3. Uploading...")
                                         print(response)
-                                        if response != None and "LastModified" in response:
-                                            remote_modified_date = response["LastModified"]
-                                            
-                                            try:
-                                                local_file_time = os.path.getmtime(file)
-                                                local_file_datetime = datetime.datetime.fromtimestamp(local_file_time, tz=datetime.timezone.utc)
-                                                if remote_modified_date == local_file_datetime:
+                                        local_file_datetime = None
+                                        try:
+                                            local_file_time = os.path.getmtime(source_file)
+                                            local_file_datetime = datetime.datetime.fromtimestamp(local_file_time, tz=datetime.timezone.utc)
+                                        except Exception as e:
+                                            print("Source file likely no longer exists: " + str(e))
+                                            continue
+
+                                        if response != None and "Metadata" in response:
+                                            metadata = response["Metadata"]
+                                            if "modified_date" in metadata:
+                                                remote_modified_date = datetime.datetime.strptime(response["Metadata"]["modified_date"], "%Y_%m_%d__%H_%M_%S_%f")
+                                                print("Remote Modified Date: " + str(remote_modified_date.strftime("%Y_%m_%d__%H_%M_%S_%f")) + " | Local File Time: " + str(local_file_datetime.strftime("%Y_%m_%d__%H_%M_%S_%f")))
+                                                if str(remote_modified_date.strftime("%Y_%m_%d__%H_%M_%S_%f")) == str(local_file_datetime.strftime("%Y_%m_%d__%H_%M_%S_%f")):
                                                     print("Modified dates are the same so skipping...")
                                                     continue
-                                            except Exception as e:
-                                                print("Source file likely no longer exists: " + str(e))
                                         try:
-                                            s3_resource.meta.client.upload_file(file, backup_bucket_name, save_path)
+                                            if local_file_datetime != None:
+                                                s3_resource.meta.client.upload_file(source_file, backup_bucket_name, save_path, ExtraArgs={"Metadata": {"modified_date": str(local_file_datetime.strftime("%Y_%m_%d__%H_%M_%S_%f"))}})
+                                            else:
+                                                print("Strangely file does not have a modified datetime...")
                                         except Exception as e:
-                                            print("Failed to upload file to s3: " + str(e))
+                                            print("S3 Upload failed: " + str(e))
             elif "registry" in save_path_definitions[app]:
                 print("APP Save Type is WINDOWS REGISTRY")
                 if OPERATING_SYSTEM == 0: # If OS is Windows
@@ -630,22 +652,29 @@ for path in library_paths:
                                         except:
                                             print("File is not in S3. Uploading...")
                                         print(response)
-                                        if response != None and "LastModified" in response:
-                                            remote_modified_date = response["LastModified"]
+                                        local_file_datetime = None
+                                        try:
+                                            local_file_time = os.path.getmtime(source_file)
+                                            local_file_datetime = datetime.datetime.fromtimestamp(local_file_time, tz=datetime.timezone.utc)
+                                        except Exception as e:
+                                            print("Source file likely no longer exists: " + str(e))
+                                            continue
 
-                                            try:
-                                                local_file_time = os.path.getmtime(file)
-                                                local_file_datetime = datetime.datetime.fromtimestamp(local_file_time, tz=datetime.timezone.utc)
-                                                if remote_modified_date == local_file_datetime:
+                                        if response != None and "Metadata" in response:
+                                            metadata = response["Metadata"]
+                                            if "modified_date" in metadata:
+                                                remote_modified_date = datetime.datetime.strptime(response["Metadata"]["modified_date"], "%Y_%m_%d__%H_%M_%S_%f")
+                                                print("Remote Modified Date: " + str(remote_modified_date.strftime("%Y_%m_%d__%H_%M_%S_%f")) + " | Local File Time: " + str(local_file_datetime.strftime("%Y_%m_%d__%H_%M_%S_%f")))
+                                                if str(remote_modified_date.strftime("%Y_%m_%d__%H_%M_%S_%f")) == str(local_file_datetime.strftime("%Y_%m_%d__%H_%M_%S_%f")):
                                                     print("Modified dates are the same so skipping...")
                                                     continue
-                                            except Exception as e:
-                                                print("Source file likely no longer exists: " + str(e))
-
                                         try:
-                                            s3_resource.meta.client.upload_file(source_file, backup_bucket_name, save_path)
+                                            if local_file_datetime != None:
+                                                s3_resource.meta.client.upload_file(source_file, backup_bucket_name, save_path, ExtraArgs={"Metadata": {"modified_date": str(local_file_datetime.strftime("%Y_%m_%d__%H_%M_%S_%f"))}})
+                                            else:
+                                                print("Strangely file does not have a modified datetime...")
                                         except Exception as e:
-                                            print("Failed to upload file to s3: " + str(e))
+                                            print("S3 Upload failed: " + str(e))
 
                         os.remove("./tmp_file.json")
         else:
