@@ -1,5 +1,5 @@
 {
-    "version": "1.3.11.0",
+    "version": "1.3.12.0",
     "USERDATA": {
         "folder": "|STEAMINSTALLDIR|/userdata"
     },
@@ -4765,6 +4765,9 @@
     "46510": {
         "folder": "|TBD|"
     },
+    "47730": {
+        "folder": "%USERPROFILE%/Documents/BioWare/Dragon Age/Characters"
+    },
     "47780": {
         "folder": "|TBD|"
     },
@@ -7494,6 +7497,9 @@
     },
     "1210150": {
         "folder": "%USERPROFILE%/AppData/LocalLow/OneMoreDream Studios/Ageless"
+    },
+    "1222140": {
+        "folder": "%USERPROFILE%/Saved Games/Quantic Dream/Detroit Become Human"
     },
     "1220150": {
         "folder": "%LOCALAPPDATA%/Blue Fire/Saved/SaveGames"
