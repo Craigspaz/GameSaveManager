@@ -77,7 +77,7 @@ install.ps1
 ```
 or
 ```
-install install
+install.ps1 install
 ```
 
 
@@ -94,5 +94,5 @@ With the Upgrade Script In Source:
 1. Clone this repo
 1. Run install.ps1 with the command line arguement update (Note: If you the code is running you might get an error)
 ```
-install update
+install.ps1 update
 ```
