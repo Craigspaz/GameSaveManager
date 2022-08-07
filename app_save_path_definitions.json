@@ -4573,34 +4573,178 @@
     "28100": {
         "folder": "|TBD|"
     },
-    "31100": {
+    "29100": {
         "folder": "|TBD|"
+    },
+    "29110": {
+        "folder": "|TBD|"
+    },
+    "29120": {
+        "folder": "|TBD|"
+    },
+    "29130": {
+        "folder": "|TBD|"
+    },
+    "29140": {
+        "folder": "|TBD|"
+    },
+    "29150": {
+        "folder": "|TBD|"
+    },
+    "29160": {
+        "folder": "|TBD|"
+    },
+    "29170": {
+        "folder": "|TBD|"
+    },
+    "29180": {
+        "folder": "%USERPROFILE%/Documents/Osmos"
+    },
+    "29190": {
+        "folder": "|TBD|"
+    },
+    "29200": {
+        "folder": "|TBD|"
+    },
+    "29500": {
+        "folder": "|TBD|"
+    },
+    "29520": {
+        "folder": "|TBD|"
+    },
+    "29530": {
+        "folder": "|TBD|"
+    },
+    "29540": {
+        "folder": "|TBD|"
+    },
+    "29550": {
+        "folder": "|TBD|"
+    },
+    "29560": {
+        "folder": "|TBD|"
+    },
+    "29570": {
+        "folder": "|TBD|"
+    },
+    "29580": {
+        "folder": "|TBD|"
+    },
+    "29590": {
+        "folder": "|TBD|"
+    },
+    "29600": {
+        "folder": "|TBD|"
+    },
+    "29610": {
+        "folder": "|TBD|"
+    },
+    "29620": {
+        "folder": "|TBD|"
+    },
+    "29630": {
+        "folder": "|TBD|"
+    },
+    "29640": {
+        "folder": "|TBD|"
+    },
+    "29650": {
+        "folder": "|TBD|"
+    },
+    "29660": {
+        "folder": "|TBD|"
+    },
+    "29670": {
+        "folder": "|TBD|"
+    },
+    "29680": {
+        "folder": "|TBD|"
+    },
+    "29690": {
+        "folder": "|TBD|"
+    },
+    "29700": {
+        "folder": "|TBD|"
+    },
+    "29710": {
+        "folder": "|TBD|"
+    },
+    "29720": {
+        "folder": "|TBD|"
+    },
+    "29730": {
+        "folder": "|TBD|"
+    },
+    "29800": {
+        "folder": "|PATHTOGAME|/save"
+    },
+    "29900": {
+        "folder": "%APPDATA%/Dark Sector"
+    },
+    "30000": {
+        "folder": "|TBD|"
+    },
+    "30010": {
+        "folder": "|NA|"
+    },
+    "30040": {
+        "folder": "|NA|"
+    },
+    "31100": {
+        "folder": "%USERPROFILE%/Documents/Telltale Games/Wallace and Gromit Ep1"
     },
     "31110": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/Telltale Games/Wallace and Gromit Ep2"
     },
     "31120": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/Telltale Games/Wallace and Gromit Ep3"
     },
     "31130": {
+        "folder": "%USERPROFILE%/Documents/Telltale Games/Wallace and Gromit Ep4"
+    },
+    "31160": {
         "folder": "|TBD|"
     },
     "31170": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/Telltale Games/Tales of Monkey Island - Chapter 1"
     },
     "31180": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/Telltale Games/Tales of Monkey Island - Chapter 2"
     },
     "31190": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/Telltale Games/Tales of Monkey Island - Chapter 3"
     },
     "31200": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/Telltale Games/Tales of Monkey Island - Chapter 4"
     },
     "31210": {
+        "folder": "%USERPROFILE%/Documents/Telltale Games/Tales of Monkey Island - Chapter 5"
+    },
+    "31220": {
+        "folder": "|TBD|"
+    },
+    "31230": {
+        "folder": "|TBD|"
+    },
+    "31240": {
+        "folder": "|TBD|"
+    },
+    "31250": {
+        "folder": "|TBD|"
+    },
+    "31260": {
         "folder": "|TBD|"
     },
     "31270": {
+        "folder": "%USERPROFILE%/Documents/Telltale Games/The Mystery of Scoggins"
+    },
+    "31280": {
+        "folder": "%USERPROFILE%/Documents/Telltale Games/Poker Night at the Inventory"
+    },
+    "31290": {
+        "folder": "|TBD|"
+    },
+    "31300": {
         "folder": "|TBD|"
     },
     "32350": {
@@ -7154,7 +7298,7 @@
         "folder": "|TBD|"
     },
     "960910": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Saved Games/HeavyRain"
     },
     "960990": {
         "folder": "%USERPROFILE%/Saved Games/Beyond Two Souls Steam/Save"
