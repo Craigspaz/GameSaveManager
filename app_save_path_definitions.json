@@ -1,5 +1,5 @@
 {
-    "version": "1.3.12.0",
+    "version": "1.3.13.0",
     "USERDATA": {
         "folder": "|STEAMINSTALLDIR|/userdata"
     },
@@ -4747,41 +4747,263 @@
     "31300": {
         "folder": "|TBD|"
     },
-    "32350": {
+    "31410": {
+        "folder": "|IN_USER_DATA|"
+    },
+    "31420": {
         "folder": "|TBD|"
+    },
+    "31500": {
+        "folder": "|TBD|"
+    },
+    "31700": {
+        "folder": "|IN_USER_DATA|"
+    },
+    "31710": {
+        "folder": "|IN_USER_DATA|"
+    },
+    "31720": {
+        "folder": "|TBD|"
+    },
+    "31730": {
+        "folder": "|TBD|"
+    },
+    "31740": {
+        "folder": "|TBD|"
+    },
+    "31800": {
+        "folder": "|TBD|"
+    },
+    "31810": {
+        "folder": "|TBD|"
+    },
+    "31820": {
+        "folder": "|TBD|"
+    },
+    "31830": {
+        "filter": "%USERPROFILE%/Documents/The Curse of Blackmoor Manor/*.SAV"
+    },
+    "31840": {
+        "folder": "|TBD|"
+    },
+    "31850": {
+        "filter": "%USERPROFILE%/Documents/Ghost Dogs of Moon Lake/*.SAV"
+    },
+    "31860": {
+        "folder": "|TBD|"
+    },
+    "31870": {
+        "folder": "|TBD|"
+    },
+    "31880": {
+        "folder": "|TBD|"
+    },
+    "31890": {
+        "folder": "|TBD|"
+    },
+    "31900": {
+        "folder": "|TBD|"
+    },
+    "31910": {
+        "folder": "|TBD|"
+    },
+    "31920": {
+        "filter": "%USERPROFILE%/Documents/The Phantom of Venice/*.HiVenSave"
+    },
+    "31930": {
+        "folder": "|TBD|"
+    },
+    "31940": {
+        "folder": "|TBD|"
+    },
+    "31950": {
+        "folder": "|TBD|"
+    },
+    "31960": {
+        "folder": "|TBD|"
+    },
+    "31970": {
+        "folder": "|TBD|"
+    },
+    "31980": {
+        "folder": "|TBD|"
+    },
+    "31990": {
+        "folder": "|TBD|"
+    },
+    "32000": {
+        "folder": "|TBD|"
+    },
+    "32010": {
+        "folder": "|TBD|"
+    },
+    "32100": {
+        "folder": "|TBD|"
+    },
+    "32110": {
+        "folder": "|TBD|"
+    },
+    "32120": {
+        "folder": "|TBD|"
+    },
+    "32130": {
+        "folder": "|TBD|"
+    },
+    "32140": {
+        "folder": "|TBD|"
+    },
+    "32150": {
+        "folder": "|IN_USER_DATA|"
+    },
+    "32160": {
+        "folder": "|TBD|"
+    },
+    "32170": {
+        "folder": "|TBD|"
+    },
+    "32180": {
+        "folder": "|TBD|"
+    },
+    "32190": {
+        "folder": "|TBD|"
+    },
+    "32200": {
+        "folder": "|TBD|"
+    },
+    "32210": {
+        "folder": "|TBD|"
+    },
+    "32310": {
+        "folder": "|TBD|"
+    },
+    "32320": {
+        "folder": "%LOCALAPPDATA%/LucasArts/LEGO Star Wars II"
+    },
+    "32330": {
+        "folder": "%LOCALAPPDATA%/LucasArts/LEGOIndianaJones/SavedGames"
+    },
+    "32340": {
+        "folder": "%APPDATA%/LucasArts/Loom"
+    },
+    "32350": {
+        "folder": "|PATHTOGAME|/Game/Save Games"
+    },
+    "32360": {
+        "folder": "%APPDATA%/LucasArts/The Secret of Monkey Island Special Edition"
     },
     "32370": {
-        "folder": "|TBD|"
+        "folder": "|PATHTOGAME|/saves"
     },
     "32380": {
-        "folder": "|TBD|"
+        "folder": "|PATHTOGAME|/player"
     },
     "32390": {
-        "folder": "|TBD|"
+        "folder": "|PATHTOGAME|/player"
     },
     "32400": {
         "folder": "|TBD|"
     },
+    "32410": {
+        "folder": "%PROGRAMDATA%/LucasArts/Lucidity"
+    },
     "32420": {
-        "folder": "|TBD|"
+        "folder": "%PROGRAMDATA%/SWTCWRH"
     },
     "32430": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/Aspyr/Star Wars The Force Unleashed"
     },
     "32440": {
+        "folder": "%LOCALAPPDATA%/LucasArts/LEGO Star Wars - The Complete Saga/SavedGames"
+    },
+    "32450": {
+        "folder": "%APPDATA%/LucasArts/LEGO® Indiana Jones™ 2/SavedGames"
+    },
+    "32460": {
         "folder": "|TBD|"
     },
     "32470": {
         "folder": "|TBD|"
     },
+    "32480": {
+        "folder": "|NA|"
+    },
+    "32490": {
+        "folder": "|NA|"
+    },
     "32500": {
-        "folder": "|TBD|"
+        "folder": "%USERPROFILE%/Documents/LucasArts/Star Wars The Force Unleashed 2/Saves"
     },
     "32510": {
+        "folder": "%APPDATA%/Lucasarts/LEGOStarWarsIII/SavedGames"
+    },
+    "32520": {
+        "folder": "|NA|"
+    },
+    "32610": {
         "folder": "|TBD|"
+    },
+    "32620": {
+        "folder": "|TBD|"
+    },
+    "32630": {
+        "filter": "|PATHTOGAME|/*.sav"
+    },
+    "32640": {
+        "filter": "|PATHTOGAME|/*.sav"
+    },
+    "32650": {
+        "filter": "|PATHTOGAME|/*.sav"
+    },
+    "32660": {
+        "folder": "|TBD|"
+    },
+    "32670": {
+        "filter": "|PATHTOGAME|/*.sav"
+    },
+    "32680": {
+        "filter": "|PATHTOGAME|/*.sav"
+    },
+    "32690": {
+        "folder": "|TBD|"
+    },
+    "32700": {
+        "folder": "|TBD|"
+    },
+    "32710": {
+        "filter": "|PATHTOGAME|/*.dat"
+    },
+    "32720": {
+        "folder": "|TBD|"
+    },
+    "32730": {
+        "filter": "|PATHTOGAME|/*.sav"
+    },
+    "32740": {
+        "folder": "|TBD|"
+    },
+    "32750": {
+        "filter": "|PATHTOGAME|/*.sav"
+    },
+    "32760": {
+        "filter": "|PATHTOGAME|/*.sav"
+    },
+    "32770": {
+        "folder": "|TBD|"
+    },
+    "32780": {
+        "folder": "|TBD|"
+    },
+    "32790": {
+        "folder": "%LOCALAPPDATA%/WB Games/War in the North"
     },
     "32800": {
         "folder": "|TBD|"
+    },
+    "32900": {
+        "folder": "%USERPROFILE%/My Games/Restaurant Emprie 2/SAVE"
+    },
+    "33000": {
+        "folder": "%USERPROFILE%/Documents/My Games/Rise of Nations"
     },
     "33100": {
         "folder": "|TBD|"

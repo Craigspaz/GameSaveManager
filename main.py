@@ -345,8 +345,18 @@ def backup_registry_save(save_path_definitions, app, user_defined_config, s3_cli
     else:
         stripped_registry_key = registry_key.replace("HKEY_CURRENT_USER\\", "")
 
-    windows_registry_handle = winreg.ConnectRegistry(None, key_handle)
-    registry_key_handle = winreg.OpenKey(windows_registry_handle, stripped_registry_key)
+    windows_registry_handle = None
+    try:
+        windows_registry_handle = winreg.ConnectRegistry(None, key_handle)
+    except:
+        print("Failed to open registry with the specified key handle")
+        return # No point in continuing trying to read nothing
+    registry_key_handle = None
+    try:
+        registry_key_handle = winreg.OpenKey(windows_registry_handle, stripped_registry_key)
+    except:
+        print("Failed to read registry key. Most likely it does not exist...")
+        return # No point in continuing trying to read nothing
     registry_backup = [{"Key": registry_key, "Values": []}]
 
     counter1 = 0
