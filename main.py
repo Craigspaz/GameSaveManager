@@ -5,24 +5,52 @@ import shutil
 import boto3
 import winreg
 
-print("Starting up Version: v1.0.2.0")
+log_file = None
+
+'''
+    Opens Log File
+'''
+def open_log_file():
+    global log_file
+    log_file = open("./log.log", "w")
+
+'''
+    Logs to the disk and outputs to stdout
+'''
+def log(message):
+    global log_file
+    log_file.write(str(message) + "\n")
+    print(str(message))
+
+'''
+    Closes Log File
+'''
+def close_log_file():
+    global log_file
+    if log_file != None:
+        log_file.close()
+
+open_log_file()
+
+log("Starting up Version: v1.0.3.0")
 
 # TODO: Pull Value dynamically
 OPERATING_SYSTEM = 0 # 0 is Windows, 1 is Linux and 2 is Mac OS
 
 default_steam_path = "C:/Program Files (x86)/Steam"
 time_scan_started = datetime.datetime.now()
-APPDATA =  os.getenv('APPDATA')
-LOCALAPPDATA =  os.getenv("LOCALAPPDATA")
-USERPROFILE =  os.getenv("USERPROFILE")
+APPDATA = os.getenv('APPDATA')
+LOCALAPPDATA = os.getenv("LOCALAPPDATA")
+USERPROFILE = os.getenv("USERPROFILE")
 PROGRAMDATA = os.getenv("PROGRAMDATA")
 PUBLIC = os.getenv("PUBLIC")
+
 
 '''
     Gets the file system paths to where the steam games are installed. This will be a list. For example, you could have an install directory in the default directory and on an external disk.
 '''
 def get_library_paths(steam_path):
-    print("Get Library Paths")
+    log("Get Library Paths")
 
     paths = []
 
@@ -31,7 +59,7 @@ def get_library_paths(steam_path):
     try:
         libraryFilePath = open(steam_path + "\\steamapps\\libraryfolders.vdf", "r")
     except:
-        print("Failed to open libraryfolders.vdf in the steam install/steamapps directory. Make sure your steam install path is correct")
+        log("Failed to open libraryfolders.vdf in the steam install/steamapps directory. Make sure your steam install path is correct")
         exit(-1)
 
     in_apps = False
@@ -69,7 +97,7 @@ def read_config_file():
         parsed_config_file = json.loads(config_file_contents)
         return parsed_config_file
     except:
-        print("Config file was not in a valid json format")
+        log("Config file was not in a valid json format")
         exit(-2)
 
 '''
@@ -81,7 +109,7 @@ def get_save_path_definitions():
     try:
         definitions_file = open("app_save_path_definitions.json", "r")
     except:
-        print("Failed to open save game definitions file")
+        log("Failed to open save game definitions file")
         exit(-3)
     definitions_raw = definitions_file.read()
     definitions_file.close()
@@ -91,7 +119,7 @@ def get_save_path_definitions():
     Returns True if the directory needs to be backed up else it returns False.
 '''
 def does_dir_need_to_be_backuped(dir, last_scan_time, filter=None):
-    print("Last Scan Time: " + str(last_scan_time.strftime("%Y_%m_%d__%H_%M_%S_%f")))
+    log("Last Scan Time: " + str(last_scan_time.strftime("%Y_%m_%d__%H_%M_%S_%f")))
     files = get_list_of_directory_files(dir, filter)
     for file in files:
         try:
@@ -101,7 +129,7 @@ def does_dir_need_to_be_backuped(dir, last_scan_time, filter=None):
                 return True
         except:
             print("File no longer exits. Skipping...")
-    print("Dir does not need to be backed up")
+    log("Dir does not need to be backed up")
     return False
 
 '''
@@ -123,9 +151,9 @@ def get_list_of_directory_files(dir, filter=None):
     for item in os.scandir(dir):
         if item.is_file():
             if filter != None:
-                print("Filter is not none. Checking if file '" + str(item.path) + "' ends with filter: " + str(filter))
+                log("Filter is not none. Checking if file '" + str(item.path) + "' ends with filter: " + str(filter))
                 if item.path.lower().endswith(filter.lower()):
-                    print("It does")
+                    log("It does")
                     files.append(item.path.replace("\\", "/"))
             else:
                 files.append(item.path)
@@ -155,12 +183,12 @@ def resolve_path(path, app=None, library_path=None, steam_install_path=""):
                     app_folder_name = line.strip().split("\"")[3]
             manifest_file.close()
         except:
-            print("Failed to open/read manifest file. Skipping app: " + str(app))
+            log("Failed to open/read manifest file. Skipping app: " + str(app))
         if app_folder_name != None:
-            print("app_folder_name: " + str(app_folder_name))
+            log("app_folder_name: " + str(app_folder_name))
             tmp = tmp.replace("|PATHTOGAME|", str(library_path["path"]) + "/steamapps/common/" + str(app_folder_name).strip())
         else:
-            print("App Folder is None")
+            log("App Folder is None")
     if OPERATING_SYSTEM == 0:
         tmp = tmp.replace("\\", "/")
     return tmp
@@ -171,7 +199,7 @@ def resolve_path(path, app=None, library_path=None, steam_install_path=""):
 def create_dir_if_needed(base_path, relative_path):
     folders = relative_path.split("/")
     folders = folders[0:len(folders) - 1]
-    print("Base Path: " + str(base_path) + "  Relative Path: " + str(relative_path))
+    log("Base Path: " + str(base_path) + "  Relative Path: " + str(relative_path))
 
     if os.path.isdir(base_path) == False:
         os.mkdir(base_path)
@@ -179,9 +207,9 @@ def create_dir_if_needed(base_path, relative_path):
     current_path = ""
     for folder in folders:
         path = base_path + current_path + folder
-        print("Checking if path exists: " + str(path))
+        log("Checking if path exists: " + str(path))
         if os.path.isdir(path) == False:
-            print("Path does not so creating it")
+            log("Path does not so creating it")
             os.mkdir(path)
         current_path += folder + "/"
 
@@ -201,7 +229,7 @@ def get_keys(registry_backup, registry_key_handle, parent_key_path):
                 try:
                     value = winreg.EnumValue(sub_key, counter1)
                     parsed_value = {"Name": value[0], "Value": value[1], "Type": value[2]}
-                    # print(value)
+                    # log(value)
                     registry_backup[-1]["Values"].append(parsed_value)
                     counter1 += 1
                 except:
@@ -220,25 +248,25 @@ def get_keys(registry_backup, registry_key_handle, parent_key_path):
 '''
 def can_skip_backup(save_path_definitions, app):
     if ("folder" in save_path_definitions[app] and save_path_definitions[app]["folder"] == "|NA|") or ("filter" in save_path_definitions[app] and save_path_definitions[app]["filter"] == "|NA|"):
-        print("App '" + str(app) + "' does not have saves or no save location is known")
+        log("App '" + str(app) + "' does not have saves or no save location is known")
         return True
     elif ("folder" in save_path_definitions[app] and save_path_definitions[app]["folder"] == "|TBD|") or ("filter" in save_path_definitions[app] and save_path_definitions[app]["filter"] == "|TBD|"):
-        print("App '" + str(app) + "' has an unknown save location")
+        log("App '" + str(app) + "' has an unknown save location")
         return True
     elif ("folder" in save_path_definitions[app] and save_path_definitions[app]["folder"] == "|IN_USER_DATA|") or ("filter" in save_path_definitions[app] and save_path_definitions[app]["filter"] == "|IN_USER_DATA|"):
-        print("App '" + str(app) + "' has its saves stored in the Steam User Data which is automatically backed up")
+        log("App '" + str(app) + "' has its saves stored in the Steam User Data which is automatically backed up")
         return True
     elif "file" in save_path_definitions[app] and save_path_definitions[app]["file"] == "|NA|":
-        print("App '" + str(app) + "' does not have saves or no save location is known")
+        log("App '" + str(app) + "' does not have saves or no save location is known")
         return True
     elif "file" in save_path_definitions[app] and save_path_definitions[app]["file"] == "|TBD|":
-        print("App '" + str(app) + "' has an unknown save location")
+        log("App '" + str(app) + "' has an unknown save location")
         return True
     elif "file" in save_path_definitions[app] and save_path_definitions[app]["file"] == "|IN_USER_DATA|":
-        print("App '" + str(app) + "' has its saves stored in the Steam User Data which is automatically backed up")
+        log("App '" + str(app) + "' has its saves stored in the Steam User Data which is automatically backed up")
         return True
     elif "folders" in save_path_definitions[app] and len(save_path_definitions[app]["folders"]) == 0:
-        print("App '" + str(app) + "' has no folders to backup")
+        log("App '" + str(app) + "' has no folders to backup")
         return True
     return False
 
@@ -253,14 +281,14 @@ def backup_method_filesystem(backup_method, app, file_name):
     if "storage_format" in backup_method:
         storage_format = backup_method["storage_format"]
     if backup_folder_base_path == None:
-        print("Backup Method is a FILE SYSTEM Type but does not have a path to store the backups")
+        log("Backup Method is a FILE SYSTEM Type but does not have a path to store the backups")
         return
     if storage_format == None or storage_format == "POINT_IN_TIME":
-        print("Storage Format is using DEFAULT POINT_IN_TIME")
+        log("Storage Format is using DEFAULT POINT_IN_TIME")
         if os.path.isdir(backup_folder_base_path + "/" + str(app) + "/") == False:
             os.mkdir(backup_folder_base_path + "/" + str(app) + "/")
         folder_path = backup_folder_base_path + "/" + str(app) + "/" + str(datetime.datetime.now().strftime("%Y_%m_%d__%H_%M_%S_%f") + "/")
-        print("Creating Backup folder: " + str(folder_path))
+        log("Creating Backup folder: " + str(folder_path))
         if OPERATING_SYSTEM == 0:
             folder_path = folder_path.replace("\\", "/")
         source_file = file_name.replace("\\", "/")
@@ -270,7 +298,7 @@ def backup_method_filesystem(backup_method, app, file_name):
         destination = folder_path + source_file_name
         if OPERATING_SYSTEM == 0:
             destination = destination.replace("\\", "/")
-        print("Copying file: " + str(source_file) + " to: " + str(destination))
+        log("Copying file: " + str(source_file) + " to: " + str(destination))
         create_dir_if_needed(folder_path, source_file_name)
         shutil.copy(source_file, destination)
 
@@ -278,7 +306,7 @@ def backup_method_filesystem(backup_method, app, file_name):
     Copies backup of file to S3
 '''
 def backup_method_s3(backup_method, app, file_name, s3_resource, s3_client, save_path=None):
-    print("S3 Backup: File Name: " + str(file_name))
+    log("S3 Backup: File Name: " + str(file_name))
     backup_bucket_name = None
     folder_prefix = None
     storage_format = None
@@ -289,7 +317,7 @@ def backup_method_s3(backup_method, app, file_name, s3_resource, s3_client, save
     if "storage_format" in backup_method:
         storage_format = backup_method["storage_format"]
     if (storage_format == None or storage_format == "OVERWRITE") and s3_resource != None:
-        print("Storage Format is using DEFAULT POINT_IN_TIME")
+        log("Storage Format is using DEFAULT POINT_IN_TIME")
         source_file = file_name.replace("\\", "/")
         source_filename_split = source_file.split("/")
         source_file_name = source_filename_split[len(source_filename_split) - 1]
@@ -300,37 +328,37 @@ def backup_method_s3(backup_method, app, file_name, s3_resource, s3_client, save
             else:
                 save_path = str(str(app) + "/" + str(source_file_name)).replace("\\", "/")
 
-        print("File Name S3: " + str(save_path))
+        log("File Name S3: " + str(save_path))
 
         response = None
         try:
             response = s3_client.head_object(Bucket=backup_bucket_name, Key=save_path)
         except:
-            print("File is not in S3. Uploading...")
-        print(response)
+            log("File is not in S3. Uploading...")
+        log(response)
         local_file_datetime = None
         try:
             local_file_time = os.path.getmtime(source_file)
             local_file_datetime = datetime.datetime.fromtimestamp(local_file_time, tz=datetime.timezone.utc)
         except Exception as e:
-            print("Source file likely no longer exists: " + str(e))
+            log("Source file likely no longer exists: " + str(e))
             return
 
         if response != None and "Metadata" in response:
             metadata = response["Metadata"]
             if "modified_date" in metadata:
                 remote_modified_date = datetime.datetime.strptime(response["Metadata"]["modified_date"], "%Y_%m_%d__%H_%M_%S_%f")
-                print("Remote Modified Date: " + str(remote_modified_date.strftime("%Y_%m_%d__%H_%M_%S_%f")) + " | Local File Time: " + str(local_file_datetime.strftime("%Y_%m_%d__%H_%M_%S_%f")))
+                log("Remote Modified Date: " + str(remote_modified_date.strftime("%Y_%m_%d__%H_%M_%S_%f")) + " | Local File Time: " + str(local_file_datetime.strftime("%Y_%m_%d__%H_%M_%S_%f")))
                 if str(remote_modified_date.strftime("%Y_%m_%d__%H_%M_%S_%f")) == str(local_file_datetime.strftime("%Y_%m_%d__%H_%M_%S_%f")):
-                    print("Modified dates are the same so skipping...")
+                    log("Modified dates are the same so skipping...")
                     return
         try:
             if local_file_datetime != None:
                 s3_resource.meta.client.upload_file(source_file, backup_bucket_name, save_path, ExtraArgs={"Metadata": {"modified_date": str(local_file_datetime.strftime("%Y_%m_%d__%H_%M_%S_%f"))}})
             else:
-                print("Strangely file does not have a modified datetime...")
+                log("Strangely file does not have a modified datetime...")
         except Exception as e:
-            print("S3 Upload failed: " + str(e))
+            log("S3 Upload failed: " + str(e))
 
 '''
     Backup Windows Registry keys for a specific game
@@ -349,13 +377,13 @@ def backup_registry_save(save_path_definitions, app, user_defined_config, s3_cli
     try:
         windows_registry_handle = winreg.ConnectRegistry(None, key_handle)
     except:
-        print("Failed to open registry with the specified key handle")
+        log("Failed to open registry with the specified key handle")
         return # No point in continuing trying to read nothing
     registry_key_handle = None
     try:
         registry_key_handle = winreg.OpenKey(windows_registry_handle, stripped_registry_key)
     except:
-        print("Failed to read registry key. Most likely it does not exist...")
+        log("Failed to read registry key. Most likely it does not exist...")
         return # No point in continuing trying to read nothing
     registry_backup = [{"Key": registry_key, "Values": []}]
 
@@ -370,7 +398,7 @@ def backup_registry_save(save_path_definitions, app, user_defined_config, s3_cli
             break
 
     registry_backup = get_keys(registry_backup, registry_key_handle, registry_key)
-    print("Registry Backup: " + str(registry_backup))
+    log("Registry Backup: " + str(registry_backup))
     if registry_backup != None:
 
         tmp_file = open("./tmp_file.json", "w")
@@ -394,14 +422,14 @@ def backup_registry_save(save_path_definitions, app, user_defined_config, s3_cli
 '''
 def backup_file(save_path_definitions, app, path, steam_path, user_defined_config, last_scan_time, s3_resource, s3_client):
     raw_save_game_location = str(save_path_definitions[app]["file"])
-    print("RAW Save Game Location: " + str(raw_save_game_location))
+    log("RAW Save Game Location: " + str(raw_save_game_location))
     processed_path = resolve_path(raw_save_game_location, app, path, steam_path)
-    print("Processed Path: " + processed_path)
+    log("Processed Path: " + processed_path)
 
     if os.path.isfile(processed_path):
-        print("App '" + str(app) + "' Save Location EXISTS")
+        log("App '" + str(app) + "' Save Location EXISTS")
         if does_file_need_to_be_backuped(processed_path, last_scan_time) == False:
-            print("Path does not need to be backup. Skipping...")
+            log("Path does not need to be backup. Skipping...")
             return
 
         if "backup_methods" in user_defined_config:
@@ -423,16 +451,16 @@ def backup_folder_file_system(backup_method, app, processed_path, friendly_name=
     if "storage_format" in backup_method:
         storage_format = backup_method["storage_format"]
     if backup_folder_base_path == None:
-        print("Backup Method is a FILE SYSTEM Type but does not have a path to store the backups")
+        log("Backup Method is a FILE SYSTEM Type but does not have a path to store the backups")
         return
     if storage_format == None or storage_format == "POINT_IN_TIME":
-        print("Storage Format is using DEFAULT POINT_IN_TIME")
+        log("Storage Format is using DEFAULT POINT_IN_TIME")
         if os.path.isdir(backup_folder_base_path + "/" + str(app) + "/") == False:
             os.mkdir(backup_folder_base_path + "/" + str(app) + "/")
         folder_path = backup_folder_base_path + "/" + str(app) + "/" + str(datetime.datetime.now().strftime("%Y_%m_%d__%H_%M_%S_%f")) + "/"
         if friendly_name != None:
             folder_path += str(friendly_name) + "/"
-        print("Creating Backup folder: " + str(folder_path))
+        log("Creating Backup folder: " + str(folder_path))
         if OPERATING_SYSTEM == 0:
             folder_path = folder_path.replace("\\", "/")
         if filter == None:
@@ -446,13 +474,13 @@ def backup_folder_file_system(backup_method, app, processed_path, friendly_name=
                 destination = source_file.replace(processed_path.replace("\\", "/") + "/", folder_path)
                 if OPERATING_SYSTEM == 0:
                     destination = destination.replace("\\", "/")
-                print("Copying file: " + str(source_file) + " to: " + str(destination))
+                log("Copying file: " + str(source_file) + " to: " + str(destination))
                 try:
                     shutil.copy(source_file, destination)
                 except Exception as e:
-                    print("Failed to copy file. This can happen if the source file was deleted: " + str(e))
+                    log("Failed to copy file. This can happen if the source file was deleted: " + str(e))
     else:
-        print("Unsupported storage format selected...")
+        log("Unsupported storage format selected...")
 
 '''
     Backs up a single folder
@@ -460,12 +488,12 @@ def backup_folder_file_system(backup_method, app, processed_path, friendly_name=
 def backup_folder(processed_path, app, last_scan_time, user_defined_config, friendly_name, s3_resource, s3_client):
     # Check if the path exists
     if os.path.isdir(processed_path):
-        print("App '" + str(app) + "' Save Location EXISTS")
+        log("App '" + str(app) + "' Save Location EXISTS")
         if does_dir_need_to_be_backuped(processed_path, last_scan_time) == False:
-            print("Path does not need to be backup. Skipping...")
+            log("Path does not need to be backup. Skipping...")
             return
         else:
-            print("Path needs to be backup...")
+            log("Path needs to be backup...")
         if "backup_methods" in user_defined_config:
             for backup_method in user_defined_config["backup_methods"]:
                 if "backup_type" in backup_method and backup_method["backup_type"] == "FILE_SYSTEM":
@@ -478,7 +506,7 @@ def backup_folder(processed_path, app, last_scan_time, user_defined_config, frie
                     if "storage_format" in backup_method:
                         storage_format = backup_method["storage_format"]
                     if (storage_format == None or storage_format == "OVERWRITE") and s3_resource != None:
-                        print("Storage Format is using DEFAULT POINT_IN_TIME")
+                        log("Storage Format is using DEFAULT POINT_IN_TIME")
                         files = get_list_of_directory_files(processed_path)
                         for file in files:
                             save_path = None
@@ -489,9 +517,9 @@ def backup_folder(processed_path, app, last_scan_time, user_defined_config, frie
                             backup_method_s3(backup_method, app, file, s3_resource, s3_client, save_path)
                     else:
                         if storage_format != "OVERWRITE":
-                            print("Storage format is not overwrite. Overwrite is currently the only supported method")
+                            log("Storage format is not overwrite. Overwrite is currently the only supported method")
     else:
-        print("App '" + str(app) + "' Save Location does not exist")
+        log("App '" + str(app) + "' Save Location does not exist")
 
 '''
     Backup multiple folders Folders
@@ -501,18 +529,18 @@ def backup_folders(save_path_definitions, app, path, steam_path, last_scan_time,
     for folder in save_path_definitions[app]["folders"]:
         raw_save_game_location = str(folder["Path"])
         friendly_name = str(folder["FriendlyName"])
-        print("RAW Save Game Location: " + str(raw_save_game_location))
+        log("RAW Save Game Location: " + str(raw_save_game_location))
         processed_path = resolve_path(raw_save_game_location, app, path, steam_path)
-        print("Processed Path: " + str(processed_path))
+        log("Processed Path: " + str(processed_path))
         backup_folder(processed_path, app, last_scan_time, user_defined_config, friendly_name, s3_resource, s3_client)
 
 def main():
     user_defined_config = read_config_file()
     last_scan_time = None
     if "last_scan_time" in user_defined_config:
-        print("Found last scan time")
+        log("Found last scan time")
         last_scan_time = datetime.datetime.strptime(user_defined_config["last_scan_time"], "%m/%d/%Y %H:%M:%S")
-        print("Last Scan Time: " + str(user_defined_config["last_scan_time"]))
+        log("Last Scan Time: " + str(user_defined_config["last_scan_time"]))
     s3_resource = None
     s3_client = None
     if "backup_methods" in user_defined_config:
@@ -531,17 +559,17 @@ def main():
     if len(library_paths) >= 1:
         library_paths[0]["apps"].append("USERDATA")
     for path in library_paths:
-        print("Processing Path: " + str(path["path"]))
+        log("Processing Path: " + str(path["path"]))
         for app in path["apps"]:
-            print("Processing App: " + str(app))
+            log("Processing App: " + str(app))
             if app in save_path_definitions:
-                print("Found app '" + str(app) + "' in definitions file")
+                log("Found app '" + str(app) + "' in definitions file")
 
                 if "folder" in save_path_definitions[app] or "filter" in save_path_definitions[app]:
                     if "folder" in save_path_definitions[app]:
-                        print("APP Save Type is FOLDER")
+                        log("APP Save Type is FOLDER")
                     else:
-                        print("APP Save Type is FILTER")
+                        log("APP Save Type is FILTER")
 
                     if can_skip_backup(save_path_definitions, app):
                         continue
@@ -552,32 +580,32 @@ def main():
                         raw_save_game_location = str(save_path_definitions[app]["folder"])
                     elif "filter" in save_path_definitions[app]:
                         raw_save_game_location = str(save_path_definitions[app]["filter"])
-                        print("RAW Filtered Save Game Location: " + str(raw_save_game_location))
+                        log("RAW Filtered Save Game Location: " + str(raw_save_game_location))
                         items = raw_save_game_location.split("/")
                         filter = items[len(items) - 1]
                         raw_save_game_location = raw_save_game_location[0:raw_save_game_location.rfind("/")]
                     else:
-                        print("Unexpected error occured!")
+                        log("Unexpected error occured!")
 
-                    print("RAW Save Game Location: " + str(raw_save_game_location))
+                    log("RAW Save Game Location: " + str(raw_save_game_location))
                     processed_path = resolve_path(raw_save_game_location, app, path, steam_path)
-                    print("Processed Path: " + str(processed_path))
-                    print("Filter: " + str(filter))
+                    log("Processed Path: " + str(processed_path))
+                    log("Filter: " + str(filter))
 
                     # Check if the path exists
                     test = os.path.isdir(processed_path)
                     if test:
-                        print("App '" + str(app) + "' Save Location EXISTS")
+                        log("App '" + str(app) + "' Save Location EXISTS")
                         if filter != None:
                             if does_dir_need_to_be_backuped(processed_path, last_scan_time, filter.replace("*", "")) == False:
-                                print("Path does not need to be backup. Skipping...")
+                                log("Path does not need to be backup. Skipping...")
                                 continue
                         else:
                             if does_dir_need_to_be_backuped(processed_path, last_scan_time) == False:
-                                print("Path does not need to be backup. Skipping...")
+                                log("Path does not need to be backup. Skipping...")
                                 continue
                             else:
-                                print("Path needs to be backup...")
+                                log("Path needs to be backup...")
                         if "backup_methods" in user_defined_config:
                             for backup_method in user_defined_config["backup_methods"]:
                                 if "backup_type" in backup_method and backup_method["backup_type"] == "FILE_SYSTEM":
@@ -590,7 +618,7 @@ def main():
                                     if "storage_format" in backup_method:
                                         storage_format = backup_method["storage_format"]
                                     if (storage_format == None or storage_format == "OVERWRITE") and s3_resource != None:
-                                        print("Storage Format is using DEFAULT POINT_IN_TIME")
+                                        log("Storage Format is using DEFAULT POINT_IN_TIME")
                                         # time_stamp = str(datetime.datetime.now().strftime("%Y_%m_%d__%H_%M_%S_%f"))
                                         files = None
                                         if filter != None:
@@ -605,24 +633,24 @@ def main():
                                                 save_path = str(str(app) + str(file.replace(processed_path, ""))).replace("\\", "/")
                                             backup_method_s3(backup_method, app, file, s3_resource, s3_client, save_path)
                     else:
-                        print("App '" + str(app) + "' Save Location does not exist")
+                        log("App '" + str(app) + "' Save Location does not exist")
                 elif "folders" in save_path_definitions[app]:
                     if can_skip_backup(save_path_definitions, app):
                         continue
                     backup_folders(save_path_definitions, app, path, steam_path, last_scan_time, user_defined_config, s3_resource, s3_client)
                 elif "file" in save_path_definitions[app]:
-                    print("APP Save Type is FILE")
+                    log("APP Save Type is FILE")
                     if can_skip_backup(save_path_definitions, app):
                         continue
                     backup_file(save_path_definitions, app, path, steam_path, user_defined_config, last_scan_time, s3_resource, s3_client)
                 elif "registry" in save_path_definitions[app]:
-                    print("APP Save Type is WINDOWS REGISTRY")
+                    log("APP Save Type is WINDOWS REGISTRY")
                     if OPERATING_SYSTEM == 0: # If OS is Windows
                         backup_registry_save(save_path_definitions, app, user_defined_config, s3_client, s3_resource)
                     else:
-                        print("Only Windows devies have registry keys. If you are seeing this I suspect you are not running on Windows?")
+                        log("Only Windows devies have registry keys. If you are seeing this I suspect you are not running on Windows?")
             else:
-                print("App '" + str(app) + "' is not in Save Path Definitions")
+                log("App '" + str(app) + "' is not in Save Path Definitions")
     user_defined_config["last_scan_time"] = time_scan_started.strftime("%m/%d/%Y %H:%M:%S")
     user_config_file = open("config.json", "w")
     user_config_file.write(json.dumps(user_defined_config))
@@ -631,3 +659,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    close_log_file()
