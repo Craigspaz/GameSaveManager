@@ -4,3 +4,4 @@ build/*
 dist/*
 *.exe
 config.json
+Pipfile.lock
